@@ -94,6 +94,8 @@ class CosineSVEvaluation(SpeakerVerificationEvaluation):
         Returns:
             None
         """
+        print(self.config.dataset.base_path)
+        print(trials[0])
         test_files = list(
             dict.fromkeys(
                 [
