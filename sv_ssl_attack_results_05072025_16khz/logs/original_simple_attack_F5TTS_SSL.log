@@ -1,0 +1,1082 @@
+2025-07-24 05:11:35 - INFO - === VoxCeleb SSL Speech Verification Attack Started ===
+2025-07-24 05:11:35 - INFO - Start time: 2025-07-24 05:11:35
+2025-07-24 05:11:35 - INFO - Output directory: sv_ssl_attack_results_05072025_16khz
+2025-07-24 05:11:35 - INFO - Cache directory: cache
+2025-07-24 05:11:35 - INFO - Loading SSL speech verification model from config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 05:11:35 - INFO - Using checkpoint: model_avg.pt
+2025-07-24 05:11:35 - INFO - Loading SSL model from config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 05:11:35 - INFO - Using checkpoint: model_avg.pt
+2025-07-24 05:11:36 - INFO - SSL model loaded successfully
+2025-07-24 05:11:36 - INFO - Loading TTS model: F5TTS
+2025-07-24 05:11:41 - INFO - Loading transcripts from: /media/volume/AudioUnlearnData1/sslsv/data/voxceleb_transcripts_test.csv
+2025-07-24 05:11:41 - INFO - Loaded 4874 transcripts from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb_transcripts_test.csv
+2025-07-24 05:11:41 - INFO - Created 4874 transcript lookup keys for robust matching
+2025-07-24 05:11:41 - INFO - Starting VoxCeleb SSL speech verification attack (seeding: True, cache: True)...
+2025-07-24 05:11:41 - INFO - Loading VoxCeleb1-O protocol...
+2025-07-24 05:11:41 - INFO - Loading protocol from: /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1_test_O
+2025-07-24 05:11:41 - INFO - Loaded 37611 trials from protocol file
+2025-07-24 05:11:41 - INFO - Total trials: 37611
+2025-07-24 05:11:41 - INFO - Using seeding: True, Using cache: True
+2025-07-24 05:11:41 - INFO - Batch size: 10000
+2025-07-24 05:11:41 - INFO - Processing in 4 batches
+2025-07-24 05:11:41 - INFO - Processing batch 1/4 (trials 1-10000)
+2025-07-24 05:11:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00008_seed16.wav
+2025-07-24 05:11:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/ize_eiCFEg0/00003_seed16.wav
+2025-07-24 05:11:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00017_seed16.wav
+2025-07-24 05:11:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/0OCW1HUxZyg/00001_seed16.wav
+2025-07-24 05:11:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00022_seed16.wav
+2025-07-24 05:11:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/Uzxv7Axh3Z8/00001_seed16.wav
+2025-07-24 05:11:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00033_seed16.wav
+2025-07-24 05:11:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/7yx9A0yzLYk/00029_seed16.wav
+2025-07-24 05:11:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00026_seed16.wav
+2025-07-24 05:11:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10285/m-uILToQ9ss/00009_seed16.wav
+2025-07-24 05:11:51 - INFO - Batch 1 progress: 10/10000, Overall success rate: 50.0%
+2025-07-24 05:11:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00035_seed16.wav
+2025-07-24 05:11:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/uzt36PBzT2w/00001_seed16.wav
+2025-07-24 05:11:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00038_seed16.wav
+2025-07-24 05:11:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/kp_GCjLq4qA/00004_seed16.wav
+2025-07-24 05:11:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00033_seed16.wav
+2025-07-24 05:11:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10275/Mdk1SXywHck/00024_seed16.wav
+2025-07-24 05:11:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00038_seed16.wav
+2025-07-24 05:11:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/TwfthltapLg/00004_seed16.wav
+2025-07-24 05:11:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00004_seed16.wav
+2025-07-24 05:11:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/8cfyJEV7hP8/00004_seed16.wav
+2025-07-24 05:11:57 - INFO - Batch 1 progress: 20/10000, Overall success rate: 50.0%
+2025-07-24 05:11:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00038_seed16.wav
+2025-07-24 05:11:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/SQzWyPhRqmk/00012_seed16.wav
+2025-07-24 05:11:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:12:00 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/G50_Ix7IVjU/00001_seed16.wav
+2025-07-24 05:12:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00010_seed16.wav
+2025-07-24 05:12:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/2SaEbN8hYz4/00011_seed16.wav
+2025-07-24 05:12:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00045_seed16.wav
+2025-07-24 05:12:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10280/NXjT3732Ekg/00001_seed16.wav
+2025-07-24 05:12:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00003_seed16.wav
+2025-07-24 05:12:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10271/djK87iSSKQo/00001_seed16.wav
+2025-07-24 05:12:03 - INFO - Batch 1 progress: 30/10000, Overall success rate: 50.0%
+2025-07-24 05:12:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00007_seed16.wav
+2025-07-24 05:12:04 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/isKyMAYUOgg/00012_seed16.wav
+2025-07-24 05:12:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00026_seed16.wav
+2025-07-24 05:12:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/LVXvQzNatXI/00001_seed16.wav
+2025-07-24 05:12:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00024_seed16.wav
+2025-07-24 05:12:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/3tvnlmkCiTw/00008_seed16.wav
+2025-07-24 05:12:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00035_seed16.wav
+2025-07-24 05:12:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10303/R5JGtwc4o1M/00005_seed16.wav
+2025-07-24 05:12:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OXdd7Gmluts/00003_seed16.wav
+2025-07-24 05:12:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/NHARUN9OhSo/00002_seed16.wav
+2025-07-24 05:12:10 - INFO - Batch 1 progress: 40/10000, Overall success rate: 50.0%
+2025-07-24 05:12:11 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00027_seed16.wav
+2025-07-24 05:12:11 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/gm6PJowclv0/00027_seed16.wav
+2025-07-24 05:12:12 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00022_seed16.wav
+2025-07-24 05:12:12 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10272/wb6ligRbbZ4/00001_seed16.wav
+2025-07-24 05:12:13 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00012_seed16.wav
+2025-07-24 05:12:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/WAbHmvQ9zME/00006_seed16.wav
+2025-07-24 05:12:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00030_seed16.wav
+2025-07-24 05:12:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/0cYFdtyWVds/00002_seed16.wav
+2025-07-24 05:12:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00018_seed16.wav
+2025-07-24 05:12:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/yUv37vQWmzE/00014_seed16.wav
+2025-07-24 05:12:17 - INFO - Batch 1 progress: 50/10000, Overall success rate: 50.0%
+2025-07-24 05:12:17 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00044_seed16.wav
+2025-07-24 05:12:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/e-IdJ8a4gy4/00009_seed16.wav
+2025-07-24 05:12:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00035_seed16.wav
+2025-07-24 05:12:19 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/hW0Q6eHqN-U/00003_seed16.wav
+2025-07-24 05:12:19 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00027_seed16.wav
+2025-07-24 05:12:20 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/vaK4t1-WD4M/00017_seed16.wav
+2025-07-24 05:12:20 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00024_seed16.wav
+2025-07-24 05:12:21 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/prqT1CcDqMc/00020_seed16.wav
+2025-07-24 05:12:21 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00026_seed16.wav
+2025-07-24 05:12:21 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/58VB-LYIoRM/00002_seed16.wav
+2025-07-24 05:12:21 - INFO - Batch 1 progress: 60/10000, Overall success rate: 50.0%
+2025-07-24 05:12:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00006_seed16.wav
+2025-07-24 05:12:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/DSGE2F5sTcg/00002_seed16.wav
+2025-07-24 05:12:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00033_seed16.wav
+2025-07-24 05:12:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/isKyMAYUOgg/00006_seed16.wav
+2025-07-24 05:12:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00022_seed16.wav
+2025-07-24 05:12:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/dX8RBKI2FKc/00001_seed16.wav
+2025-07-24 05:12:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:12:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/VHtcwtdPjpE/00002_seed16.wav
+2025-07-24 05:12:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00024_seed16.wav
+2025-07-24 05:12:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/nYsLbFOQfOI/00002_seed16.wav
+2025-07-24 05:12:25 - INFO - Batch 1 progress: 70/10000, Overall success rate: 50.0%
+2025-07-24 05:12:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00021_seed16.wav
+2025-07-24 05:12:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/vaK4t1-WD4M/00028_seed16.wav
+2025-07-24 05:12:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00001_seed16.wav
+2025-07-24 05:12:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/C3AhSlYJd3w/00005_seed16.wav
+2025-07-24 05:12:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00019_seed16.wav
+2025-07-24 05:12:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/prqT1CcDqMc/00012_seed16.wav
+2025-07-24 05:12:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00008_seed16.wav
+2025-07-24 05:12:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/3kzw8lTcUBU/00028_seed16.wav
+2025-07-24 05:12:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00032_seed16.wav
+2025-07-24 05:12:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/nt7dNRvlEHE/00004_seed16.wav
+2025-07-24 05:12:31 - INFO - Batch 1 progress: 80/10000, Overall success rate: 50.0%
+2025-07-24 05:12:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00033_seed16.wav
+2025-07-24 05:12:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/aVmHBUeThTQ/00001_seed16.wav
+2025-07-24 05:12:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OXdd7Gmluts/00002_seed16.wav
+2025-07-24 05:12:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/AeZoMAJ4Ejs/00007_seed16.wav
+2025-07-24 05:12:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00027_seed16.wav
+2025-07-24 05:12:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/isKyMAYUOgg/00007_seed16.wav
+2025-07-24 05:12:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:12:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/rZQMeH1FCvM/00008_seed16.wav
+2025-07-24 05:12:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00027_seed16.wav
+2025-07-24 05:12:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/WUg4pRp5_Co/00001_seed16.wav
+2025-07-24 05:12:35 - INFO - Batch 1 progress: 90/10000, Overall success rate: 50.0%
+2025-07-24 05:12:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00009_seed16.wav
+2025-07-24 05:12:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/3tvnlmkCiTw/00011_seed16.wav
+2025-07-24 05:12:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00017_seed16.wav
+2025-07-24 05:12:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10308/ygGJs_Rh7ds/00002_seed16.wav
+2025-07-24 05:12:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00008_seed16.wav
+2025-07-24 05:12:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/fVOTAQKIfY4/00002_seed16.wav
+2025-07-24 05:12:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00012_seed16.wav
+2025-07-24 05:12:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/DWT9P35cXT4/00007_seed16.wav
+2025-07-24 05:12:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00001_seed16.wav
+2025-07-24 05:12:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10296/LUFoMNPpdbY/00007_seed16.wav
+2025-07-24 05:12:41 - INFO - Batch 1 progress: 100/10000, Overall success rate: 50.0%
+2025-07-24 05:12:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00019_seed16.wav
+2025-07-24 05:12:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/YloBWJxXzMI/00013_seed16.wav
+2025-07-24 05:12:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00001_seed16.wav
+2025-07-24 05:12:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10271/EOQXxK1whgU/00003_seed16.wav
+2025-07-24 05:12:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00003_seed16.wav
+2025-07-24 05:12:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/nJbBcMdxQU4/00006_seed16.wav
+2025-07-24 05:12:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00037_seed16.wav
+2025-07-24 05:12:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/eLl_yTeuaKo/00024_seed16.wav
+2025-07-24 05:12:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00032_seed16.wav
+2025-07-24 05:12:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/JUyxHgPHR-s/00002_seed16.wav
+2025-07-24 05:12:46 - INFO - Batch 1 progress: 110/10000, Overall success rate: 50.0%
+2025-07-24 05:12:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00028_seed16.wav
+2025-07-24 05:12:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/tbh20gz_KRA/00011_seed16.wav
+2025-07-24 05:12:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00015_seed16.wav
+2025-07-24 05:12:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/ize_eiCFEg0/00007_seed16.wav
+2025-07-24 05:12:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00003_seed16.wav
+2025-07-24 05:12:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/RDFdX3VxjUQ/00008_seed16.wav
+2025-07-24 05:12:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00013_seed16.wav
+2025-07-24 05:12:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/VRCidrXwd1s/00020_seed16.wav
+2025-07-24 05:12:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:12:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/19OCRADWjgA/00006_seed16.wav
+2025-07-24 05:12:50 - INFO - Batch 1 progress: 120/10000, Overall success rate: 50.0%
+2025-07-24 05:12:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00002_seed16.wav
+2025-07-24 05:12:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10287/RfDogGJ-UnM/00002_seed16.wav
+2025-07-24 05:12:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00007_seed16.wav
+2025-07-24 05:12:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/ZNT2uhs3jF4/00001_seed16.wav
+2025-07-24 05:12:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00032_seed16.wav
+2025-07-24 05:12:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/3qX7bbJ17lY/00001_seed16.wav
+2025-07-24 05:12:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00035_seed16.wav
+2025-07-24 05:12:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/YloBWJxXzMI/00003_seed16.wav
+2025-07-24 05:12:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00004_seed16.wav
+2025-07-24 05:12:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/C3AhSlYJd3w/00007_seed16.wav
+2025-07-24 05:12:54 - INFO - Batch 1 progress: 130/10000, Overall success rate: 50.0%
+2025-07-24 05:12:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00053_seed16.wav
+2025-07-24 05:12:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/8EDKH42GZ1o/00027_seed16.wav
+2025-07-24 05:12:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00027_seed16.wav
+2025-07-24 05:12:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10274/L9q6XabEpEI/00007_seed16.wav
+2025-07-24 05:12:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OmSWVqpb-N0/00001_seed16.wav
+2025-07-24 05:12:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/Zbz058o9j6s/00005_seed16.wav
+2025-07-24 05:12:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00007_seed16.wav
+2025-07-24 05:12:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/RDFdX3VxjUQ/00007_seed16.wav
+2025-07-24 05:12:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00012_seed16.wav
+2025-07-24 05:12:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/ZLzkvnq0JxI/00003_seed16.wav
+2025-07-24 05:12:59 - INFO - Batch 1 progress: 140/10000, Overall success rate: 50.0%
+2025-07-24 05:12:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00055_seed16.wav
+2025-07-24 05:12:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/fvX1Vtx3sNo/00004_seed16.wav
+2025-07-24 05:12:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00001_seed16.wav
+2025-07-24 05:12:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/ehwAeTUqH0s/00008_seed16.wav
+2025-07-24 05:13:00 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00004_seed16.wav
+2025-07-24 05:13:00 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/IASj5B-pAyM/00002_seed16.wav
+2025-07-24 05:13:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00009_seed16.wav
+2025-07-24 05:13:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10288/JzNVSA7eFwc/00003_seed16.wav
+2025-07-24 05:13:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00023_seed16.wav
+2025-07-24 05:13:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/CAhGBfTmCHw/00003_seed16.wav
+2025-07-24 05:13:03 - INFO - Batch 1 progress: 150/10000, Overall success rate: 50.0%
+2025-07-24 05:13:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00031_seed16.wav
+2025-07-24 05:13:04 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10271/gO805KoL2RM/00003_seed16.wav
+2025-07-24 05:13:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00006_seed16.wav
+2025-07-24 05:13:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/VRCidrXwd1s/00023_seed16.wav
+2025-07-24 05:13:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00008_seed16.wav
+2025-07-24 05:13:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/ekqJava7sdE/00004_seed16.wav
+2025-07-24 05:13:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00013_seed16.wav
+2025-07-24 05:13:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/VweNonqOdrE/00009_seed16.wav
+2025-07-24 05:13:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00031_seed16.wav
+2025-07-24 05:13:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/2qlrpSAc9Xs/00011_seed16.wav
+2025-07-24 05:13:07 - INFO - Batch 1 progress: 160/10000, Overall success rate: 49.4%
+2025-07-24 05:13:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00004_seed16.wav
+2025-07-24 05:13:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10271/PfcJLmkhGbk/00001_seed16.wav
+2025-07-24 05:13:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00037_seed16.wav
+2025-07-24 05:13:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/RDFdX3VxjUQ/00004_seed16.wav
+2025-07-24 05:13:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00037_seed16.wav
+2025-07-24 05:13:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/PfQFgX_pBfU/00001_seed16.wav
+2025-07-24 05:13:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00035_seed16.wav
+2025-07-24 05:13:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/57KbI2UvGss/00018_seed16.wav
+2025-07-24 05:13:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:13:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/7yx9A0yzLYk/00043_seed16.wav
+2025-07-24 05:13:10 - INFO - Batch 1 progress: 170/10000, Overall success rate: 49.4%
+2025-07-24 05:13:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00042_seed16.wav
+2025-07-24 05:13:11 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/KgY2xhg4Tqk/00002_seed16.wav
+2025-07-24 05:13:12 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00016_seed16.wav
+2025-07-24 05:13:12 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10289/8l5ZnDf-FUA/00013_seed16.wav
+2025-07-24 05:13:12 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00054_seed16.wav
+2025-07-24 05:13:13 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/r9-0pljhZqs/00012_seed16.wav
+2025-07-24 05:13:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00029_seed16.wav
+2025-07-24 05:13:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/p_ifY8mUFBM/00001_seed16.wav
+2025-07-24 05:13:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00005_seed16.wav
+2025-07-24 05:13:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10275/CVUXDNZzcmA/00010_seed16.wav
+2025-07-24 05:13:16 - INFO - Batch 1 progress: 180/10000, Overall success rate: 49.4%
+2025-07-24 05:13:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00024_seed16.wav
+2025-07-24 05:13:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/WJPpL58RruA/00003_seed16.wav
+2025-07-24 05:13:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OXdd7Gmluts/00003_seed16.wav
+2025-07-24 05:13:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/Ed918auNI0Y/00005_seed16.wav
+2025-07-24 05:13:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00009_seed16.wav
+2025-07-24 05:13:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/VYk_DxNl_T8/00001_seed16.wav
+2025-07-24 05:13:17 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00014_seed16.wav
+2025-07-24 05:13:17 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10279/4Q1IvdayPR8/00010_seed16.wav
+2025-07-24 05:13:17 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00028_seed16.wav
+2025-07-24 05:13:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/Zjzoo3L9Oto/00001_seed16.wav
+2025-07-24 05:13:18 - INFO - Batch 1 progress: 190/10000, Overall success rate: 49.5%
+2025-07-24 05:13:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00025_seed16.wav
+2025-07-24 05:13:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/NLyQte6Mhj0/00001_seed16.wav
+2025-07-24 05:13:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00037_seed16.wav
+2025-07-24 05:13:19 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/RDFdX3VxjUQ/00026_seed16.wav
+2025-07-24 05:13:20 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00050_seed16.wav
+2025-07-24 05:13:20 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/neQO6_CUY4w/00003_seed16.wav
+2025-07-24 05:13:20 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00038_seed16.wav
+2025-07-24 05:13:21 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/Piw0wvQbpnQ/00004_seed16.wav
+2025-07-24 05:13:21 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00001_seed16.wav
+2025-07-24 05:13:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/qFrRfhWombs/00017_seed16.wav
+2025-07-24 05:13:22 - INFO - Batch 1 progress: 200/10000, Overall success rate: 49.0%
+2025-07-24 05:13:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00036_seed16.wav
+2025-07-24 05:13:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/oGZsanLiXsY/00002_seed16.wav
+2025-07-24 05:13:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00015_seed16.wav
+2025-07-24 05:13:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/uiBjIKX_0l8/00002_seed16.wav
+2025-07-24 05:13:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00042_seed16.wav
+2025-07-24 05:13:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/NZvythQO-SM/00002_seed16.wav
+2025-07-24 05:13:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:13:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/vaK4t1-WD4M/00025_seed16.wav
+2025-07-24 05:13:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00005_seed16.wav
+2025-07-24 05:13:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10274/xbGp2KSUr0E/00004_seed16.wav
+2025-07-24 05:13:26 - INFO - Batch 1 progress: 210/10000, Overall success rate: 49.0%
+2025-07-24 05:13:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00007_seed16.wav
+2025-07-24 05:13:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/7yx9A0yzLYk/00024_seed16.wav
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00026_seed16.wav
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/DWT9P35cXT4/00008_seed16.wav
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00018_seed16.wav
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/Mp1IXRquJ9s/00006_seed16.wav
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00041_seed16.wav
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/cR5FfR4TbEI/00005_seed16.wav
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00032_seed16.wav
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/oGZsanLiXsY/00001_seed16.wav
+2025-07-24 05:13:27 - INFO - Batch 1 progress: 220/10000, Overall success rate: 49.1%
+2025-07-24 05:13:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00004_seed16.wav
+2025-07-24 05:13:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/gAKHqHbNt2g/00004_seed16.wav
+2025-07-24 05:13:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00040_seed16.wav
+2025-07-24 05:13:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10279/f0I1IC6DJfo/00002_seed16.wav
+2025-07-24 05:13:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00002_seed16.wav
+2025-07-24 05:13:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/JQtDfEz08aU/00022_seed16.wav
+2025-07-24 05:13:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00038_seed16.wav
+2025-07-24 05:13:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/3kzw8lTcUBU/00012_seed16.wav
+2025-07-24 05:13:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00013_seed16.wav
+2025-07-24 05:13:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/ZAK9gLYNqPs/00004_seed16.wav
+2025-07-24 05:13:31 - INFO - Batch 1 progress: 230/10000, Overall success rate: 49.1%
+2025-07-24 05:13:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:13:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/NZvythQO-SM/00002_seed16.wav
+2025-07-24 05:13:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00011_seed16.wav
+2025-07-24 05:13:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/AjY0B7kh_-k/00004_seed16.wav
+2025-07-24 05:13:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00016_seed16.wav
+2025-07-24 05:13:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/wVIZhnJ79sI/00004_seed16.wav
+2025-07-24 05:13:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00029_seed16.wav
+2025-07-24 05:13:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/dDnqp9503Mg/00006_seed16.wav
+2025-07-24 05:13:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00034_seed16.wav
+2025-07-24 05:13:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/VRCidrXwd1s/00026_seed16.wav
+2025-07-24 05:13:35 - INFO - Batch 1 progress: 240/10000, Overall success rate: 49.2%
+2025-07-24 05:13:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00004_seed16.wav
+2025-07-24 05:13:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/vaK4t1-WD4M/00031_seed16.wav
+2025-07-24 05:13:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:13:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10299/IwB3vu418E4/00005_seed16.wav
+2025-07-24 05:13:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00025_seed16.wav
+2025-07-24 05:13:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/1l9B0dz7gjc/00011_seed16.wav
+2025-07-24 05:13:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00016_seed16.wav
+2025-07-24 05:13:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/znxUWA2QAGs/00005_seed16.wav
+2025-07-24 05:13:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00010_seed16.wav
+2025-07-24 05:13:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10289/fGlKVvjgUdY/00006_seed16.wav
+2025-07-24 05:13:37 - INFO - Batch 1 progress: 250/10000, Overall success rate: 49.2%
+2025-07-24 05:13:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00004_seed16.wav
+2025-07-24 05:13:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10299/IwB3vu418E4/00008_seed16.wav
+2025-07-24 05:13:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00033_seed16.wav
+2025-07-24 05:13:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/hjvQiiG71rM/00012_seed16.wav
+2025-07-24 05:13:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00034_seed16.wav
+2025-07-24 05:13:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/VRCidrXwd1s/00039_seed16.wav
+2025-07-24 05:13:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00027_seed16.wav
+2025-07-24 05:13:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/KgY2xhg4Tqk/00013_seed16.wav
+2025-07-24 05:13:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00052_seed16.wav
+2025-07-24 05:13:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/5jsUg3uxG-E/00005_seed16.wav
+2025-07-24 05:13:40 - INFO - Batch 1 progress: 260/10000, Overall success rate: 49.2%
+2025-07-24 05:13:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00044_seed16.wav
+2025-07-24 05:13:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/7lrVxsJOOZ4/00001_seed16.wav
+2025-07-24 05:13:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00015_seed16.wav
+2025-07-24 05:13:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/Fi8lnFPYgII/00002_seed16.wav
+2025-07-24 05:13:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00001_seed16.wav
+2025-07-24 05:13:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/Q5fbv-Wyj7k/00003_seed16.wav
+2025-07-24 05:13:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:13:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/nJbBcMdxQU4/00018_seed16.wav
+2025-07-24 05:13:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00012_seed16.wav
+2025-07-24 05:13:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/Qkll9n7U5ak/00011_seed16.wav
+2025-07-24 05:13:43 - INFO - Batch 1 progress: 270/10000, Overall success rate: 48.9%
+2025-07-24 05:13:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00021_seed16.wav
+2025-07-24 05:13:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/SwMoq9ZHxpw/00005_seed16.wav
+2025-07-24 05:13:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00021_seed16.wav
+2025-07-24 05:13:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/x5dqrDlwxR4/00008_seed16.wav
+2025-07-24 05:13:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00041_seed16.wav
+2025-07-24 05:13:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/yUv37vQWmzE/00005_seed16.wav
+2025-07-24 05:13:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00022_seed16.wav
+2025-07-24 05:13:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/8Sz2-IYJ2GA/00016_seed16.wav
+2025-07-24 05:13:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00009_seed16.wav
+2025-07-24 05:13:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/DPPq8w5ILrA/00002_seed16.wav
+2025-07-24 05:13:46 - INFO - Batch 1 progress: 280/10000, Overall success rate: 48.9%
+2025-07-24 05:13:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00017_seed16.wav
+2025-07-24 05:13:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/RkN41E3gRpc/00001_seed16.wav
+2025-07-24 05:13:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00001_seed16.wav
+2025-07-24 05:13:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/3kzw8lTcUBU/00007_seed16.wav
+2025-07-24 05:13:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00049_seed16.wav
+2025-07-24 05:13:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/57KbI2UvGss/00015_seed16.wav
+2025-07-24 05:13:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OXdd7Gmluts/00003_seed16.wav
+2025-07-24 05:13:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/2qlrpSAc9Xs/00021_seed16.wav
+2025-07-24 05:13:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00022_seed16.wav
+2025-07-24 05:13:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/TwfthltapLg/00011_seed16.wav
+2025-07-24 05:13:49 - INFO - Batch 1 progress: 290/10000, Overall success rate: 49.0%
+2025-07-24 05:13:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:13:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/DWT9P35cXT4/00003_seed16.wav
+2025-07-24 05:13:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00001_seed16.wav
+2025-07-24 05:13:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/vaK4t1-WD4M/00003_seed16.wav
+2025-07-24 05:13:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00008_seed16.wav
+2025-07-24 05:13:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/VweNonqOdrE/00005_seed16.wav
+2025-07-24 05:13:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00022_seed16.wav
+2025-07-24 05:13:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/clznvDi-ybg/00001_seed16.wav
+2025-07-24 05:13:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00028_seed16.wav
+2025-07-24 05:13:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/SBO7kM1IPaY/00007_seed16.wav
+2025-07-24 05:13:51 - INFO - Batch 1 progress: 300/10000, Overall success rate: 49.0%
+2025-07-24 05:13:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00033_seed16.wav
+2025-07-24 05:13:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/zIkTBKfnbso/00003_seed16.wav
+2025-07-24 05:13:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00016_seed16.wav
+2025-07-24 05:13:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/kQOkcEZUpJ4/00005_seed16.wav
+2025-07-24 05:13:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00042_seed16.wav
+2025-07-24 05:13:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/2Er-cV85fc4/00004_seed16.wav
+2025-07-24 05:13:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00004_seed16.wav
+2025-07-24 05:13:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/L2zjJyZd6-g/00001_seed16.wav
+2025-07-24 05:13:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00027_seed16.wav
+2025-07-24 05:13:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10303/LKDWhdJQFco/00005_seed16.wav
+2025-07-24 05:13:54 - INFO - Batch 1 progress: 310/10000, Overall success rate: 49.0%
+2025-07-24 05:13:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00003_seed16.wav
+2025-07-24 05:13:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/YvmWRnJnTz0/00008_seed16.wav
+2025-07-24 05:13:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00009_seed16.wav
+2025-07-24 05:13:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/120gjdqGWNQ/00003_seed16.wav
+2025-07-24 05:13:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00001_seed16.wav
+2025-07-24 05:13:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10285/uArtiTSTnSU/00003_seed16.wav
+2025-07-24 05:13:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00020_seed16.wav
+2025-07-24 05:13:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/YN4cTBWM-QE/00002_seed16.wav
+2025-07-24 05:13:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00011_seed16.wav
+2025-07-24 05:13:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/IpBtAcwbQb0/00002_seed16.wav
+2025-07-24 05:13:56 - INFO - Batch 1 progress: 320/10000, Overall success rate: 49.1%
+2025-07-24 05:13:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00012_seed16.wav
+2025-07-24 05:13:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/DSGE2F5sTcg/00001_seed16.wav
+2025-07-24 05:13:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00029_seed16.wav
+2025-07-24 05:13:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/0TJ9sdJiDvA/00003_seed16.wav
+2025-07-24 05:13:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00005_seed16.wav
+2025-07-24 05:13:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/RDFdX3VxjUQ/00017_seed16.wav
+2025-07-24 05:13:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00001_seed16.wav
+2025-07-24 05:13:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/p08spQszEYU/00002_seed16.wav
+2025-07-24 05:13:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00001_seed16.wav
+2025-07-24 05:13:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/gkDeAS985L4/00003_seed16.wav
+2025-07-24 05:14:00 - INFO - Batch 1 progress: 330/10000, Overall success rate: 49.1%
+2025-07-24 05:14:00 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00001_seed16.wav
+2025-07-24 05:14:00 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/YloBWJxXzMI/00010_seed16.wav
+2025-07-24 05:14:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00001_seed16.wav
+2025-07-24 05:14:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10275/Mdk1SXywHck/00001_seed16.wav
+2025-07-24 05:14:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00005_seed16.wav
+2025-07-24 05:14:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/5jsUg3uxG-E/00003_seed16.wav
+2025-07-24 05:14:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00009_seed16.wav
+2025-07-24 05:14:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/120gjdqGWNQ/00005_seed16.wav
+2025-07-24 05:14:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00039_seed16.wav
+2025-07-24 05:14:04 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/cJ40ZqTY3dQ/00001_seed16.wav
+2025-07-24 05:14:04 - INFO - Batch 1 progress: 340/10000, Overall success rate: 48.8%
+2025-07-24 05:14:04 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00001_seed16.wav
+2025-07-24 05:14:04 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/6tjKon0hiy4/00002_seed16.wav
+2025-07-24 05:14:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00020_seed16.wav
+2025-07-24 05:14:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/TnOGBL8p-RM/00002_seed16.wav
+2025-07-24 05:14:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00019_seed16.wav
+2025-07-24 05:14:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10272/olePnztkm6U/00008_seed16.wav
+2025-07-24 05:14:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00022_seed16.wav
+2025-07-24 05:14:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/WxDEVkQKPow/00004_seed16.wav
+2025-07-24 05:14:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00055_seed16.wav
+2025-07-24 05:14:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10275/LqcUAxrtYOk/00006_seed16.wav
+2025-07-24 05:14:08 - INFO - Batch 1 progress: 350/10000, Overall success rate: 48.3%
+2025-07-24 05:14:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00002_seed16.wav
+2025-07-24 05:14:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/Okaw5vJCGCk/00001_seed16.wav
+2025-07-24 05:14:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00001_seed16.wav
+2025-07-24 05:14:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/neQO6_CUY4w/00002_seed16.wav
+2025-07-24 05:14:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00010_seed16.wav
+2025-07-24 05:14:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/vaK4t1-WD4M/00019_seed16.wav
+2025-07-24 05:14:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00002_seed16.wav
+2025-07-24 05:14:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/1CiBWgsHT4E/00007_seed16.wav
+2025-07-24 05:14:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00027_seed16.wav
+2025-07-24 05:14:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/TwfthltapLg/00006_seed16.wav
+2025-07-24 05:14:10 - INFO - Batch 1 progress: 360/10000, Overall success rate: 48.3%
+2025-07-24 05:14:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00007_seed16.wav
+2025-07-24 05:14:34 - INFO - Generated audio saved: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/Cjt5DP6qc5Q/00001_seed16.wav
+2025-07-24 05:14:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00030_seed16.wav
+2025-07-24 05:14:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/c_aEjTGGhZ4/00011_seed16.wav
+2025-07-24 05:14:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00023_seed16.wav
+2025-07-24 05:14:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/5WOZXLMujwY/00005_seed16.wav
+2025-07-24 05:14:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00021_seed16.wav
+2025-07-24 05:14:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/RNYNkXzY5Hk/00003_seed16.wav
+2025-07-24 05:14:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00014_seed16.wav
+2025-07-24 05:14:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/1CiBWgsHT4E/00004_seed16.wav
+2025-07-24 05:14:37 - INFO - Batch 1 progress: 370/10000, Overall success rate: 48.4%
+2025-07-24 05:14:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00004_seed16.wav
+2025-07-24 05:14:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/N8_clYCM9n8/00004_seed16.wav
+2025-07-24 05:14:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00047_seed16.wav
+2025-07-24 05:14:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/58VB-LYIoRM/00004_seed16.wav
+2025-07-24 05:14:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00023_seed16.wav
+2025-07-24 05:14:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/gETtCLtu1jA/00003_seed16.wav
+2025-07-24 05:14:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00003_seed16.wav
+2025-07-24 05:14:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/TMBdUkVfwOg/00002_seed16.wav
+2025-07-24 05:14:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00008_seed16.wav
+2025-07-24 05:14:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/u3s9xdUlmmk/00005_seed16.wav
+2025-07-24 05:14:42 - INFO - Batch 1 progress: 380/10000, Overall success rate: 48.4%
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00001_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10279/4Q1IvdayPR8/00015_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00039_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/uxHwuJ59xNk/00001_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00028_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/K2_D_tFdAgY/00016_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00005_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/iEAqbqZ7dDg/00007_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00015_seed16.wav
+2025-07-24 05:14:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10288/FIxC_PNJNkc/00002_seed16.wav
+2025-07-24 05:14:42 - INFO - Batch 1 progress: 390/10000, Overall success rate: 48.5%
+2025-07-24 05:14:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00036_seed16.wav
+2025-07-24 05:14:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/hjvQiiG71rM/00034_seed16.wav
+2025-07-24 05:14:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00024_seed16.wav
+2025-07-24 05:14:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/OiRXHy35Euk/00002_seed16.wav
+2025-07-24 05:14:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00026_seed16.wav
+2025-07-24 05:14:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/fAe7DXqrZls/00001_seed16.wav
+2025-07-24 05:14:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00019_seed16.wav
+2025-07-24 05:14:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/j5ArtKwbobY/00001_seed16.wav
+2025-07-24 05:14:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00021_seed16.wav
+2025-07-24 05:14:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/n5Ffz_qwr58/00003_seed16.wav
+2025-07-24 05:14:46 - INFO - Batch 1 progress: 400/10000, Overall success rate: 48.5%
+2025-07-24 05:14:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00021_seed16.wav
+2025-07-24 05:14:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10275/pV6cJibX6Ik/00001_seed16.wav
+2025-07-24 05:14:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00035_seed16.wav
+2025-07-24 05:14:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/2qlrpSAc9Xs/00001_seed16.wav
+2025-07-24 05:14:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00011_seed16.wav
+2025-07-24 05:14:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/kt4P4cyTpWQ/00006_seed16.wav
+2025-07-24 05:14:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00052_seed16.wav
+2025-07-24 05:14:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/BL7XmN8w_UY/00001_seed16.wav
+2025-07-24 05:14:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00016_seed16.wav
+2025-07-24 05:14:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10289/sf4uMnkYFG8/00015_seed16.wav
+2025-07-24 05:14:47 - INFO - Batch 1 progress: 410/10000, Overall success rate: 48.3%
+2025-07-24 05:14:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00041_seed16.wav
+2025-07-24 05:14:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/kWOMY99knWI/00004_seed16.wav
+2025-07-24 05:14:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00013_seed16.wav
+2025-07-24 05:14:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/ENIHEvg_VLM/00018_seed16.wav
+2025-07-24 05:14:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00007_seed16.wav
+2025-07-24 05:14:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/8fKRoUIpAJY/00005_seed16.wav
+2025-07-24 05:14:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00014_seed16.wav
+2025-07-24 05:14:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/3vnz4Iy5fMg/00001_seed16.wav
+2025-07-24 05:14:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00012_seed16.wav
+2025-07-24 05:14:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/znxUWA2QAGs/00013_seed16.wav
+2025-07-24 05:14:49 - INFO - Batch 1 progress: 420/10000, Overall success rate: 48.3%
+2025-07-24 05:14:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00022_seed16.wav
+2025-07-24 05:14:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/oLJhH76d0kU/00002_seed16.wav
+2025-07-24 05:14:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00010_seed16.wav
+2025-07-24 05:14:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/arklnCzCq48/00001_seed16.wav
+2025-07-24 05:14:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00006_seed16.wav
+2025-07-24 05:14:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10301/vhzF7dhGJzI/00003_seed16.wav
+2025-07-24 05:14:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00028_seed16.wav
+2025-07-24 05:14:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/Piw0wvQbpnQ/00005_seed16.wav
+2025-07-24 05:14:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:14:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10274/89UnsytX6Y8/00009_seed16.wav
+2025-07-24 05:14:52 - INFO - Batch 1 progress: 430/10000, Overall success rate: 48.4%
+2025-07-24 05:14:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00047_seed16.wav
+2025-07-24 05:14:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/Qkll9n7U5ak/00006_seed16.wav
+2025-07-24 05:14:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00004_seed16.wav
+2025-07-24 05:14:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/8cfyJEV7hP8/00023_seed16.wav
+2025-07-24 05:14:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:14:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/rC63HnQ3Nf8/00001_seed16.wav
+2025-07-24 05:14:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00002_seed16.wav
+2025-07-24 05:14:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/Zx-zA-D_DvI/00003_seed16.wav
+2025-07-24 05:14:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/PXmaB6Ui0fE/00001_seed16.wav
+2025-07-24 05:14:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/e-IdJ8a4gy4/00004_seed16.wav
+2025-07-24 05:14:54 - INFO - Batch 1 progress: 440/10000, Overall success rate: 48.4%
+2025-07-24 05:14:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00024_seed16.wav
+2025-07-24 05:14:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10296/8X8huGiBRAc/00001_seed16.wav
+2025-07-24 05:14:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00006_seed16.wav
+2025-07-24 05:14:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/58VB-LYIoRM/00005_seed16.wav
+2025-07-24 05:14:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00001_seed16.wav
+2025-07-24 05:14:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/K2_D_tFdAgY/00036_seed16.wav
+2025-07-24 05:14:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00018_seed16.wav
+2025-07-24 05:14:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/120gjdqGWNQ/00011_seed16.wav
+2025-07-24 05:14:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00033_seed16.wav
+2025-07-24 05:14:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/L812MIi7ruk/00007_seed16.wav
+2025-07-24 05:14:56 - INFO - Batch 1 progress: 450/10000, Overall success rate: 48.4%
+2025-07-24 05:14:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00016_seed16.wav
+2025-07-24 05:14:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10299/z1ZWYfCuRKY/00003_seed16.wav
+2025-07-24 05:14:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:14:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/vobW27_-JyQ/00015_seed16.wav
+2025-07-24 05:14:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00014_seed16.wav
+2025-07-24 05:14:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/wtqPC9vEZ0M/00001_seed16.wav
+2025-07-24 05:14:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00004_seed16.wav
+2025-07-24 05:14:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/R1RQnIQGy10/00001_seed16.wav
+2025-07-24 05:14:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00001_seed16.wav
+2025-07-24 05:14:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10288/UbApEUoPvzY/00001_seed16.wav
+2025-07-24 05:14:58 - INFO - Batch 1 progress: 460/10000, Overall success rate: 48.5%
+2025-07-24 05:14:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:14:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/mYSVs_d1aMQ/00010_seed16.wav
+2025-07-24 05:14:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00034_seed16.wav
+2025-07-24 05:14:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10289/fGlKVvjgUdY/00002_seed16.wav
+2025-07-24 05:14:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00029_seed16.wav
+2025-07-24 05:14:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/FJOvOooCIvs/00002_seed16.wav
+2025-07-24 05:14:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00001_seed16.wav
+2025-07-24 05:14:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/2eJ33J6xFVM/00001_seed16.wav
+2025-07-24 05:14:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00008_seed16.wav
+2025-07-24 05:15:00 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/znxUWA2QAGs/00008_seed16.wav
+2025-07-24 05:15:00 - INFO - Batch 1 progress: 470/10000, Overall success rate: 48.5%
+2025-07-24 05:15:00 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00003_seed16.wav
+2025-07-24 05:15:00 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/2cAiIYHfon0/00010_seed16.wav
+2025-07-24 05:15:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00023_seed16.wav
+2025-07-24 05:15:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10279/f0I1IC6DJfo/00003_seed16.wav
+2025-07-24 05:15:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00001_seed16.wav
+2025-07-24 05:15:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/7I1GtGzVfmw/00005_seed16.wav
+2025-07-24 05:15:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00004_seed16.wav
+2025-07-24 05:15:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/l3J1f06Slfo/00003_seed16.wav
+2025-07-24 05:15:01 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00014_seed16.wav
+2025-07-24 05:15:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/ya6VNZp-pXw/00016_seed16.wav
+2025-07-24 05:15:02 - INFO - Batch 1 progress: 480/10000, Overall success rate: 48.5%
+2025-07-24 05:15:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00037_seed16.wav
+2025-07-24 05:15:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/YVeA3K_cPoc/00002_seed16.wav
+2025-07-24 05:15:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00025_seed16.wav
+2025-07-24 05:15:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/31XtFWtF7Sc/00004_seed16.wav
+2025-07-24 05:15:02 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00003_seed16.wav
+2025-07-24 05:15:03 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/vaK4t1-WD4M/00009_seed16.wav
+2025-07-24 05:15:04 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00002_seed16.wav
+2025-07-24 05:15:04 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/7byARrJfhlI/00007_seed16.wav
+2025-07-24 05:15:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00001_seed16.wav
+2025-07-24 05:15:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/DPPq8w5ILrA/00001_seed16.wav
+2025-07-24 05:15:05 - INFO - Batch 1 progress: 490/10000, Overall success rate: 48.6%
+2025-07-24 05:15:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00023_seed16.wav
+2025-07-24 05:15:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/clznvDi-ybg/00001_seed16.wav
+2025-07-24 05:15:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00003_seed16.wav
+2025-07-24 05:15:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/r9-0pljhZqs/00015_seed16.wav
+2025-07-24 05:15:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00014_seed16.wav
+2025-07-24 05:15:05 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/yUv37vQWmzE/00009_seed16.wav
+2025-07-24 05:15:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00030_seed16.wav
+2025-07-24 05:15:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10271/gO805KoL2RM/00004_seed16.wav
+2025-07-24 05:15:06 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00036_seed16.wav
+2025-07-24 05:15:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10303/Zs8VK91yVMI/00023_seed16.wav
+2025-07-24 05:15:07 - INFO - Batch 1 progress: 500/10000, Overall success rate: 48.6%
+2025-07-24 05:15:07 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00021_seed16.wav
+2025-07-24 05:15:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10303/Zs8VK91yVMI/00013_seed16.wav
+2025-07-24 05:15:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00003_seed16.wav
+2025-07-24 05:15:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/Piw0wvQbpnQ/00015_seed16.wav
+2025-07-24 05:15:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00038_seed16.wav
+2025-07-24 05:15:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/CN6JpPYbHCQ/00009_seed16.wav
+2025-07-24 05:15:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00002_seed16.wav
+2025-07-24 05:15:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/0b1inHMAr6o/00003_seed16.wav
+2025-07-24 05:15:08 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00001_seed16.wav
+2025-07-24 05:15:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/2cAiIYHfon0/00012_seed16.wav
+2025-07-24 05:15:09 - INFO - Batch 1 progress: 510/10000, Overall success rate: 48.6%
+2025-07-24 05:15:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00004_seed16.wav
+2025-07-24 05:15:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/YvmWRnJnTz0/00002_seed16.wav
+2025-07-24 05:15:09 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00029_seed16.wav
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/EoCPhxtWUOc/00003_seed16.wav
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00011_seed16.wav
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10301/VIAnMw7J5tI/00008_seed16.wav
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00025_seed16.wav
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10285/thghCiJZYwI/00011_seed16.wav
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00023_seed16.wav
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/TnOGBL8p-RM/00001_seed16.wav
+2025-07-24 05:15:10 - INFO - Batch 1 progress: 520/10000, Overall success rate: 48.7%
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00025_seed16.wav
+2025-07-24 05:15:10 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/a4msZPEjhMc/00004_seed16.wav
+2025-07-24 05:15:11 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00002_seed16.wav
+2025-07-24 05:15:11 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/IpBtAcwbQb0/00007_seed16.wav
+2025-07-24 05:15:11 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00003_seed16.wav
+2025-07-24 05:15:11 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10279/PQHz4fGHPK8/00001_seed16.wav
+2025-07-24 05:15:12 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00005_seed16.wav
+2025-07-24 05:15:12 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/120gjdqGWNQ/00004_seed16.wav
+2025-07-24 05:15:12 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00017_seed16.wav
+2025-07-24 05:15:13 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/kp_GCjLq4qA/00003_seed16.wav
+2025-07-24 05:15:13 - INFO - Batch 1 progress: 530/10000, Overall success rate: 48.7%
+2025-07-24 05:15:13 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00008_seed16.wav
+2025-07-24 05:15:13 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/fAe7DXqrZls/00006_seed16.wav
+2025-07-24 05:15:13 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00007_seed16.wav
+2025-07-24 05:15:13 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/tKl5Y1x4jwc/00001_seed16.wav
+2025-07-24 05:15:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00001_seed16.wav
+2025-07-24 05:15:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10285/FUqAFZmZJ80/00016_seed16.wav
+2025-07-24 05:15:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00029_seed16.wav
+2025-07-24 05:15:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/vD3qGRbmXws/00006_seed16.wav
+2025-07-24 05:15:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00023_seed16.wav
+2025-07-24 05:15:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/yUv37vQWmzE/00015_seed16.wav
+2025-07-24 05:15:14 - INFO - Batch 1 progress: 540/10000, Overall success rate: 48.7%
+2025-07-24 05:15:14 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00019_seed16.wav
+2025-07-24 05:15:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10303/Tgph483ZOQ8/00002_seed16.wav
+2025-07-24 05:15:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00047_seed16.wav
+2025-07-24 05:15:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/AytdA2W0Y_M/00008_seed16.wav
+2025-07-24 05:15:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00022_seed16.wav
+2025-07-24 05:15:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/gHPh9j7lc58/00001_seed16.wav
+2025-07-24 05:15:15 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00021_seed16.wav
+2025-07-24 05:15:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/qBTOwaSOS-M/00002_seed16.wav
+2025-07-24 05:15:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00003_seed16.wav
+2025-07-24 05:15:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/57KbI2UvGss/00012_seed16.wav
+2025-07-24 05:15:16 - INFO - Batch 1 progress: 550/10000, Overall success rate: 48.7%
+2025-07-24 05:15:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00002_seed16.wav
+2025-07-24 05:15:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/FL2UicCNcwI/00002_seed16.wav
+2025-07-24 05:15:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00014_seed16.wav
+2025-07-24 05:15:16 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/0H91VC07Q3s/00002_seed16.wav
+2025-07-24 05:15:17 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00008_seed16.wav
+2025-07-24 05:15:17 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/SQzWyPhRqmk/00006_seed16.wav
+2025-07-24 05:15:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00038_seed16.wav
+2025-07-24 05:15:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/7yx9A0yzLYk/00037_seed16.wav
+2025-07-24 05:15:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00007_seed16.wav
+2025-07-24 05:15:18 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/8rby6ETXo8Q/00001_seed16.wav
+2025-07-24 05:15:19 - INFO - Batch 1 progress: 560/10000, Overall success rate: 48.8%
+2025-07-24 05:15:19 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00032_seed16.wav
+2025-07-24 05:15:19 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/a0S-epXYJME/00005_seed16.wav
+2025-07-24 05:15:19 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00001_seed16.wav
+2025-07-24 05:15:19 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/0rpfN7wThsg/00003_seed16.wav
+2025-07-24 05:15:20 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00032_seed16.wav
+2025-07-24 05:15:20 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/6tjKon0hiy4/00002_seed16.wav
+2025-07-24 05:15:20 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00031_seed16.wav
+2025-07-24 05:15:21 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/tKl5Y1x4jwc/00002_seed16.wav
+2025-07-24 05:15:21 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00029_seed16.wav
+2025-07-24 05:15:21 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10288/JzNVSA7eFwc/00005_seed16.wav
+2025-07-24 05:15:22 - INFO - Batch 1 progress: 570/10000, Overall success rate: 48.8%
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00048_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/mmFmN0OPhKs/00003_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00012_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/a2rD02CrRdU/00001_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/IANjHJYjfW8/00004_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00013_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10296/_BVSKK5mGnY/00005_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00054_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/j8UugkSTzzk/00003_seed16.wav
+2025-07-24 05:15:22 - INFO - Batch 1 progress: 580/10000, Overall success rate: 48.8%
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00033_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10301/vhzF7dhGJzI/00003_seed16.wav
+2025-07-24 05:15:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00018_seed16.wav
+2025-07-24 05:15:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/ENIHEvg_VLM/00014_seed16.wav
+2025-07-24 05:15:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OXdd7Gmluts/00003_seed16.wav
+2025-07-24 05:15:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/3vWez3baO60/00008_seed16.wav
+2025-07-24 05:15:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00030_seed16.wav
+2025-07-24 05:15:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/lBkbWztMEUY/00005_seed16.wav
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00009_seed16.wav
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/Piw0wvQbpnQ/00011_seed16.wav
+2025-07-24 05:15:25 - INFO - Batch 1 progress: 590/10000, Overall success rate: 48.8%
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/PXmaB6Ui0fE/00001_seed16.wav
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/ize_eiCFEg0/00004_seed16.wav
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00048_seed16.wav
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/znxUWA2QAGs/00004_seed16.wav
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00054_seed16.wav
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/AjY0B7kh_-k/00005_seed16.wav
+2025-07-24 05:15:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00049_seed16.wav
+2025-07-24 05:15:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/SQzWyPhRqmk/00010_seed16.wav
+2025-07-24 05:15:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00014_seed16.wav
+2025-07-24 05:15:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/1CiBWgsHT4E/00007_seed16.wav
+2025-07-24 05:15:26 - INFO - Batch 1 progress: 600/10000, Overall success rate: 48.8%
+2025-07-24 05:15:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00020_seed16.wav
+2025-07-24 05:15:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/WAbHmvQ9zME/00003_seed16.wav
+2025-07-24 05:15:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00031_seed16.wav
+2025-07-24 05:15:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/52SYuI0cCbQ/00002_seed16.wav
+2025-07-24 05:15:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00031_seed16.wav
+2025-07-24 05:15:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/VRCidrXwd1s/00009_seed16.wav
+2025-07-24 05:15:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00042_seed16.wav
+2025-07-24 05:15:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10275/Mdk1SXywHck/00009_seed16.wav
+2025-07-24 05:15:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00036_seed16.wav
+2025-07-24 05:15:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/3tvnlmkCiTw/00003_seed16.wav
+2025-07-24 05:15:29 - INFO - Batch 1 progress: 610/10000, Overall success rate: 48.9%
+2025-07-24 05:15:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00008_seed16.wav
+2025-07-24 05:15:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10301/vhzF7dhGJzI/00003_seed16.wav
+2025-07-24 05:15:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00009_seed16.wav
+2025-07-24 05:15:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/xiFC4HwUcww/00010_seed16.wav
+2025-07-24 05:15:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00025_seed16.wav
+2025-07-24 05:15:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/3kzw8lTcUBU/00005_seed16.wav
+2025-07-24 05:15:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00020_seed16.wav
+2025-07-24 05:15:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10299/HcyUmRYz-aE/00005_seed16.wav
+2025-07-24 05:15:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00004_seed16.wav
+2025-07-24 05:15:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/zii-zlYDpGc/00004_seed16.wav
+2025-07-24 05:15:30 - INFO - Batch 1 progress: 620/10000, Overall success rate: 48.9%
+2025-07-24 05:15:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00024_seed16.wav
+2025-07-24 05:15:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/iH0jGPqp3Hc/00003_seed16.wav
+2025-07-24 05:15:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00014_seed16.wav
+2025-07-24 05:15:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/YN4cTBWM-QE/00001_seed16.wav
+2025-07-24 05:15:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00002_seed16.wav
+2025-07-24 05:15:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/5TWpQYtboq0/00011_seed16.wav
+2025-07-24 05:15:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00004_seed16.wav
+2025-07-24 05:15:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/rxnN8thYzEQ/00008_seed16.wav
+2025-07-24 05:15:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00013_seed16.wav
+2025-07-24 05:15:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/2qlrpSAc9Xs/00023_seed16.wav
+2025-07-24 05:15:32 - INFO - Batch 1 progress: 630/10000, Overall success rate: 48.9%
+2025-07-24 05:15:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00046_seed16.wav
+2025-07-24 05:15:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/T1y64qFjv3M/00004_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00019_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/gbTZ7k9e_Z0/00001_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00004_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/mYSVs_d1aMQ/00002_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00004_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/x5dqrDlwxR4/00004_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00013_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/hjvQiiG71rM/00013_seed16.wav
+2025-07-24 05:15:33 - INFO - Batch 1 progress: 640/10000, Overall success rate: 48.9%
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00024_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/57KbI2UvGss/00018_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00028_seed16.wav
+2025-07-24 05:15:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/K2_D_tFdAgY/00031_seed16.wav
+2025-07-24 05:15:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00054_seed16.wav
+2025-07-24 05:15:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/UIbPolhxLDI/00001_seed16.wav
+2025-07-24 05:15:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00020_seed16.wav
+2025-07-24 05:15:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/qN6dBTlT3HA/00001_seed16.wav
+2025-07-24 05:15:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:15:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/HTL8iLI75TY/00006_seed16.wav
+2025-07-24 05:15:35 - INFO - Batch 1 progress: 650/10000, Overall success rate: 48.9%
+2025-07-24 05:15:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00049_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/nt7dNRvlEHE/00002_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00009_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/cR5FfR4TbEI/00004_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00017_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/tbh20gz_KRA/00027_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00034_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10274/YCIIiIR9B60/00001_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00016_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/oGZsanLiXsY/00002_seed16.wav
+2025-07-24 05:15:36 - INFO - Batch 1 progress: 660/10000, Overall success rate: 48.9%
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OXdd7Gmluts/00003_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/_z_BR0ERa9g/00005_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00005_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10289/sf4uMnkYFG8/00015_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00003_seed16.wav
+2025-07-24 05:15:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/DPPq8w5ILrA/00003_seed16.wav
+2025-07-24 05:15:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00024_seed16.wav
+2025-07-24 05:15:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/rZQMeH1FCvM/00002_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00044_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/NkqrS8yJOL0/00004_seed16.wav
+2025-07-24 05:15:38 - INFO - Batch 1 progress: 670/10000, Overall success rate: 49.0%
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OmSWVqpb-N0/00001_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10301/VIAnMw7J5tI/00010_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00006_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/yUv37vQWmzE/00015_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00002_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/dz2ohrKoOBA/00002_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00053_seed16.wav
+2025-07-24 05:15:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/fAe7DXqrZls/00016_seed16.wav
+2025-07-24 05:15:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00050_seed16.wav
+2025-07-24 05:15:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/nAtqrkWKIhM/00010_seed16.wav
+2025-07-24 05:15:39 - INFO - Batch 1 progress: 680/10000, Overall success rate: 49.0%
+2025-07-24 05:15:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00031_seed16.wav
+2025-07-24 05:15:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/JQtDfEz08aU/00005_seed16.wav
+2025-07-24 05:15:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00055_seed16.wav
+2025-07-24 05:15:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/YmJBoCojXf4/00001_seed16.wav
+2025-07-24 05:15:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00010_seed16.wav
+2025-07-24 05:15:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/6pjKcuVoHLM/00012_seed16.wav
+2025-07-24 05:15:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00010_seed16.wav
+2025-07-24 05:15:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/neQO6_CUY4w/00001_seed16.wav
+2025-07-24 05:15:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:15:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/98qWWArcL3Y/00001_seed16.wav
+2025-07-24 05:15:42 - INFO - Batch 1 progress: 690/10000, Overall success rate: 49.0%
+2025-07-24 05:15:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00041_seed16.wav
+2025-07-24 05:15:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/mNM0rMPJE10/00001_seed16.wav
+2025-07-24 05:15:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00034_seed16.wav
+2025-07-24 05:15:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/31XtFWtF7Sc/00003_seed16.wav
+2025-07-24 05:15:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00034_seed16.wav
+2025-07-24 05:15:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/kKQpvHl21Cg/00005_seed16.wav
+2025-07-24 05:15:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00040_seed16.wav
+2025-07-24 05:15:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/d3By4475krs/00002_seed16.wav
+2025-07-24 05:15:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00021_seed16.wav
+2025-07-24 05:15:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/58VB-LYIoRM/00005_seed16.wav
+2025-07-24 05:15:43 - INFO - Batch 1 progress: 700/10000, Overall success rate: 49.0%
+2025-07-24 05:15:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00019_seed16.wav
+2025-07-24 05:15:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/Piw0wvQbpnQ/00013_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00022_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/mYSVs_d1aMQ/00012_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00007_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/nt7dNRvlEHE/00004_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00025_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10289/sf4uMnkYFG8/00009_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00025_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10289/8l5ZnDf-FUA/00013_seed16.wav
+2025-07-24 05:15:44 - INFO - Batch 1 progress: 710/10000, Overall success rate: 49.0%
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00015_seed16.wav
+2025-07-24 05:15:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/vbDKF8bZJQA/00001_seed16.wav
+2025-07-24 05:15:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00018_seed16.wav
+2025-07-24 05:15:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/ETJd_jPboYc/00006_seed16.wav
+2025-07-24 05:15:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00005_seed16.wav
+2025-07-24 05:15:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/RDFdX3VxjUQ/00015_seed16.wav
+2025-07-24 05:15:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00005_seed16.wav
+2025-07-24 05:15:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/znxUWA2QAGs/00003_seed16.wav
+2025-07-24 05:15:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00002_seed16.wav
+2025-07-24 05:15:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/j5ArtKwbobY/00007_seed16.wav
+2025-07-24 05:15:46 - INFO - Batch 1 progress: 720/10000, Overall success rate: 49.0%
+2025-07-24 05:15:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00013_seed16.wav
+2025-07-24 05:15:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/2cAiIYHfon0/00013_seed16.wav
+2025-07-24 05:15:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00032_seed16.wav
+2025-07-24 05:15:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/2SaEbN8hYz4/00019_seed16.wav
+2025-07-24 05:15:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00017_seed16.wav
+2025-07-24 05:15:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10289/8l5ZnDf-FUA/00008_seed16.wav
+2025-07-24 05:15:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00017_seed16.wav
+2025-07-24 05:15:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10280/v0Q-VyO4TjI/00005_seed16.wav
+2025-07-24 05:15:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00016_seed16.wav
+2025-07-24 05:15:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/rZQMeH1FCvM/00004_seed16.wav
+2025-07-24 05:15:48 - INFO - Batch 1 progress: 730/10000, Overall success rate: 48.9%
+2025-07-24 05:15:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00009_seed16.wav
+2025-07-24 05:15:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/0b1inHMAr6o/00010_seed16.wav
+2025-07-24 05:15:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00038_seed16.wav
+2025-07-24 05:15:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10275/HK20g60KlTI/00003_seed16.wav
+2025-07-24 05:15:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00005_seed16.wav
+2025-07-24 05:15:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/ba0ZhyVTodw/00004_seed16.wav
+2025-07-24 05:15:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00045_seed16.wav
+2025-07-24 05:15:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/1ZyvrJaiLQk/00013_seed16.wav
+2025-07-24 05:15:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00006_seed16.wav
+2025-07-24 05:15:50 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/SQzWyPhRqmk/00003_seed16.wav
+2025-07-24 05:15:50 - INFO - Batch 1 progress: 740/10000, Overall success rate: 48.9%
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00013_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/2Er-cV85fc4/00023_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00046_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/clznvDi-ybg/00018_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00032_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10271/1gtz-CUIygI/00021_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00003_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/gbTZ7k9e_Z0/00010_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00015_seed16.wav
+2025-07-24 05:15:51 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/MHOCv7pOmG4/00014_seed16.wav
+2025-07-24 05:15:52 - INFO - Batch 1 progress: 750/10000, Overall success rate: 48.9%
+2025-07-24 05:15:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00021_seed16.wav
+2025-07-24 05:15:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/KaZPZcTPQ-c/00005_seed16.wav
+2025-07-24 05:15:52 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00020_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/XMLMvfrgdzY/00009_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00021_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/neQO6_CUY4w/00003_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00052_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/gAKHqHbNt2g/00003_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00026_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/dtYK1cUF7mo/00005_seed16.wav
+2025-07-24 05:15:53 - INFO - Batch 1 progress: 760/10000, Overall success rate: 48.9%
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00025_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10296/tlP585mCdl0/00006_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00031_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/2qlrpSAc9Xs/00012_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00028_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/0cYFdtyWVds/00002_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00007_seed16.wav
+2025-07-24 05:15:53 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/U_1vfIVOigA/00008_seed16.wav
+2025-07-24 05:15:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00017_seed16.wav
+2025-07-24 05:15:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10301/AeRSD9jIdSg/00006_seed16.wav
+2025-07-24 05:15:54 - INFO - Batch 1 progress: 770/10000, Overall success rate: 48.8%
+2025-07-24 05:15:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00013_seed16.wav
+2025-07-24 05:15:54 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10271/8gcdEYAKNkE/00001_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00027_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10272/ho_r24dlPTQ/00005_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00036_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/57KbI2UvGss/00001_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00003_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/HYiqXC0B3iY/00029_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00005_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/ya6VNZp-pXw/00033_seed16.wav
+2025-07-24 05:15:55 - INFO - Batch 1 progress: 780/10000, Overall success rate: 48.8%
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00020_seed16.wav
+2025-07-24 05:15:55 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/0nH78dDh0N0/00013_seed16.wav
+2025-07-24 05:15:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00004_seed16.wav
+2025-07-24 05:15:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/KaZPZcTPQ-c/00003_seed16.wav
+2025-07-24 05:15:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00047_seed16.wav
+2025-07-24 05:15:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10285/FUqAFZmZJ80/00008_seed16.wav
+2025-07-24 05:15:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00042_seed16.wav
+2025-07-24 05:15:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10285/thghCiJZYwI/00007_seed16.wav
+2025-07-24 05:15:56 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/cIi74VD0LF0/00004_seed16.wav
+2025-07-24 05:15:57 - INFO - Batch 1 progress: 790/10000, Overall success rate: 48.9%
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00054_seed16.wav
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/IANjHJYjfW8/00013_seed16.wav
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00005_seed16.wav
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/TMCTm7GxiDE/00005_seed16.wav
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00001_seed16.wav
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/6qFnVechX9o/00021_seed16.wav
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00048_seed16.wav
+2025-07-24 05:15:57 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/19OCRADWjgA/00001_seed16.wav
+2025-07-24 05:15:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00015_seed16.wav
+2025-07-24 05:15:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/QOq66XogW3Q/00006_seed16.wav
+2025-07-24 05:15:58 - INFO - Batch 1 progress: 800/10000, Overall success rate: 48.6%
+2025-07-24 05:15:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00024_seed16.wav
+2025-07-24 05:15:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10308/rgpPBT4yQcg/00006_seed16.wav
+2025-07-24 05:15:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00027_seed16.wav
+2025-07-24 05:15:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/TMBdUkVfwOg/00004_seed16.wav
+2025-07-24 05:15:58 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00023_seed16.wav
+2025-07-24 05:15:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/o9bD_E99Jpg/00002_seed16.wav
+2025-07-24 05:15:59 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00012_seed16.wav
+2025-07-24 05:16:21 - INFO - Generated audio saved: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10283/arklnCzCq48/00003_seed16.wav
+2025-07-24 05:16:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00030_seed16.wav
+2025-07-24 05:16:22 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/3vWez3baO60/00002_seed16.wav
+2025-07-24 05:16:23 - INFO - Batch 1 progress: 810/10000, Overall success rate: 48.6%
+2025-07-24 05:16:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00006_seed16.wav
+2025-07-24 05:16:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10303/Zs8VK91yVMI/00008_seed16.wav
+2025-07-24 05:16:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00003_seed16.wav
+2025-07-24 05:16:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/Mp1IXRquJ9s/00010_seed16.wav
+2025-07-24 05:16:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00002_seed16.wav
+2025-07-24 05:16:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/Piw0wvQbpnQ/00001_seed16.wav
+2025-07-24 05:16:23 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00022_seed16.wav
+2025-07-24 05:16:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/9PmuAcGCSjY/00003_seed16.wav
+2025-07-24 05:16:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OXdd7Gmluts/00003_seed16.wav
+2025-07-24 05:16:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/2qlrpSAc9Xs/00021_seed16.wav
+2025-07-24 05:16:24 - INFO - Batch 1 progress: 820/10000, Overall success rate: 48.7%
+2025-07-24 05:16:24 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00034_seed16.wav
+2025-07-24 05:16:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/d2Lasybvo7s/00002_seed16.wav
+2025-07-24 05:16:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00030_seed16.wav
+2025-07-24 05:16:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/1CiBWgsHT4E/00005_seed16.wav
+2025-07-24 05:16:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00002_seed16.wav
+2025-07-24 05:16:25 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/49XYNpeN23I/00007_seed16.wav
+2025-07-24 05:16:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00002_seed16.wav
+2025-07-24 05:16:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/a3QzK5pWpI4/00001_seed16.wav
+2025-07-24 05:16:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5sJomL_D0_g/00002_seed16.wav
+2025-07-24 05:16:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/4aLg_keiGHw/00004_seed16.wav
+2025-07-24 05:16:26 - INFO - Batch 1 progress: 830/10000, Overall success rate: 48.7%
+2025-07-24 05:16:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00017_seed16.wav
+2025-07-24 05:16:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/oTRparDs-84/00003_seed16.wav
+2025-07-24 05:16:26 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00010_seed16.wav
+2025-07-24 05:16:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/OYi3rZSdAOE/00005_seed16.wav
+2025-07-24 05:16:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00002_seed16.wav
+2025-07-24 05:16:27 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/tbh20gz_KRA/00023_seed16.wav
+2025-07-24 05:16:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00025_seed16.wav
+2025-07-24 05:16:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10290/fVOTAQKIfY4/00003_seed16.wav
+2025-07-24 05:16:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00038_seed16.wav
+2025-07-24 05:16:28 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10275/Mdk1SXywHck/00022_seed16.wav
+2025-07-24 05:16:29 - INFO - Batch 1 progress: 840/10000, Overall success rate: 48.7%
+2025-07-24 05:16:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00019_seed16.wav
+2025-07-24 05:16:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/O_rxcwBWTz4/00002_seed16.wav
+2025-07-24 05:16:29 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00003_seed16.wav
+2025-07-24 05:16:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/ZAK9gLYNqPs/00003_seed16.wav
+2025-07-24 05:16:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00027_seed16.wav
+2025-07-24 05:16:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/DWT9P35cXT4/00003_seed16.wav
+2025-07-24 05:16:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00032_seed16.wav
+2025-07-24 05:16:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/Qkll9n7U5ak/00001_seed16.wav
+2025-07-24 05:16:30 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00037_seed16.wav
+2025-07-24 05:16:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/K2_D_tFdAgY/00029_seed16.wav
+2025-07-24 05:16:31 - INFO - Batch 1 progress: 850/10000, Overall success rate: 48.7%
+2025-07-24 05:16:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00033_seed16.wav
+2025-07-24 05:16:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10276/CooJzMgoxzw/00001_seed16.wav
+2025-07-24 05:16:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00005_seed16.wav
+2025-07-24 05:16:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/8cfyJEV7hP8/00036_seed16.wav
+2025-07-24 05:16:31 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00028_seed16.wav
+2025-07-24 05:16:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/8cfyJEV7hP8/00011_seed16.wav
+2025-07-24 05:16:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00022_seed16.wav
+2025-07-24 05:16:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/8fKRoUIpAJY/00002_seed16.wav
+2025-07-24 05:16:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00007_seed16.wav
+2025-07-24 05:16:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/kt4P4cyTpWQ/00002_seed16.wav
+2025-07-24 05:16:32 - INFO - Batch 1 progress: 860/10000, Overall success rate: 48.7%
+2025-07-24 05:16:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00010_seed16.wav
+2025-07-24 05:16:32 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10286/L2jRsPDZGgw/00009_seed16.wav
+2025-07-24 05:16:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00009_seed16.wav
+2025-07-24 05:16:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/utAY0zpsv1U/00008_seed16.wav
+2025-07-24 05:16:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00003_seed16.wav
+2025-07-24 05:16:33 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/VRCidrXwd1s/00002_seed16.wav
+2025-07-24 05:16:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00013_seed16.wav
+2025-07-24 05:16:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/rqaAm4bEsXc/00012_seed16.wav
+2025-07-24 05:16:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00017_seed16.wav
+2025-07-24 05:16:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/YvmWRnJnTz0/00005_seed16.wav
+2025-07-24 05:16:34 - INFO - Batch 1 progress: 870/10000, Overall success rate: 48.7%
+2025-07-24 05:16:34 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00030_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/wtqPC9vEZ0M/00010_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00008_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/FvbLoirHpx0/00002_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00012_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/ENIHEvg_VLM/00012_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00014_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/NkqrS8yJOL0/00002_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00032_seed16.wav
+2025-07-24 05:16:35 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/TnOGBL8p-RM/00009_seed16.wav
+2025-07-24 05:16:36 - INFO - Batch 1 progress: 880/10000, Overall success rate: 48.8%
+2025-07-24 05:16:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00026_seed16.wav
+2025-07-24 05:16:36 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/EX6SP5_i96o/00002_seed16.wav
+2025-07-24 05:16:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00011_seed16.wav
+2025-07-24 05:16:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10282/CiUT-YF34O4/00002_seed16.wav
+2025-07-24 05:16:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00049_seed16.wav
+2025-07-24 05:16:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/ENIHEvg_VLM/00012_seed16.wav
+2025-07-24 05:16:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00009_seed16.wav
+2025-07-24 05:16:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/6pjKcuVoHLM/00005_seed16.wav
+2025-07-24 05:16:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00001_seed16.wav
+2025-07-24 05:16:37 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/DSGE2F5sTcg/00006_seed16.wav
+2025-07-24 05:16:38 - INFO - Batch 1 progress: 890/10000, Overall success rate: 48.8%
+2025-07-24 05:16:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00050_seed16.wav
+2025-07-24 05:16:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/VRCidrXwd1s/00032_seed16.wav
+2025-07-24 05:16:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00002_seed16.wav
+2025-07-24 05:16:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10281/RDFdX3VxjUQ/00020_seed16.wav
+2025-07-24 05:16:38 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00024_seed16.wav
+2025-07-24 05:16:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10279/DTbpchx4xes/00003_seed16.wav
+2025-07-24 05:16:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OXdd7Gmluts/00002_seed16.wav
+2025-07-24 05:16:39 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/2Er-cV85fc4/00019_seed16.wav
+2025-07-24 05:16:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/x6uYqmx31kE/00001_seed16.wav
+2025-07-24 05:16:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/49XYNpeN23I/00007_seed16.wav
+2025-07-24 05:16:40 - INFO - Batch 1 progress: 900/10000, Overall success rate: 48.8%
+2025-07-24 05:16:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00024_seed16.wav
+2025-07-24 05:16:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/ya6VNZp-pXw/00002_seed16.wav
+2025-07-24 05:16:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00025_seed16.wav
+2025-07-24 05:16:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10298/hjvQiiG71rM/00015_seed16.wav
+2025-07-24 05:16:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00001_seed16.wav
+2025-07-24 05:16:40 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/MHOCv7pOmG4/00008_seed16.wav
+2025-07-24 05:16:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00017_seed16.wav
+2025-07-24 05:16:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/3QrLepYlH6o/00005_seed16.wav
+2025-07-24 05:16:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/zjwijMp0Qyw/00002_seed16.wav
+2025-07-24 05:16:41 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/UIbPolhxLDI/00002_seed16.wav
+2025-07-24 05:16:42 - INFO - Batch 1 progress: 910/10000, Overall success rate: 48.8%
+2025-07-24 05:16:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00009_seed16.wav
+2025-07-24 05:16:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10305/vbDKF8bZJQA/00009_seed16.wav
+2025-07-24 05:16:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OmSWVqpb-N0/00001_seed16.wav
+2025-07-24 05:16:42 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10306/4E-dEOQQsvo/00005_seed16.wav
+2025-07-24 05:16:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00009_seed16.wav
+2025-07-24 05:16:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/RNYNkXzY5Hk/00017_seed16.wav
+2025-07-24 05:16:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00041_seed16.wav
+2025-07-24 05:16:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10277/cELY3LdIo-0/00002_seed16.wav
+2025-07-24 05:16:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00005_seed16.wav
+2025-07-24 05:16:43 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10297/2eJ33J6xFVM/00001_seed16.wav
+2025-07-24 05:16:44 - INFO - Batch 1 progress: 920/10000, Overall success rate: 48.8%
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00027_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10308/We7oIBrKQKg/00002_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00049_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/hDBMV_0Vz4E/00015_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00018_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/gHPh9j7lc58/00005_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00001_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/EoCPhxtWUOc/00003_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00028_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10273/5TWpQYtboq0/00002_seed16.wav
+2025-07-24 05:16:44 - INFO - Batch 1 progress: 930/10000, Overall success rate: 48.8%
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00023_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10295/K1gPy1UKmBE/00016_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00017_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/Pp-rAswo4Xg/00015_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00024_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10278/DSGE2F5sTcg/00029_seed16.wav
+2025-07-24 05:16:44 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00054_seed16.wav
+2025-07-24 05:16:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10285/LbFFEF1pHO0/00004_seed16.wav
+2025-07-24 05:16:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00029_seed16.wav
+2025-07-24 05:16:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10309/nMZkxUQ1RqI/00001_seed16.wav
+2025-07-24 05:16:45 - INFO - Batch 1 progress: 940/10000, Overall success rate: 48.8%
+2025-07-24 05:16:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00031_seed16.wav
+2025-07-24 05:16:45 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10284/7yx9A0yzLYk/00007_seed16.wav
+2025-07-24 05:16:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00011_seed16.wav
+2025-07-24 05:16:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10292/2qlrpSAc9Xs/00018_seed16.wav
+2025-07-24 05:16:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00035_seed16.wav
+2025-07-24 05:16:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10304/o9bD_E99Jpg/00012_seed16.wav
+2025-07-24 05:16:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00003_seed16.wav
+2025-07-24 05:16:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/_zm31vf2P7U/00003_seed16.wav
+2025-07-24 05:16:46 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00023_seed16.wav
+2025-07-24 05:16:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10294/OiRXHy35Euk/00001_seed16.wav
+2025-07-24 05:16:47 - INFO - Batch 1 progress: 950/10000, Overall success rate: 48.8%
+2025-07-24 05:16:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00020_seed16.wav
+2025-07-24 05:16:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10302/VRCidrXwd1s/00017_seed16.wav
+2025-07-24 05:16:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00032_seed16.wav
+2025-07-24 05:16:47 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10307/120gjdqGWNQ/00012_seed16.wav
+2025-07-24 05:16:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/OhfKF8FSq3Y/00003_seed16.wav
+2025-07-24 05:16:48 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/l3J1f06Slfo/00002_seed16.wav
+2025-07-24 05:16:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/8jEAjG6SegY/00001_seed16.wav
+2025-07-24 05:16:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10291/uiBjIKX_0l8/00001_seed16.wav
+2025-07-24 05:16:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/GWXujl-xAVM/00020_seed16.wav
+2025-07-24 05:16:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10293/rZQMeH1FCvM/00013_seed16.wav
+2025-07-24 05:16:49 - INFO - Batch 1 progress: 960/10000, Overall success rate: 48.9%
+2025-07-24 05:16:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00008_seed16.wav
+2025-07-24 05:16:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10300/fAe7DXqrZls/00020_seed16.wav
+2025-07-24 05:16:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10270/5r0dWxy17C8/00026_seed16.wav
+2025-07-24 05:16:49 - INFO - Using cached audio: cache/original-fake-audios-05072025_16khz/F5TTSGenerator/seeded/id10287/I99R40TUF1s/00006_seed16.wav

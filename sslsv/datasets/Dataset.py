@@ -160,11 +160,10 @@ class Dataset(TorchDataset):
         """
         data = load_audio(
             self.config.base_path / self.files[i],
-            frame_length=self.config.frame_length,
-            num_frames=self.num_frames,
-        )  # (N, T)
-
-        x = torch.FloatTensor(self.preprocess_data(data)).squeeze(0)
+            frame_length=self.config.frame_length, # 64000
+            num_frames=self.num_frames, # 7
+        )  # (N, T) shape=(7, 64000)
+        x = torch.FloatTensor(self.preprocess_data(data)).squeeze(0) # torch.Size([7, 64000])
 
         info = {"files": self.files[i]}
         if self.labels:

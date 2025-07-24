@@ -54,6 +54,7 @@ def evaluate_models(
     evaluations = []
 
     for _, model_entry in models.items():
+
         evaluation = evaluation_cls(
             model=model_entry.model,
             config=model_entry.config,

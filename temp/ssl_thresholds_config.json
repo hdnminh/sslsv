@@ -1,0 +1,41 @@
+{
+  "config_path": "models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml",
+  "checkpoint_name": "model_avg.pt",
+  "eer_threshold": 0.29427021741867065,
+  "eer_rate": 0.02563557068396979,
+  "operating_thresholds": {
+    "high_security_1%_FAR": {
+      "threshold": 0.3468501567840576,
+      "far": 0.00999521505662183,
+      "frr": 0.05744069779810659
+    },
+    "medium_security_5%_FAR": {
+      "threshold": 0.2507961690425873,
+      "far": 0.04997607528310915,
+      "frr": 0.013030528667163067
+    },
+    "low_security_10%_FAR": {
+      "threshold": 0.19666510820388794,
+      "far": 0.0999521505662183,
+      "frr": 0.003457079034145304
+    }
+  },
+  "score_statistics": {
+    "same_speaker": {
+      "min": 0.0749586969614029,
+      "max": 0.9991270899772644,
+      "mean": 0.557353289991874,
+      "std": 0.13385108343401134
+    },
+    "different_speaker": {
+      "min": -0.3283539414405823,
+      "max": 0.5771191716194153,
+      "mean": 0.055097816205475825,
+      "std": 0.10518726518566719
+    }
+  },
+  "metrics": {
+    "voxceleb1_test_O/eer": 2.563557068396979,
+    "voxceleb1_test_O/mindcf": 0.30341341004233213
+  }
+}

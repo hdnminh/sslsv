@@ -121,7 +121,8 @@ class CosineSVEvaluation(SpeakerVerificationEvaluation):
         if self.task_config.score_norm.value:
             self._extract_train_embeddings()
 
-        self._extract_test_embeddings(self.task_config.trials)
+        self._extract_test_embeddings(self.task_config.trials) # self.task_config.trials
+        # ['voxceleb1_test_O']
 
     def _compute_score(self, enrol: torch.Tensor, test: torch.Tensor) -> torch.Tensor:
         """
