@@ -1,0 +1,85 @@
+2025-07-24 09:02:19 - INFO - === SSL Speech Verification Attack Experiment Started ===
+2025-07-24 09:02:19 - INFO - Start time: 2025-07-24 09:02:19
+2025-07-24 09:02:19 - INFO - Output directory: ssl_attack_results
+2025-07-24 09:02:19 - INFO - Cache directory: ./cache/ssl_fake_generated_audios/pwws_seed_16
+2025-07-24 09:02:19 - INFO - Loading SSL model from config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 09:02:19 - INFO - Using checkpoint: model_avg.pt
+2025-07-24 09:02:20 - INFO - SSL model loaded successfully
+2025-07-24 09:02:25 - INFO - TTS cache directory set to: ./cache/ssl_fake_generated_audios/pwws_seed_16
+2025-07-24 09:02:25 - INFO - Results output directory: ssl_attack_results
+2025-07-24 09:02:25 - INFO - Starting SSL speech verification attacks (per transcript/ref_audio pair)...
+2025-07-24 09:02:25 - INFO - SSL Model Config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 09:02:25 - INFO - SSL Model Checkpoint: model_avg.pt
+2025-07-24 09:02:25 - INFO - EER Method: discrete
+2025-07-24 09:02:25 - INFO - TTS Model: F5TTS
+2025-07-24 09:02:25 - INFO - Cache Dir: ./cache/ssl_fake_generated_audios/pwws_seed_16
+2025-07-24 09:02:25 - INFO - Output Dir: ssl_attack_results
+2025-07-24 09:02:25 - INFO - VoxCeleb Root: /media/volume/AudioUnlearnData1/sslsv/data/
+2025-07-24 09:02:25 - INFO - Total pairs: 292
+2025-07-24 09:02:25 - INFO - Valid pairs: 292
+2025-07-24 09:02:25 - INFO - Running pwws SSL attack on all pairs with batch size 50
+2025-07-24 09:02:25 - INFO - Attacker start time: 2025-07-24 09:02:25
+2025-07-24 09:02:25 - INFO - Speaker distribution: {'voxceleb1': 292}
+2025-07-24 09:02:25 - INFO - Processing in 6 batches of 50 samples each
+2025-07-24 09:02:25 - INFO - Processing batch 1/6 (samples 50)
+2025-07-24 09:02:25 - INFO - Batch start time: 2025-07-24 09:02:25
+2025-07-24 09:02:25 - INFO - Batch 1 contains speakers: ['voxceleb1']
+2025-07-24 09:02:25 - INFO - Processing entry 1: voxceleb1/id10270/OhfKF8FSq3Y/00001.wav
+2025-07-24 09:02:27 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/5r0dWxy17C8/00020.wav
+2025-07-24 09:06:17 - INFO - Processing entry 2: voxceleb1/id10270/5r0dWxy17C8/00017.wav
+2025-07-24 09:06:17 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/GWXujl-xAVM/00019.wav
+2025-07-24 09:10:39 - INFO - Processing entry 3: voxceleb1/id10270/5r0dWxy17C8/00015.wav
+2025-07-24 09:10:40 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/GWXujl-xAVM/00028.wav
+2025-07-24 09:10:58 - INFO - Processing entry 4: voxceleb1/id10271/zWyD72sHVwA/00005.wav
+2025-07-24 09:10:59 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/1gtz-CUIygI/00016.wav
+2025-07-24 09:15:14 - INFO - Processing entry 5: voxceleb1/id10271/djK87iSSKQo/00001.wav
+2025-07-24 09:15:14 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/PMWQqW_ia58/00001.wav
+2025-07-24 09:26:18 - INFO - === SSL Speech Verification Attack Experiment Started ===
+2025-07-24 09:26:18 - INFO - Start time: 2025-07-24 09:26:18
+2025-07-24 09:26:18 - INFO - Output directory: ssl_attack_results
+2025-07-24 09:26:18 - INFO - Cache directory: ./cache/ssl_fake_generated_audios/pwws_seed_16
+2025-07-24 09:26:18 - INFO - Loading SSL model from config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 09:26:18 - INFO - Using checkpoint: model_avg.pt
+2025-07-24 09:26:19 - INFO - SSL model loaded successfully
+2025-07-24 09:26:24 - INFO - TTS cache directory set to: ./cache/ssl_fake_generated_audios/pwws_seed_16
+2025-07-24 09:26:24 - INFO - Results output directory: ssl_attack_results
+2025-07-24 09:29:13 - INFO - === SSL Speech Verification Attack Experiment Started ===
+2025-07-24 09:29:13 - INFO - Start time: 2025-07-24 09:29:13
+2025-07-24 09:29:13 - INFO - Output directory: ssl_attack_results
+2025-07-24 09:29:13 - INFO - Cache directory: ./cache/ssl_fake_generated_audios/pwws_seed_16
+2025-07-24 09:29:13 - INFO - Loading SSL model from config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 09:29:13 - INFO - Using checkpoint: model_avg.pt
+2025-07-24 09:29:14 - INFO - SSL model loaded successfully
+2025-07-24 09:29:19 - INFO - TTS cache directory set to: ./cache/ssl_fake_generated_audios/pwws_seed_16
+2025-07-24 09:29:19 - INFO - Results output directory: ssl_attack_results
+2025-07-24 09:29:19 - INFO - Starting SSL speech verification attacks (per transcript/ref_audio pair)...
+2025-07-24 09:29:19 - INFO - SSL Model Config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 09:29:19 - INFO - SSL Model Checkpoint: model_avg.pt
+2025-07-24 09:29:19 - INFO - EER Method: discrete
+2025-07-24 09:29:19 - INFO - TTS Model: F5TTS
+2025-07-24 09:29:19 - INFO - Cache Dir: ./cache/ssl_fake_generated_audios/pwws_seed_16
+2025-07-24 09:29:19 - INFO - Output Dir: ssl_attack_results
+2025-07-24 09:29:19 - INFO - VoxCeleb Root: /media/volume/AudioUnlearnData1/sslsv/data/
+2025-07-24 09:29:19 - INFO - Total pairs: 292
+2025-07-24 09:29:19 - INFO - Valid pairs: 292
+2025-07-24 09:29:19 - INFO - Running pwws SSL attack on all pairs with batch size 50
+2025-07-24 09:29:19 - INFO - Attacker start time: 2025-07-24 09:29:19
+2025-07-24 09:29:19 - INFO - Speaker distribution: {'voxceleb1': 292}
+2025-07-24 09:29:19 - INFO - Processing in 6 batches of 50 samples each
+2025-07-24 09:29:19 - INFO - Processing batch 1/6 (samples 50)
+2025-07-24 09:29:19 - INFO - Batch start time: 2025-07-24 09:29:19
+2025-07-24 09:29:19 - INFO - Batch 1 contains speakers: ['voxceleb1']
+2025-07-24 09:29:19 - INFO - Processing entry 1: voxceleb1/id10270/OhfKF8FSq3Y/00001.wav
+2025-07-24 09:29:21 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/5r0dWxy17C8/00020.wav
+2025-07-24 09:29:34 - INFO - Processing entry 2: voxceleb1/id10270/5r0dWxy17C8/00017.wav
+2025-07-24 09:29:35 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/GWXujl-xAVM/00019.wav
+2025-07-24 09:29:42 - INFO - Processing entry 3: voxceleb1/id10270/5r0dWxy17C8/00015.wav
+2025-07-24 09:29:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/GWXujl-xAVM/00028.wav
+2025-07-24 09:29:51 - INFO - Processing entry 4: voxceleb1/id10271/zWyD72sHVwA/00005.wav
+2025-07-24 09:29:51 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/1gtz-CUIygI/00016.wav
+2025-07-24 09:29:59 - INFO - Processing entry 5: voxceleb1/id10271/djK87iSSKQo/00001.wav
+2025-07-24 09:29:59 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/PMWQqW_ia58/00001.wav
+2025-07-24 09:30:32 - INFO - Processing entry 6: voxceleb1/id10271/zWyD72sHVwA/00008.wav
+2025-07-24 09:30:32 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/_pOfzIZVLFQ/00001.wav
+2025-07-24 09:31:05 - INFO - Processing entry 7: voxceleb1/id10271/PiXU2UZAh-0/00001.wav
+2025-07-24 09:31:06 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/zWyD72sHVwA/00002.wav

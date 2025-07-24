@@ -412,7 +412,7 @@ class VoxCelebSSLAttacker:
                 # Create cache path with seeding mode
                 seeding_mode = "seeded" if self.use_seeding else "unseeded"
                 # cache_root = os.path.join(self.cache_dir, f"ssl-fake-audios-05072025_16khz/{tts_method}/{seeding_mode}")
-                cache_root = os.path.join(self.cache_dir, f"original-fake-audios-05072025_16khz/{tts_method}/{seeding_mode}")
+                cache_root = os.path.join(self.cache_dir, f"ssl-original-fake-audios-05072025_16khz/{tts_method}/{seeding_mode}")
                 if self.use_seeding:
                     # Include seed in filename when seeding is used
                     name, ext = os.path.splitext(audio_filename)
@@ -791,9 +791,11 @@ class VoxCelebSSLAttacker:
 
 def main():
     parser = argparse.ArgumentParser(description='VoxCeleb Speech Verification Attack Script using SSL Models')
-    parser.add_argument('--ssl_config', type=str, required=True,
+    ssl_config = "models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml"
+    ssl_checkpoint = "model_avg.pt"
+    parser.add_argument('--ssl_config', type=str, default=ssl_config,
                        help='Path to SSL model config file (required)')
-    parser.add_argument('--ssl_checkpoint', type=str, default='model_latest.pt',
+    parser.add_argument('--ssl_checkpoint', type=str, default=ssl_checkpoint,
                        help='SSL model checkpoint name (default: model_latest.pt)')
     parser.add_argument('--tts', type=str, default='F5TTS', 
                        help='TTS model to use (F5TTS recommended for voice cloning)')

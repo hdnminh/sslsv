@@ -1,0 +1,51 @@
+
+FAKE SCORE DISTRIBUTION ANALYSIS
+==================================================
+
+Label 0 Statistics:
+------------------------------
+Sample size: 18809
+Fake scores:
+  Range: [0.349, 0.774]
+  Mean ± Std: 0.521 ± 0.052
+  Median: 0.516
+Original scores:
+  Range: [0.336, 0.789]
+  Mean ± Std: 0.528 ± 0.053
+  Median: 0.522
+
+Fake Score Percentiles (Label 0):
+  1th percentile: 0.419
+  5th percentile: 0.444
+  10th percentile: 0.459
+  25th percentile: 0.485
+  50th percentile: 0.516
+  75th percentile: 0.551
+  90th percentile: 0.589
+  95th percentile: 0.614
+  99th percentile: 0.663
+
+Label 1 Statistics:
+------------------------------
+Sample size: 18802
+Fake scores:
+  Range: [0.471, 0.947]
+  Mean ± Std: 0.748 ± 0.066
+  Median: 0.750
+Original scores:
+  Range: [0.537, 1.000]
+  Mean ± Std: 0.779 ± 0.067
+  Median: 0.779
+
+Fake Score Percentiles (Label 1):
+  1th percentile: 0.588
+  5th percentile: 0.635
+  10th percentile: 0.661
+  25th percentile: 0.704
+  50th percentile: 0.750
+  75th percentile: 0.795
+  90th percentile: 0.833
+  95th percentile: 0.856
+  99th percentile: 0.891
+
+Plots saved to 'sv_ssl_attack_results_05072025_16khz/analysis_voxceleb_ssl_attack_results-ssl-model_avg-F5TTS-all-seeded-cached/' directory

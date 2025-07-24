@@ -1,0 +1,81 @@
+THRESHOLD ANALYSIS RESULTS
+==================================================
+
+Label 0:
+------------------------------
+Total samples: 18809
+Original scores - Mean: 0.527549, Std: 0.052594
+Fake scores - Mean: 0.520597, Std: 0.051561
+
+Below Threshold Analysis:
+
+Threshold 0.6:
+Number of cases: 17398 (92.5%)
+Original scores - Mean: 0.518878, Std: 0.043406
+Fake scores - Mean: 0.511612, Std: 0.041701
+Average drop: 0.007266
+Max drop: 0.176270
+Min drop: -0.107506
+
+Fake Score Distribution:
+5th percentile: 0.442586
+25th percentile: 0.482244
+50th percentile: 0.511128
+75th percentile: 0.541814
+95th percentile: 0.581550
+
+Sample cases (first 5):
+Original: 0.540490, Fake: 0.530639, Drop: 0.009850
+Text: all over the place and he was going to shoot the
+Original: 0.548154, Fake: 0.538040, Drop: 0.010114
+Text: I announced five years ago that I'd run in May 2020. So that's kind of weird because you normally...
+Original: 0.596214, Fake: 0.591620, Drop: 0.004594
+Text: the next performance I didn't get the laugh, which taught me a valuable lesson that you don't do it yourself.
+Original: 0.602113, Fake: 0.574631, Drop: 0.027482
+Text: spent two years with Henry Fonda, Peter O'Toole, Al Pacino,
+Original: 0.484583, Fake: 0.510948, Drop: -0.026365
+Text: And then the painting was kind of awkward and kind of large. And they wanted me to hold it so that you could see it in certain shots. And then the cigarette is actually really heavy.
+
+------------------------------
+
+==================================================
+
+Label 1:
+------------------------------
+Total samples: 18802
+Original scores - Mean: 0.778677, Std: 0.066925
+Fake scores - Mean: 0.748470, Std: 0.066482
+
+Below Threshold Analysis:
+
+Threshold 0.6:
+Number of cases: 292 (1.6%)
+Original scores - Mean: 0.652387, Std: 0.064884
+Fake scores - Mean: 0.576734, Std: 0.021368
+Average drop: 0.075653
+Max drop: 0.460366
+Min drop: -0.033516
+
+Fake Score Distribution:
+5th percentile: 0.538177
+25th percentile: 0.568229
+50th percentile: 0.582942
+75th percentile: 0.591429
+95th percentile: 0.598445
+
+Sample cases (first 5):
+Original: 0.591041, Fake: 0.531564, Drop: 0.059477
+Text: getting to a point in their lives where they are just about able to start paying back their parents for whatever that
+Original: 0.684177, Fake: 0.597081, Drop: 0.087097
+Text: do the other hoping that the conductor wouldn't see me because they used to have conduct
+Original: 0.633772, Fake: 0.553946, Drop: 0.079825
+Text: because I was trying to get away from her, but where do you go? What do you do?
+Original: 0.658355, Fake: 0.588225, Drop: 0.070131
+Text: because it's based in an international city. New York's the capital of the world. It has people's forums.
+Original: 0.708637, Fake: 0.569362, Drop: 0.139275
+Text: Yeah, the protocol's sound returns. It's good fun.
+
+------------------------------
+
+==================================================
+

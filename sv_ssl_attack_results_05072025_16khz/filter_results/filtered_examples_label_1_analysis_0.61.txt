@@ -1,0 +1,18 @@
+FILTERED EXAMPLES ANALYSIS
+==================================================
+
+Total filtered cases: 410
+
+LABEL DISTRIBUTION
+------------------------------
+Label 1: 410 cases (100.0%)
+
+TRANSCRIPT ANALYSIS
+------------------------------
+Word Count:
+  Mean: 22.25
+  Std: 21.28
+  Min: 5
+  Max: 158
+  Median: 16.00
+

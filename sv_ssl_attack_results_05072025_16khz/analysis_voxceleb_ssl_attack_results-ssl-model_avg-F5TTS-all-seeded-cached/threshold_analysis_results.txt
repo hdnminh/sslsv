@@ -1,0 +1,121 @@
+THRESHOLD ANALYSIS RESULTS
+==================================================
+
+Label 0:
+------------------------------
+Total samples: 18809
+Original scores - Mean: 0.528, Std: 0.053
+Fake scores - Mean: 0.521, Std: 0.052
+
+Below Threshold Analysis:
+
+Threshold 0.67:
+Number of cases: 18670 (99.3%)
+Original scores - Mean: 0.526, Std: 0.051
+Fake scores - Mean: 0.519, Std: 0.050
+Average drop: 0.007
+Max drop: 0.185
+Min drop: -0.108
+
+Fake Score Distribution:
+Sample size for percentiles: 18670
+
+Percentile Range Analysis:
+------------------------------
+5th percentile: 0.444
+25th percentile: 0.485
+50th percentile: 0.515
+75th percentile: 0.550
+95th percentile: 0.609
+
+Outlier Analysis:
+IQR: 0.066
+Lower bound (Q1 - 1.5*IQR): 0.386
+Upper bound (Q3 + 1.5*IQR): 0.649
+Number of outliers: 198 (1.1%)
+Low outliers: 11 cases
+High outliers: 187 cases
+Extreme values (beyond 3*IQR): 0 cases
+Extreme lower bound: 0.288
+Extreme upper bound: 0.747
+
+Sample cases (first 5):
+Speaker=voxceleb1, Video=id10300, File=ize_eiCFEg0
+Original: 0.540, Fake: 0.531, Drop: 0.010
+Text: all over the place and he was going to shoot the
+Speaker=voxceleb1, Video=id10273, File=0OCW1HUxZyg
+Original: 0.548, Fake: 0.538, Drop: 0.010
+Text: I announced five years ago that I'd run in May 2020. So that's kind of weird because you normally...
+Speaker=voxceleb1, Video=id10284, File=Uzxv7Axh3Z8
+Original: 0.596, Fake: 0.592, Drop: 0.005
+Text: the next performance I didn't get the laugh, which taught me a valuable lesson that you don't do it yourself.
+Speaker=voxceleb1, Video=id10284, File=7yx9A0yzLYk
+Original: 0.602, Fake: 0.575, Drop: 0.027
+Text: spent two years with Henry Fonda, Peter O'Toole, Al Pacino,
+Speaker=voxceleb1, Video=id10285, File=m-uILToQ9ss
+Original: 0.485, Fake: 0.511, Drop: -0.026
+Text: And then the painting was kind of awkward and kind of large. And they wanted me to hold it so that you could see it in certain shots. And then the cigarette is actually really heavy.
+
+------------------------------
+
+==================================================
+
+Label 1:
+------------------------------
+Total samples: 18802
+Original scores - Mean: 0.779, Std: 0.067
+Fake scores - Mean: 0.748, Std: 0.066
+
+Below Threshold Analysis:
+
+Threshold 0.67:
+Number of cases: 2333 (12.4%)
+Original scores - Mean: 0.683, Std: 0.047
+Fake scores - Mean: 0.635, Std: 0.029
+Average drop: 0.048
+Max drop: 0.460
+Min drop: -0.076
+
+Fake Score Distribution:
+Sample size for percentiles: 2333
+
+Percentile Range Analysis:
+------------------------------
+5th percentile: 0.578
+25th percentile: 0.620
+50th percentile: 0.643
+75th percentile: 0.658
+95th percentile: 0.668
+
+Outlier Analysis:
+IQR: 0.038
+Lower bound (Q1 - 1.5*IQR): 0.563
+Upper bound (Q3 + 1.5*IQR): 0.715
+Number of outliers: 58 (2.5%)
+Low outliers: 58 cases
+High outliers: 0 cases
+Extreme values (beyond 3*IQR): 4 cases
+Extreme lower bound: 0.506
+Extreme upper bound: 0.772
+
+Sample cases (first 5):
+Speaker=voxceleb1, Video=id10270, File=OhfKF8FSq3Y
+Original: 0.674, Fake: 0.662, Drop: 0.011
+Text: getting to a point in their lives where they are just about able to start paying back their parents for whatever that
+Speaker=voxceleb1, Video=id10270, File=x6uYqmx31kE
+Original: 0.695, Fake: 0.655, Drop: 0.040
+Text: the United States so that I would be not seen and therefore I'm
+Speaker=voxceleb1, Video=id10270, File=8jEAjG6SegY
+Original: 0.709, Fake: 0.664, Drop: 0.045
+Text: He came to my house in Beverly Hills and asked me if I would do Salim Laloun.
+Speaker=voxceleb1, Video=id10270, File=GWXujl-xAVM
+Original: 0.647, Fake: 0.609, Drop: 0.037
+Text: to be in that position. They have to know about how to take care of business. They have to know how to
+Speaker=voxceleb1, Video=id10270, File=OhfKF8FSq3Y
+Original: 0.591, Fake: 0.532, Drop: 0.059
+Text: getting to a point in their lives where they are just about able to start paying back their parents for whatever that
+
+------------------------------
+
+==================================================
+

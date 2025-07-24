@@ -1,0 +1,3152 @@
+[
+  {
+    "original": 0.43488406389951706,
+    "fake": 0.39441345632076263,
+    "drop": 0.040470607578754425,
+    "target_transcript": "but now he listens to me I think every time me and Emmett I direct him we have",
+    "target_audio_rel": "voxceleb1/id10293/X7uOKQUYTCM/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10286/gkDeAS985L4/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.40703944861888885,
+    "fake": 0.39474573731422424,
+    "drop": 0.012293711304664612,
+    "target_transcript": "No, but I have a feeling that there's some affinity. You know, if you think of, what's the word, where you're resurrected, where you come back as someone else. What is that word?",
+    "target_audio_rel": "voxceleb1/id10284/RNYNkXzY5Hk/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10295/iVxjBZtQwBg/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.42135529965162277,
+    "fake": 0.3973974660038948,
+    "drop": 0.023957833647727966,
+    "target_transcript": "I imagine how unsettling this is. A new name, suddenly the most powerful man in town stops at your table and says hello.",
+    "target_audio_rel": "voxceleb1/id10294/ba0ZhyVTodw/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10271/PfcJLmkhGbk/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.41220031678676605,
+    "fake": 0.41049784421920776,
+    "drop": 0.0017024725675582886,
+    "target_transcript": "because you're smelling smog all day long out there in the middle of that set. It wasn't the easiest thing in the world by any means.",
+    "target_audio_rel": "voxceleb1/id10300/fAe7DXqrZls/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10293/rZQMeH1FCvM/00013.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4566524177789688,
+    "fake": 0.41110771894454956,
+    "drop": 0.04554469883441925,
+    "target_transcript": "do that much CGI. Like the vast majority, well I mean there's obviously a bit in terms of enhancing stuff, but the vast majority was Paul wanted to go back to shooting the way he would with everything in camera. So he had all these kind of really crazy locations, like there's this, if you remember the really",
+    "target_audio_rel": "voxceleb1/id10293/vD3qGRbmXws/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10287/I99R40TUF1s/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4320198968052864,
+    "fake": 0.4168843626976013,
+    "drop": 0.015135534107685089,
+    "target_transcript": "We just have to do our best in all the work that we do and enjoy the work we do and stick our fingers up to anyone who says.",
+    "target_audio_rel": "voxceleb1/id10291/d2Lasybvo7s/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10275/CVUXDNZzcmA/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4039174020290375,
+    "fake": 0.4170130491256714,
+    "drop": -0.013095647096633911,
+    "target_transcript": "I like to play that game when I watch animated films, like trying to guess the celebrity. Sure, sure, I do that too. Yeah, and I think we're gonna stump a lot of people with this one. I think it will.",
+    "target_audio_rel": "voxceleb1/id10286/L2jRsPDZGgw/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10293/rZQMeH1FCvM/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.43367957323789597,
+    "fake": 0.423090361058712,
+    "drop": 0.01058921217918396,
+    "target_transcript": "I don't think I do either. But I understand them now being in my 40s. I understand their mistakes. I don't condone them, but I understand them. And I'm not angry with either of them anymore. I think...",
+    "target_audio_rel": "voxceleb1/id10297/kWOMY99knWI/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10273/prqT1CcDqMc/00023.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4467192217707634,
+    "fake": 0.4277909845113754,
+    "drop": 0.01892823725938797,
+    "target_transcript": "battle depression or anxiety do you know what to do start reaching out by visiting activeminds.org cb",
+    "target_audio_rel": "voxceleb1/id10274/YCIIiIR9B60/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10270/GWXujl-xAVM/00011.wav",
+    "label": 0
+  },
+  {
+    "original": 0.432948037981987,
+    "fake": 0.42891260981559753,
+    "drop": 0.004035428166389465,
+    "target_transcript": "in terms of the execution of it for more than a couple months in terms of actual",
+    "target_audio_rel": "voxceleb1/id10309/qFrRfhWombs/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10300/TMBdUkVfwOg/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4737307019531727,
+    "fake": 0.4302028715610504,
+    "drop": 0.04352783039212227,
+    "target_transcript": "because it's like a satire and stuff we draw a very sharp line in the sand at the end",
+    "target_audio_rel": "voxceleb1/id10276/FDhJhEu0JUM/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10278/Pp-rAswo4Xg/00021.wav",
+    "label": 0
+  },
+  {
+    "original": 0.40944238007068634,
+    "fake": 0.43100398778915405,
+    "drop": -0.021561607718467712,
+    "target_transcript": "The shows were the funniest shows I had seen since I'd been in California.",
+    "target_audio_rel": "voxceleb1/id10278/QOq66XogW3Q/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10282/hgB5ziAudzU/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4511265344917774,
+    "fake": 0.4335511773824692,
+    "drop": 0.017575357109308243,
+    "target_transcript": "Well, for me, Canada Day is also my son's birthday. He was born in the States. He's American-born, but on Canada Day. So we're usually up there. My wife and son are up there right now in Canada in our house in Vancouver with the fireworks and the barbecue, you know, very much the same as here. But I missed it because I'm still in New York finishing up a show in Brazil.",
+    "target_audio_rel": "voxceleb1/id10296/tlP585mCdl0/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10306/XcXDiYWIS6E/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4464403763413429,
+    "fake": 0.4349108785390854,
+    "drop": 0.011529497802257538,
+    "target_transcript": "She gets anxiety. She needs to be like sedated before she gets in the chair. I have the greatest dentist.",
+    "target_audio_rel": "voxceleb1/id10295/NkqrS8yJOL0/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10273/eLl_yTeuaKo/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4559456706047058,
+    "fake": 0.43583231419324875,
+    "drop": 0.020113356411457062,
+    "target_transcript": "some survivors, also talking to some people in my life who are survivors in a similar way, like a really similar way to credence that specifically in foster care, you know, the trauma of",
+    "target_audio_rel": "voxceleb1/id10309/rqaAm4bEsXc/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10303/Zs8VK91yVMI/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.421538271009922,
+    "fake": 0.4359186738729477,
+    "drop": -0.014380402863025665,
+    "target_transcript": "And there were two shows left, and Jay had a vacation.",
+    "target_audio_rel": "voxceleb1/id10278/R_h7875g_PI/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00015.wav",
+    "label": 0
+  },
+  {
+    "original": 0.43985428661108017,
+    "fake": 0.4376060180366039,
+    "drop": 0.002248268574476242,
+    "target_transcript": "you know, hour and a half, two hours. It's quite surreal. I watch a lot of telly. I don't read a lot of books, but I know a lot of facts which I sort of weave in between. I do a lot of stuff on history-based things and talk about the Romans.",
+    "target_audio_rel": "voxceleb1/id10273/hW0Q6eHqN-U/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10287/I99R40TUF1s/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4518884867429733,
+    "fake": 0.4377731531858444,
+    "drop": 0.014115333557128906,
+    "target_transcript": "So TC is suffering an awful lot from having been in Afghanistan and now he's working in the ER And the reason why he works in the ER and the night shift is because it still gives him that",
+    "target_audio_rel": "voxceleb1/id10293/k1jiAINXHRI/00019.wav",
+    "ref_audio_rel": "voxceleb1/id10279/DTbpchx4xes/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.43047425150871277,
+    "fake": 0.4377797693014145,
+    "drop": -0.007305517792701721,
+    "target_transcript": "I would say that the best thing that can happen in America, and more and more the big companies are finding it out, they're devoting certain of their funds into the arts. Because you must, people must have more than just the arts.",
+    "target_audio_rel": "voxceleb1/id10284/RNYNkXzY5Hk/00016.wav",
+    "ref_audio_rel": "voxceleb1/id10295/3tvnlmkCiTw/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5110748391598463,
+    "fake": 0.43811434507369995,
+    "drop": 0.07296049408614635,
+    "target_transcript": "with John, like, playing Don. He's, like, crying, and I'm, like, trying to get the cats to be quiet.",
+    "target_audio_rel": "voxceleb1/id10285/m-uILToQ9ss/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10306/uzt36PBzT2w/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.44103115797042847,
+    "fake": 0.4387408457696438,
+    "drop": 0.0022903122007846832,
+    "target_transcript": "I was skiing with my family and my manager was like, there's this roll on castle.",
+    "target_audio_rel": "voxceleb1/id10275/mWZ3l5OoyVI/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10306/5jsUg3uxG-E/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4500408247113228,
+    "fake": 0.4398118816316128,
+    "drop": 0.010228943079710007,
+    "target_transcript": "fiercely protective of her man and she'll do absolutely anything for him. There's quite a few scenes where she tries to save his neck basically because he's...",
+    "target_audio_rel": "voxceleb1/id10282/neQO6_CUY4w/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10300/8EDKH42GZ1o/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4220452904701233,
+    "fake": 0.44008781760931015,
+    "drop": -0.01804252713918686,
+    "target_transcript": "each other tips but hers was I thought was impeccable she did such a good job.",
+    "target_audio_rel": "voxceleb1/id10286/mYc2BIS0zWU/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10298/6qFnVechX9o/00020.wav",
+    "label": 0
+  },
+  {
+    "original": 0.472506545484066,
+    "fake": 0.4406820312142372,
+    "drop": 0.031824514269828796,
+    "target_transcript": "I'm lucky to play a character that people love as opposed to playing the villain where I don't get, you know,",
+    "target_audio_rel": "voxceleb1/id10279/4Q1IvdayPR8/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10278/iEAqbqZ7dDg/00018.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46045446395874023,
+    "fake": 0.44102824479341507,
+    "drop": 0.019426219165325165,
+    "target_transcript": "the biggest influence on me. And also Rosemary's Baby is a very clever film, because that also looks at society and looks at drama, the people and relationships. It's not just about a horror film, it's an awful lot more.",
+    "target_audio_rel": "voxceleb1/id10293/Mp1IXRquJ9s/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10298/U_1vfIVOigA/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4655966944992542,
+    "fake": 0.4416155144572258,
+    "drop": 0.023981180042028427,
+    "target_transcript": "Your guts are ripped out because you know these people love each other.",
+    "target_audio_rel": "voxceleb1/id10302/VRCidrXwd1s/00027.wav",
+    "ref_audio_rel": "voxceleb1/id10306/U4FY88wt4w8/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4345163255929947,
+    "fake": 0.44281044229865074,
+    "drop": -0.008294116705656052,
+    "target_transcript": "So I signed the deal with with CBS and I guess they clinched Allen and",
+    "target_audio_rel": "voxceleb1/id10278/rgcxEM5jOc4/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10283/vaK4t1-WD4M/00037.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4879237972199917,
+    "fake": 0.44313259422779083,
+    "drop": 0.04479120299220085,
+    "target_transcript": "stick to, I will never get even close to the way you play.",
+    "target_audio_rel": "voxceleb1/id10292/3kzw8lTcUBU/00014.wav",
+    "ref_audio_rel": "voxceleb1/id10290/HYiqXC0B3iY/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.45654386281967163,
+    "fake": 0.444415096193552,
+    "drop": 0.012128766626119614,
+    "target_transcript": "continued success that show just doesn't stop but I had a great time working on that show and I wish them all the best.",
+    "target_audio_rel": "voxceleb1/id10295/3tvnlmkCiTw/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10276/HrA2BLcLApA/00019.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49544940888881683,
+    "fake": 0.4447714053094387,
+    "drop": 0.05067800357937813,
+    "target_transcript": "and then trans and so I said okay I'm transgender and then so I thought you're transvestite",
+    "target_audio_rel": "voxceleb1/id10273/ZpPPaMazpf0/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10291/4aLg_keiGHw/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4586217403411865,
+    "fake": 0.44598493352532387,
+    "drop": 0.012636806815862656,
+    "target_transcript": "me, myself, doesn't really matter. It's all about the way I sound. So I had to remember that and get used to and comfortable that it doesn't matter about the emotion in your eyes. You have to portray the emotion that would be in your eyes and your voice. So you have to just get those layers into the way you talk.",
+    "target_audio_rel": "voxceleb1/id10286/7I1GtGzVfmw/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10273/eLl_yTeuaKo/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4540216661989689,
+    "fake": 0.4460837095975876,
+    "drop": 0.007937956601381302,
+    "target_transcript": "to see my kids working in a scene with Catherine O'Hara. It is totally surreal.",
+    "target_audio_rel": "voxceleb1/id10304/WBN84VSZbIQ/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00029.wav",
+    "label": 0
+  },
+  {
+    "original": 0.473849268630147,
+    "fake": 0.44665173813700676,
+    "drop": 0.02719753049314022,
+    "target_transcript": "The shows were the funniest shows I had seen since I'd been in California.",
+    "target_audio_rel": "voxceleb1/id10278/QOq66XogW3Q/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10306/ehwAeTUqH0s/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4546332322061062,
+    "fake": 0.44733691215515137,
+    "drop": 0.007296320050954819,
+    "target_transcript": "Make sure that it's right also. I mean with being with other English actors in the film",
+    "target_audio_rel": "voxceleb1/id10286/Qkll9n7U5ak/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10273/xN2fSTQHHkw/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4293418228626251,
+    "fake": 0.4474962577223778,
+    "drop": -0.018154434859752655,
+    "target_transcript": "Cambodian man who ran a little stand, a sort of neat-ix. And he used to smile at me. We spoke nothing together, you know, but he'd smile at me because I was",
+    "target_audio_rel": "voxceleb1/id10284/RNYNkXzY5Hk/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10274/7rkVfW2yw0c/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4455105848610401,
+    "fake": 0.44750216603279114,
+    "drop": -0.0019915811717510223,
+    "target_transcript": "because I'm a human being, I'm an American citizen, I happen to love this country.",
+    "target_audio_rel": "voxceleb1/id10270/8jEAjG6SegY/00014.wav",
+    "ref_audio_rel": "voxceleb1/id10295/vHpJ0TSVKZs/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46273136138916016,
+    "fake": 0.45016104727983475,
+    "drop": 0.012570314109325409,
+    "target_transcript": "Maybe this connects, maybe this doesn't connect. Maybe I'm just talking about it because I'm obsessed with",
+    "target_audio_rel": "voxceleb1/id10309/Zx-zA-D_DvI/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10294/oTRparDs-84/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48424749076366425,
+    "fake": 0.4509996511042118,
+    "drop": 0.03324783965945244,
+    "target_transcript": "I worked very hard with a fabulous voice coach for weeks before filming and because it was so important to me that we got it Right, you know, it's it",
+    "target_audio_rel": "voxceleb1/id10282/U3xR3MZjEVg/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10300/mYSVs_d1aMQ/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4587534964084625,
+    "fake": 0.4531623125076294,
+    "drop": 0.00559118390083313,
+    "target_transcript": "liked my body and they liked me as a personality so they would call me and they would give me the clothes that they thought were still",
+    "target_audio_rel": "voxceleb1/id10270/GWXujl-xAVM/00040.wav",
+    "ref_audio_rel": "voxceleb1/id10302/2Er-cV85fc4/00017.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46432409062981606,
+    "fake": 0.4535290561616421,
+    "drop": 0.01079503446817398,
+    "target_transcript": "I said that I was extremely secure and I felt that everything is going to go smoothly in this film. But when I met everyone, assuming these things in the beginning, when you sign the film and",
+    "target_audio_rel": "voxceleb1/id10292/azw51ZGuz9k/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10306/tuOl16Buy1Y/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4547840505838394,
+    "fake": 0.45360267162323,
+    "drop": 0.001181378960609436,
+    "target_transcript": "Jeff Love called me and said, Elodie, Mr Jeff Love, I was like, oh!",
+    "target_audio_rel": "voxceleb1/id10289/8l5ZnDf-FUA/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10293/rZQMeH1FCvM/00013.wav",
+    "label": 0
+  },
+  {
+    "original": 0.45339031517505646,
+    "fake": 0.4536949172616005,
+    "drop": -0.00030460208654403687,
+    "target_transcript": "You need to check this out. People are saying this is you on the Internet naked.",
+    "target_audio_rel": "voxceleb1/id10299/IwB3vu418E4/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00033.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4725071154534817,
+    "fake": 0.4543193653225899,
+    "drop": 0.0181877501308918,
+    "target_transcript": "There's a thing called encore where they revive little pieces of great great musicals of the past",
+    "target_audio_rel": "voxceleb1/id10284/7yx9A0yzLYk/00018.wav",
+    "ref_audio_rel": "voxceleb1/id10293/Mp1IXRquJ9s/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4622120074927807,
+    "fake": 0.4554012790322304,
+    "drop": 0.006810728460550308,
+    "target_transcript": "on stage and stand with Billy Idol while he sang all those parts.",
+    "target_audio_rel": "voxceleb1/id10274/89UnsytX6Y8/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10302/K2_D_tFdAgY/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4657977670431137,
+    "fake": 0.4555714800953865,
+    "drop": 0.010226286947727203,
+    "target_transcript": "Like I said, it is what it is. I'm very happy to be a part of it. I don't understand sometimes.",
+    "target_audio_rel": "voxceleb1/id10301/UkrkPwZd77Y/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10280/d7S0qeo6EP0/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4452976584434509,
+    "fake": 0.4559217393398285,
+    "drop": -0.010624080896377563,
+    "target_transcript": "and we all come out of Africa and we come from the same people. So we were a small group of about 10,000 people.",
+    "target_audio_rel": "voxceleb1/id10273/5TWpQYtboq0/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10274/wH6ebv-K8AA/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4945285562425852,
+    "fake": 0.4560415744781494,
+    "drop": 0.03848698176443577,
+    "target_transcript": "and through. So they are committed to each other. They've seen everything.",
+    "target_audio_rel": "voxceleb1/id10281/RDFdX3VxjUQ/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10278/R_h7875g_PI/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46750458329916,
+    "fake": 0.4567083828151226,
+    "drop": 0.0107962004840374,
+    "target_transcript": "the guild voted to support Vanessa Redgrave in her lawsuit against the Boston Pop.",
+    "target_audio_rel": "voxceleb1/id10278/DSGE2F5sTcg/00026.wav",
+    "ref_audio_rel": "voxceleb1/id10282/qkZNuvX1UNo/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4653417244553566,
+    "fake": 0.456860464066267,
+    "drop": 0.008481260389089584,
+    "target_transcript": "And that's why I think people should wash it. Because I think everybody can relate to it.",
+    "target_audio_rel": "voxceleb1/id10275/LqcUAxrtYOk/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10291/7lrVxsJOOZ4/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47759948670864105,
+    "fake": 0.4573860876262188,
+    "drop": 0.020213399082422256,
+    "target_transcript": "Love or relate to someone else if you can't first love and relate to",
+    "target_audio_rel": "voxceleb1/id10309/XMLMvfrgdzY/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10273/oBaIbyCrTVw/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.45128531008958817,
+    "fake": 0.457556314766407,
+    "drop": -0.006271004676818848,
+    "target_transcript": "my injuries in my ass. That's a really common thing.",
+    "target_audio_rel": "voxceleb1/id10277/8k8XnF__uKc/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10296/Y-qKARMSO7k/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4751665387302637,
+    "fake": 0.45774465054273605,
+    "drop": 0.017421888187527657,
+    "target_transcript": "draft of it I read it and I said oh my god I'm going back to TV because this is the funniest role I've ever ever",
+    "target_audio_rel": "voxceleb1/id10307/IASj5B-pAyM/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10293/k1jiAINXHRI/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4884268119931221,
+    "fake": 0.4578065127134323,
+    "drop": 0.03062029927968979,
+    "target_transcript": "But comedy is all about timing and all about the rhythm of the words and the pace of the editing and the pace of the camera choreography so that's why I wanted to produce the show that I was going to be in and that's why I like producing comedies.",
+    "target_audio_rel": "voxceleb1/id10307/120gjdqGWNQ/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10293/Mp1IXRquJ9s/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48258229717612267,
+    "fake": 0.4578089714050293,
+    "drop": 0.02477332577109337,
+    "target_transcript": "Just tried to remember all the nutty things I did and wanted to repeat.",
+    "target_audio_rel": "voxceleb1/id10278/iEAqbqZ7dDg/00014.wav",
+    "ref_audio_rel": "voxceleb1/id10279/DTbpchx4xes/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4585254490375519,
+    "fake": 0.4580492526292801,
+    "drop": 0.00047619640827178955,
+    "target_transcript": "characters that are quite complex and dense and not I'm not doing movies just because it's supernatural I don't really",
+    "target_audio_rel": "voxceleb1/id10306/IANjHJYjfW8/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10275/CVUXDNZzcmA/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4649737924337387,
+    "fake": 0.4580717645585537,
+    "drop": 0.006902027875185013,
+    "target_transcript": "Yeah, I think at the heart of it, you know, it's the story of an underdog, it's the story of a real romance, and, you know, you have these incredibly relatable characters at the heart of it. I think that's what people love about it. And, you know, it was such a huge success before, so, you know, doing a new adaptation of it was incredibly scary because, obviously, you want it to be as good as the first.",
+    "target_audio_rel": "voxceleb1/id10282/neQO6_CUY4w/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10300/2cAiIYHfon0/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.45252928882837296,
+    "fake": 0.45832260698080063,
+    "drop": -0.005793318152427673,
+    "target_transcript": "to make me a better director. It's actually much easier to direct at 40 than at 30.",
+    "target_audio_rel": "voxceleb1/id10283/cmG1DiHm-fM/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10298/U_1vfIVOigA/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4489715248346329,
+    "fake": 0.45837805792689323,
+    "drop": -0.00940653309226036,
+    "target_transcript": "So, Shelley was playing cards with...",
+    "target_audio_rel": "voxceleb1/id10300/fAe7DXqrZls/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10275/LqcUAxrtYOk/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4583471491932869,
+    "fake": 0.4587685130536556,
+    "drop": -0.00042136386036872864,
+    "target_transcript": "They had a scene that they had mocked up for the reading that I read, and it didn't say anything about McSteamy, but nothing bad has come of it.",
+    "target_audio_rel": "voxceleb1/id10295/D8jV1M4V6UQ/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10276/AjY0B7kh_-k/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4958235900849104,
+    "fake": 0.4596078246831894,
+    "drop": 0.036215765401721,
+    "target_transcript": "After that I got better offers than before.",
+    "target_audio_rel": "voxceleb1/id10292/k_FB95mWrFc/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10277/tbh20gz_KRA/00020.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4634329304099083,
+    "fake": 0.4600210562348366,
+    "drop": 0.0034118741750717163,
+    "target_transcript": "We haven't started yet. I mean, we're just beginning to talk about casting. I was offered the part.",
+    "target_audio_rel": "voxceleb1/id10287/4oOmqI1myzY/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10276/5YncBThNd5E/00020.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46439385414123535,
+    "fake": 0.4603979364037514,
+    "drop": 0.003995917737483978,
+    "target_transcript": "said, listen, there's a whole group of Girl Scouts that came by and they're taking the picture and everything else. Would you mind taking a picture with them? I said, no, not at all. So we walked over and these girls had given a whole truckload of cookies and sent them over to a rack for the boys. And I said, marvelous, you know. And do you know who I am?",
+    "target_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00018.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.488982567563653,
+    "fake": 0.46070346236228943,
+    "drop": 0.028279105201363564,
+    "target_transcript": "Thank you. I want to make a very different type of movie than Green Inferno. You know, obviously Green Inferno is like my mic drop. I mean, I don't know where to go from there. So I remember Peter Jackson after he made a Brain Dead, he went to Heavenly Creatures and that was the kind of film I wanted to do. I wanted to show a movie that really had one drop of blood basically in the movie, but still had that same amount of tension that was really an actor's piece that you could show the range of Lorenzo, who's so different as Justine in Green Inferno to Genesis in Knock Knock. Aaron Burns, who's Jonah, the kind of nice goofy guy.",
+    "target_audio_rel": "voxceleb1/id10283/u3s9xdUlmmk/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10274/s7vZT3_8Smo/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4960113223642111,
+    "fake": 0.46072665601968765,
+    "drop": 0.03528466634452343,
+    "target_transcript": "Yeah, we just kind of go, oh, let's just pull from this real world.",
+    "target_audio_rel": "voxceleb1/id10307/120gjdqGWNQ/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10277/znxUWA2QAGs/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49486507289111614,
+    "fake": 0.4608893617987633,
+    "drop": 0.03397571109235287,
+    "target_transcript": "the stories we get are real life things that have happened. You know there was a soap actress who would\u2026a telenovela actress who would randomly slap people in scenes. You never knew if you were going to get slapped. There's another woman who would get up on ladders and move her own lights. Another telenovela actress whose assistant was poisoning her in real life. So yeah.",
+    "target_audio_rel": "voxceleb1/id10307/120gjdqGWNQ/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10305/Piw0wvQbpnQ/00017.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49198260344564915,
+    "fake": 0.4609375298023224,
+    "drop": 0.03104507364332676,
+    "target_transcript": "really get stuck into. I'd quite like to do like an action film which has a bit of sword fighting or something in it, just something that I've not experienced yet.",
+    "target_audio_rel": "voxceleb1/id10282/zGjY8J48FoE/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10283/Ma_3RlzPUOM/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4800648167729378,
+    "fake": 0.4609723947942257,
+    "drop": 0.019092421978712082,
+    "target_transcript": "It's a film, but at the same time I think it's a piece of art because there's just so much coming at you visually.",
+    "target_audio_rel": "voxceleb1/id10288/UbApEUoPvzY/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10272/U-K8tabeDcI/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4539334774017334,
+    "fake": 0.46140486747026443,
+    "drop": -0.007471390068531036,
+    "target_transcript": "rely on his ethnicity but he has it there with him that soul",
+    "target_audio_rel": "voxceleb1/id10302/n5Ffz_qwr58/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10282/Zbz058o9j6s/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4514251984655857,
+    "fake": 0.4618462435901165,
+    "drop": -0.010421045124530792,
+    "target_transcript": "So, back in the day when this was happening, there were four of us living together. Three women and Dennis' character, Johnny Rock.",
+    "target_audio_rel": "voxceleb1/id10281/1CiBWgsHT4E/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10295/3tvnlmkCiTw/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4590563699603081,
+    "fake": 0.4622124992311001,
+    "drop": -0.0031561292707920074,
+    "target_transcript": "He dumps, it's like a Monty Python thing, dumps a bucket, like you're with your date, and it's just...",
+    "target_audio_rel": "voxceleb1/id10283/r9-0pljhZqs/00015.wav",
+    "ref_audio_rel": "voxceleb1/id10307/120gjdqGWNQ/00025.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4563996456563473,
+    "fake": 0.46223435923457146,
+    "drop": -0.005834713578224182,
+    "target_transcript": "number centuries 21 centuries 20 22 centuries and and",
+    "target_audio_rel": "voxceleb1/id10292/sHw5KMonD3o/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10304/7geDDtDmWQU/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46582044288516045,
+    "fake": 0.46320967376232147,
+    "drop": 0.002610769122838974,
+    "target_transcript": "People will come out of the movie and go, unless you've seen Cannibal Holocaust or Fitzcarraldo, the old Werner Herzog, I've never seen Cannibal Holocaust.",
+    "target_audio_rel": "voxceleb1/id10283/h87Y8nir1o0/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10298/DWT9P35cXT4/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.477592246606946,
+    "fake": 0.4636690318584442,
+    "drop": 0.013923214748501778,
+    "target_transcript": "exciting. I met a guy named Jacoby Ellsbury when he played for the Beavers. He's one of my favorites, plays on the Boston Red Sox. Love Pat Casey. Mike Riley is one of the best guys to deal with.",
+    "target_audio_rel": "voxceleb1/id10299/fUs5d-C3k5E/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10273/prqT1CcDqMc/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5020803667139262,
+    "fake": 0.4638332910835743,
+    "drop": 0.0382470756303519,
+    "target_transcript": "You have to laugh of everything, especially when you have troubles or problems. You have to laugh of the hard things in life, not the funny things. To laugh of a joke, it's easy.",
+    "target_audio_rel": "voxceleb1/id10305/Ih2s_PikIdI/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10300/AytdA2W0Y_M/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4607354700565338,
+    "fake": 0.463850736618042,
+    "drop": -0.0031152665615081787,
+    "target_transcript": "talk about is Cannibal Holocaust, Cannibal Holocaust. And the Hollywood report",
+    "target_audio_rel": "voxceleb1/id10283/clznvDi-ybg/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10282/37XQxZ5lBD8/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47683178819715977,
+    "fake": 0.46397511661052704,
+    "drop": 0.012856671586632729,
+    "target_transcript": "think that's the coolest part. I mean, I know he's friends with a lot of these guys. I'm a big, you know, fan.",
+    "target_audio_rel": "voxceleb1/id10299/HcyUmRYz-aE/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10294/a4msZPEjhMc/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4688860513269901,
+    "fake": 0.46407534927129745,
+    "drop": 0.004810702055692673,
+    "target_transcript": "That is more palpable than an intimate scene or a kiss and it just comes, you know, it's",
+    "target_audio_rel": "voxceleb1/id10292/V8lBsb7UJEU/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10278/LVXvQzNatXI/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4867787826806307,
+    "fake": 0.46439429372549057,
+    "drop": 0.022384488955140114,
+    "target_transcript": "You can't actually try and be someone. You can't say, I want to be that person. You can add little bits onto your own style. But my style was more sort of Woody Allen with Billy Connolly and Richard Pryor mixed in. But it's just that he did hit this godlike genius place of being able to do anything. And it was political, and it was fast, and it was impressions. And he would run through the room.",
+    "target_audio_rel": "voxceleb1/id10273/0LbtndiXJC0/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10286/mYc2BIS0zWU/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4933689013123512,
+    "fake": 0.46467893570661545,
+    "drop": 0.02868996560573578,
+    "target_transcript": "You know, it's so heartening to hear people say that...",
+    "target_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10290/HYiqXC0B3iY/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49266066681593657,
+    "fake": 0.4652011953294277,
+    "drop": 0.027459471486508846,
+    "target_transcript": "I'm thrilled to be a part of it in general. Just college football to me.",
+    "target_audio_rel": "voxceleb1/id10299/DdZRjmvZKbI/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10307/0nH78dDh0N0/00018.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4686889350414276,
+    "fake": 0.46545273810625076,
+    "drop": 0.0032361969351768494,
+    "target_transcript": "totally different personalities, but they all sort of work together.",
+    "target_audio_rel": "voxceleb1/id10286/cJ40ZqTY3dQ/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10306/YVeA3K_cPoc/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49562529660761356,
+    "fake": 0.4662594348192215,
+    "drop": 0.029365861788392067,
+    "target_transcript": "the Ambassador Hotel in Los Angeles. And I called the...",
+    "target_audio_rel": "voxceleb1/id10270/8jEAjG6SegY/00029.wav",
+    "ref_audio_rel": "voxceleb1/id10278/Pp-rAswo4Xg/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5150287188589573,
+    "fake": 0.4671063534915447,
+    "drop": 0.04792236536741257,
+    "target_transcript": "I think the defining moment was probably when my mom used to sing me nursery rhymes.",
+    "target_audio_rel": "voxceleb1/id10290/zii-zlYDpGc/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00021.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47033803910017014,
+    "fake": 0.46724094450473785,
+    "drop": 0.0030970945954322815,
+    "target_transcript": "think she should know exactly what's going on and where we are in the story.",
+    "target_audio_rel": "voxceleb1/id10280/Np6typH1VKE/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10296/p1--IINtgGg/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46270548552274704,
+    "fake": 0.46731194853782654,
+    "drop": -0.004606463015079498,
+    "target_transcript": "I wouldn't classify myself as a Boy Scout, but I did have a certain amount of outdoors experience. I spent a lot of time in Santa Fe, New Mexico.",
+    "target_audio_rel": "voxceleb1/id10290/O-V_sInAw5M/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10291/uiBjIKX_0l8/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5836711078882217,
+    "fake": 0.4677801616489887,
+    "drop": 0.11589094623923302,
+    "target_transcript": "book or kind of had to survive doing a movie no it's i think it's very much like the movies are you just kind of like hang on by the seat of your pants and you know just kind of stay in there the very first scene that i had to do was in this big massive building in johannesburg it's called the old samsung powers and it's like 60 stories high and they've covered and covered the bottom of it in concrete to kind of make it safe and it's just there's people throwing stuff down from 60 floors down on on there because they lived up there and there were some gangs that were that were kind of occupying the buildings and it was just a bit nuts and that",
+    "target_audio_rel": "voxceleb1/id10293/SJxWXqMu2ds/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10296/8X8huGiBRAc/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49408943159505725,
+    "fake": 0.46860171854496,
+    "drop": 0.025487713050097227,
+    "target_transcript": "And I was like, dude, it's not happening. And then I got a call a day later that it was really happening. And the way they got that together was they wrote a great script.",
+    "target_audio_rel": "voxceleb1/id10274/L9q6XabEpEI/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10302/_zm31vf2P7U/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4396500997245312,
+    "fake": 0.4687253162264824,
+    "drop": -0.029075216501951218,
+    "target_transcript": "right after season one and we've just lost our child so we're dealing with that and Ross is going to be tried.",
+    "target_audio_rel": "voxceleb1/id10282/qkZNuvX1UNo/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10298/hjvQiiG71rM/00022.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4812811855226755,
+    "fake": 0.46880393475294113,
+    "drop": 0.012477250769734383,
+    "target_transcript": "week because I you know and it's it's I in in you know looking back hindsight is 2020 I figured out you know if I were expecting something like that I would have seen it coming but I didn't know until the host opened the door and she pushed me into a room filled with all my friends that it was actually happening which was kind of nice",
+    "target_audio_rel": "voxceleb1/id10295/w9jwTc5wuV4/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10306/vZ56u00v6WA/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49844325170852244,
+    "fake": 0.46913826279342175,
+    "drop": 0.029304988915100694,
+    "target_transcript": "And then there's several workshops. There's a workshop that's being done by Arlene who's actually in Grey's Anatomy Where she talked about making it in Hollywood and for those of you guys who are really interested in being in the business I think it's it's a great",
+    "target_audio_rel": "voxceleb1/id10279/PQHz4fGHPK8/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10306/QRMq4DnyM3I/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4769171103835106,
+    "fake": 0.4691764637827873,
+    "drop": 0.007740646600723267,
+    "target_transcript": "I still get letters. It wasn't the most successful movie I did, but I still get letters.",
+    "target_audio_rel": "voxceleb1/id10287/I99R40TUF1s/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10292/3kzw8lTcUBU/00024.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4801685232669115,
+    "fake": 0.4695520047098398,
+    "drop": 0.010616518557071686,
+    "target_transcript": "It's a question of mutual respect between the sexes.",
+    "target_audio_rel": "voxceleb1/id10294/OiRXHy35Euk/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10280/9AtE4C309P8/00013.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47058202140033245,
+    "fake": 0.4698024243116379,
+    "drop": 0.0007795970886945724,
+    "target_transcript": "like, trying not to drop the painting, trying not to, like, bump into the walls. And then they played. They were like, What do you want to listen to? And I was like, staying alive.",
+    "target_audio_rel": "voxceleb1/id10285/m-uILToQ9ss/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10284/7yx9A0yzLYk/00019.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47074176743626595,
+    "fake": 0.46990758553147316,
+    "drop": 0.0008341819047927856,
+    "target_transcript": "Southern flavor. Stylistically, I sat down with my cameraman before we shot, and we watched Texas Chainsaw Massacre.",
+    "target_audio_rel": "voxceleb1/id10283/gAKHqHbNt2g/00017.wav",
+    "ref_audio_rel": "voxceleb1/id10286/gkDeAS985L4/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4871920309960842,
+    "fake": 0.4699689131230116,
+    "drop": 0.017223117873072624,
+    "target_transcript": "Tennessee Williams and his beautiful writing, his wonderful poetry.",
+    "target_audio_rel": "voxceleb1/id10287/2iaCNe7ajII/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10277/8rby6ETXo8Q/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4968712688423693,
+    "fake": 0.47028233855962753,
+    "drop": 0.026588930282741785,
+    "target_transcript": "few years when I took him on a film set and I had a gun in a holster so he thought I'm actually shooting for a living. But then he realised that there's a profession like acting.",
+    "target_audio_rel": "voxceleb1/id10292/gm6PJowclv0/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10307/0nH78dDh0N0/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5094891637563705,
+    "fake": 0.4703388325870037,
+    "drop": 0.03915033116936684,
+    "target_transcript": "In grammar school, you know how you go around the room and everybody reads a small book?",
+    "target_audio_rel": "voxceleb1/id10297/31XtFWtF7Sc/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10291/0kSotQgmwoI/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.467199943959713,
+    "fake": 0.47060088254511356,
+    "drop": -0.0034009385854005814,
+    "target_transcript": "I really understood a lot about 3D from him",
+    "target_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10281/ni6gO5jDLJE/00011.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4877172075212002,
+    "fake": 0.47105698473751545,
+    "drop": 0.01666022278368473,
+    "target_transcript": "They represented Tony Curtis and Anthony Quinn and Jimmy Stewart and all those people who suddenly were doing television.",
+    "target_audio_rel": "voxceleb1/id10294/WJPpL58RruA/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10270/5r0dWxy17C8/00018.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4947439432144165,
+    "fake": 0.47107057832181454,
+    "drop": 0.023673364892601967,
+    "target_transcript": "it's exactly what you would do. It's like this dream that you had and you realize that somebody else had that same dream and now you're sharing it with all these other people.",
+    "target_audio_rel": "voxceleb1/id10283/SwMoq9ZHxpw/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10286/7I1GtGzVfmw/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4975367079023272,
+    "fake": 0.4713599309325218,
+    "drop": 0.02617677696980536,
+    "target_transcript": "hink and bank, and he look like he been partying all night. Wrong dude to ask to do politics. He play basketball. I don't want the boy negotiating for me.",
+    "target_audio_rel": "voxceleb1/id10272/olePnztkm6U/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10270/8jEAjG6SegY/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.485909809358418,
+    "fake": 0.47142050229012966,
+    "drop": 0.014489307068288326,
+    "target_transcript": "lesson, acting lesson there, that the director was the only one on the set allowed to yell, cut. And I would do these scenes, and it was my first",
+    "target_audio_rel": "voxceleb1/id10295/D8jV1M4V6UQ/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10306/cc5WSHcgkl8/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46845633536577225,
+    "fake": 0.4714871533215046,
+    "drop": -0.0030308179557323456,
+    "target_transcript": "but Chick is so experienced and cool and",
+    "target_audio_rel": "voxceleb1/id10283/vaK4t1-WD4M/00030.wav",
+    "ref_audio_rel": "voxceleb1/id10300/xiFC4HwUcww/00013.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5213135723024607,
+    "fake": 0.4718248024582863,
+    "drop": 0.049488769844174385,
+    "target_transcript": "can't go because somebody got an attitude in the White House and the Capitol.",
+    "target_audio_rel": "voxceleb1/id10272/olePnztkm6U/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10309/XMLMvfrgdzY/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4536581337451935,
+    "fake": 0.47186921536922455,
+    "drop": -0.018211081624031067,
+    "target_transcript": "Like that, it just, it doesn't happen. Except for in sex and drugs.",
+    "target_audio_rel": "voxceleb1/id10281/RDFdX3VxjUQ/00019.wav",
+    "ref_audio_rel": "voxceleb1/id10305/Piw0wvQbpnQ/00016.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4681919515132904,
+    "fake": 0.47202526964247227,
+    "drop": -0.003833318129181862,
+    "target_transcript": "where this hobby we had collecting all these cards, we now have them, but we just, like, I don't know what's...",
+    "target_audio_rel": "voxceleb1/id10283/S-dgypZHvhg/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10307/120gjdqGWNQ/00016.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4683646224439144,
+    "fake": 0.4721560403704643,
+    "drop": -0.0037914179265499115,
+    "target_transcript": "dedicated to isolating Mark Sloan at the end of the season and leaving him with just himself.",
+    "target_audio_rel": "voxceleb1/id10295/ywZWrIt52KQ/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10275/Mdk1SXywHck/00017.wav",
+    "label": 0
+  },
+  {
+    "original": 0.44886424392461777,
+    "fake": 0.4723388012498617,
+    "drop": -0.02347455732524395,
+    "target_transcript": "I had to start doing yoga, I had to start doing endurance and athletic because",
+    "target_audio_rel": "voxceleb1/id10292/3kzw8lTcUBU/00015.wav",
+    "ref_audio_rel": "voxceleb1/id10277/znxUWA2QAGs/00017.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46262410283088684,
+    "fake": 0.472718583419919,
+    "drop": -0.010094480589032173,
+    "target_transcript": "and I think she's a very spiritual character, and also the way she sees herself.",
+    "target_audio_rel": "voxceleb1/id10308/rgpPBT4yQcg/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10278/R_h7875g_PI/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4774029888212681,
+    "fake": 0.47283465415239334,
+    "drop": 0.004568334668874741,
+    "target_transcript": "I just happen to have, you know, a tongue that says some things at certain times that people wouldn't expect it.",
+    "target_audio_rel": "voxceleb1/id10272/dkN2DIBrXqQ/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10305/Piw0wvQbpnQ/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4645272344350815,
+    "fake": 0.4730031080543995,
+    "drop": -0.008475873619318008,
+    "target_transcript": "various rewards in terms of copies of the script, you get to come to the screening.",
+    "target_audio_rel": "voxceleb1/id10293/BbAymRBSpPM/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10281/dX8RBKI2FKc/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49701120145618916,
+    "fake": 0.47320473566651344,
+    "drop": 0.023806465789675713,
+    "target_transcript": "Which I liked the irony of when someone came and kicked you.",
+    "target_audio_rel": "voxceleb1/id10273/oBaIbyCrTVw/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10287/bP0bKbQQlzc/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5046733655035496,
+    "fake": 0.47329589910805225,
+    "drop": 0.03137746639549732,
+    "target_transcript": "but we can actually get a film career out of playing through America.",
+    "target_audio_rel": "voxceleb1/id10273/MqKFZOAwUsg/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10278/Pp-rAswo4Xg/00031.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5154865765944123,
+    "fake": 0.4736328385770321,
+    "drop": 0.04185373801738024,
+    "target_transcript": "the character, the physicality, it's all almost...",
+    "target_audio_rel": "voxceleb1/id10309/qFrRfhWombs/00017.wav",
+    "ref_audio_rel": "voxceleb1/id10290/HYiqXC0B3iY/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48693261854350567,
+    "fake": 0.47393854707479477,
+    "drop": 0.0129940714687109,
+    "target_transcript": "Aga Khan's family. And I stopped the show and waited until each one of them sat down and they had all of these jewels on because it was one of those people, not the Aga, but one of the Aga.",
+    "target_audio_rel": "voxceleb1/id10270/GWXujl-xAVM/00017.wav",
+    "ref_audio_rel": "voxceleb1/id10298/hSC1Yb953Sg/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49786617583595216,
+    "fake": 0.4741353429853916,
+    "drop": 0.023730832850560546,
+    "target_transcript": "we all just burst into tears. It was some weird, even though we knew it was pretend, as my father said, there was the historical reality and the emotional reality.",
+    "target_audio_rel": "voxceleb1/id10283/r9-0pljhZqs/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10278/Pp-rAswo4Xg/00019.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48769579362124205,
+    "fake": 0.47453408129513264,
+    "drop": 0.01316171232610941,
+    "target_transcript": "director I've ever really loved and I probably really loved about half a dozen of them.",
+    "target_audio_rel": "voxceleb1/id10297/uxHwuJ59xNk/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10270/8jEAjG6SegY/00014.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46701978147029877,
+    "fake": 0.4748227596282959,
+    "drop": -0.007802978157997131,
+    "target_transcript": "Yeah, it showed actor one, two, and three doing the radio show, and then it would cut to all the phenomenal vignettes.",
+    "target_audio_rel": "voxceleb1/id10278/d3By4475krs/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10276/AeZoMAJ4Ejs/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4677361659705639,
+    "fake": 0.4750168975442648,
+    "drop": -0.007280731573700905,
+    "target_transcript": "too good and so he sent some agents",
+    "target_audio_rel": "voxceleb1/id10303/Zs8VK91yVMI/00022.wav",
+    "ref_audio_rel": "voxceleb1/id10304/JQtDfEz08aU/00036.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4870198108255863,
+    "fake": 0.4752231426537037,
+    "drop": 0.01179666817188263,
+    "target_transcript": "that would be the goal. We don't want to have to go and target certain races to make sure that our candidates win and you know with Citizens United and the amount of money being poured into certain campaigns that doesn't necessarily produce the best candidate. So Latino Victory Project is having to go and support these candidates who really represent amazing American values but who are losing or are in a really tight race because of",
+    "target_audio_rel": "voxceleb1/id10307/f8Ms66atECE/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10293/g2jVmC3qCNA/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4924384420737624,
+    "fake": 0.475302679464221,
+    "drop": 0.017135762609541416,
+    "target_transcript": "a misfit sort of by design in a couple different ways. I had a breath-lying stutter when I",
+    "target_audio_rel": "voxceleb1/id10309/_z_BR0ERa9g/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00029.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47053741477429867,
+    "fake": 0.47535253688693047,
+    "drop": -0.004815122112631798,
+    "target_transcript": "I think I got like on easy. I got like a 97 or something. It was not even",
+    "target_audio_rel": "voxceleb1/id10286/lBkbWztMEUY/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10273/MqKFZOAwUsg/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.45630693435668945,
+    "fake": 0.47542817145586014,
+    "drop": -0.019121237099170685,
+    "target_transcript": "It's been nothing but just an outpouring of warmth and emotion and I've never experienced",
+    "target_audio_rel": "voxceleb1/id10294/NRMQOFYS41I/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10282/Q5fbv-Wyj7k/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.43484827131032944,
+    "fake": 0.4754500016570091,
+    "drop": -0.04060173034667969,
+    "target_transcript": "But it did help me decide the fact that the security issue...",
+    "target_audio_rel": "voxceleb1/id10305/Piw0wvQbpnQ/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10284/7yx9A0yzLYk/00019.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4739324990659952,
+    "fake": 0.475803192704916,
+    "drop": -0.001870693638920784,
+    "target_transcript": "you know, serialized romance stories. And we were excited that we had something special. But just like you said, there's so much.",
+    "target_audio_rel": "voxceleb1/id10274/xbGp2KSUr0E/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10292/3kzw8lTcUBU/00026.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4998468211852014,
+    "fake": 0.4758340213447809,
+    "drop": 0.024012799840420485,
+    "target_transcript": "Then they say well, what about the Muslim God and then everyone's gonna get so angry. I said well, that's their God",
+    "target_audio_rel": "voxceleb1/id10273/prqT1CcDqMc/00022.wav",
+    "ref_audio_rel": "voxceleb1/id10280/NXjT3732Ekg/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4736364036798477,
+    "fake": 0.4762895070016384,
+    "drop": -0.002653103321790695,
+    "target_transcript": "you can't do a scratch because it would complicate the production a lot and there everything is very measured but I have had the opportunity to drive the car and I have also had the opportunity to",
+    "target_audio_rel": "voxceleb1/id10277/znxUWA2QAGs/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10300/2cAiIYHfon0/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5262121986597776,
+    "fake": 0.476495698094368,
+    "drop": 0.04971650056540966,
+    "target_transcript": "Jeff Love called me and said, Elodie, Mr Jeff Love, I was like, oh!",
+    "target_audio_rel": "voxceleb1/id10289/8l5ZnDf-FUA/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10276/HrA2BLcLApA/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4791651517152786,
+    "fake": 0.47651877254247665,
+    "drop": 0.0026463791728019714,
+    "target_transcript": "the show and my daughter Sarah is also on the show playing Twyla the waitress and Dan my son",
+    "target_audio_rel": "voxceleb1/id10304/GRv7pEnTwUc/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10272/olePnztkm6U/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49913322692736983,
+    "fake": 0.47697509452700615,
+    "drop": 0.022158132400363684,
+    "target_transcript": "Yeah, it is what this movie is about. You know, it's like You know accept who you are. Yeah, you know be strange That's what makes you beautiful",
+    "target_audio_rel": "voxceleb1/id10306/SBO7kM1IPaY/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10305/ZLzkvnq0JxI/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47442588955163956,
+    "fake": 0.4771260768175125,
+    "drop": -0.0027001872658729553,
+    "target_transcript": "He plays the president of the Spanish network and he's a white guy who speaks",
+    "target_audio_rel": "voxceleb1/id10307/wtqPC9vEZ0M/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10283/vaK4t1-WD4M/00020.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4707645196467638,
+    "fake": 0.4772462993860245,
+    "drop": -0.0064817797392606735,
+    "target_transcript": "Listen to what I'm saying, it's very important, because I feel that that feeling of omnipotence was created by Hollywood.",
+    "target_audio_rel": "voxceleb1/id10294/1l9B0dz7gjc/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10309/0cYFdtyWVds/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5037876255810261,
+    "fake": 0.477295471355319,
+    "drop": 0.026492154225707054,
+    "target_transcript": "And we often used to say, no, no, don't go near it because, no, we can't tell. We never said a word about it, you know. And everybody believed it. My goodness, this is really something. And we actually had thoughts that the Russians were kind of leery.",
+    "target_audio_rel": "voxceleb1/id10300/xiFC4HwUcww/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10292/6tjKon0hiy4/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47651861049234867,
+    "fake": 0.47793474793434143,
+    "drop": -0.0014161374419927597,
+    "target_transcript": "few films. The first film, I think the first filmmaker who",
+    "target_audio_rel": "voxceleb1/id10292/ENIHEvg_VLM/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47955087572336197,
+    "fake": 0.47801217809319496,
+    "drop": 0.0015386976301670074,
+    "target_transcript": "will connect with the product. First with the promo, then with the poster, the audience, 80% of the audience they say makes up their mind on the first look of the product.",
+    "target_audio_rel": "voxceleb1/id10292/2qlrpSAc9Xs/00014.wav",
+    "ref_audio_rel": "voxceleb1/id10275/QjrBKqx_Xeo/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4629410281777382,
+    "fake": 0.4781007468700409,
+    "drop": -0.015159718692302704,
+    "target_transcript": "Toward the end of their lives, they began to appear separately. We've not had any rule of thumb.",
+    "target_audio_rel": "voxceleb1/id10284/RNYNkXzY5Hk/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10273/prqT1CcDqMc/00018.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5024700409267098,
+    "fake": 0.47854046523571014,
+    "drop": 0.023929575690999627,
+    "target_transcript": "as a cop on TV because I wanted to be an actor and I ended up as an actor on TV and now in real life I'm a real cop who acts once in a while. So I went in a complete circle. I took advantage of the opportunities that presented themselves to the world.",
+    "target_audio_rel": "voxceleb1/id10298/hjvQiiG71rM/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10285/LbFFEF1pHO0/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5047167344018817,
+    "fake": 0.47854074463248253,
+    "drop": 0.026175989769399166,
+    "target_transcript": "They're tiny and then when they become, you know, the human form, when they have to take care of baby Aurora, you know, they grow.",
+    "target_audio_rel": "voxceleb1/id10286/9K2YB1d8BqY/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10297/uxHwuJ59xNk/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4932419853284955,
+    "fake": 0.4788319431245327,
+    "drop": 0.014410042203962803,
+    "target_transcript": "That was kind of quite intense, but I loved it. I really embraced the challenge.",
+    "target_audio_rel": "voxceleb1/id10282/Q5fbv-Wyj7k/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10306/mH6gd26SGcU/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4457847326993942,
+    "fake": 0.4791192375123501,
+    "drop": -0.033334504812955856,
+    "target_transcript": "But Quentin loved it. I mean, Brad was Aldo and I was Donny, the Bear G, the whole time. And there was a PA named Carla, and I was like, Carla!",
+    "target_audio_rel": "voxceleb1/id10283/GcHWzqveqyc/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10282/U3xR3MZjEVg/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4502396695315838,
+    "fake": 0.47914894297719,
+    "drop": -0.02890927344560623,
+    "target_transcript": "because at this point we just want the number one pick, right? So, I actually don't know how it works. I mean, if you have the worst record in the NBA,",
+    "target_audio_rel": "voxceleb1/id10274/wH6ebv-K8AA/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ENIHEvg_VLM/00022.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4919320633634925,
+    "fake": 0.47917257994413376,
+    "drop": 0.01275948341935873,
+    "target_transcript": "to prove herself with the blind master and snake eyes. That was a lot of rehearsals and...",
+    "target_audio_rel": "voxceleb1/id10289/GIhCMsZrHF0/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10305/OepVWayQO3w/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47362713888287544,
+    "fake": 0.47929732874035835,
+    "drop": -0.00567018985748291,
+    "target_transcript": "Yeah, I was just really comfortable with it. And I think it's important in movies like this that you sell it, that you sell the fact that you're comfortable and you are that person, you have gone through that training, because you can tell right away.",
+    "target_audio_rel": "voxceleb1/id10307/yUv37vQWmzE/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10293/nAtqrkWKIhM/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47437651827931404,
+    "fake": 0.479318592697382,
+    "drop": -0.004942074418067932,
+    "target_transcript": "to act with this character which has been given to me by virtue of what the character is.",
+    "target_audio_rel": "voxceleb1/id10293/nAtqrkWKIhM/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10286/DPPq8w5ILrA/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5213597007095814,
+    "fake": 0.47939540073275566,
+    "drop": 0.041964299976825714,
+    "target_transcript": "I was here in Mexico, but there in the United States, we don't have anyone to cook for us.",
+    "target_audio_rel": "voxceleb1/id10305/6iCNE2j3XIk/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10306/uzt36PBzT2w/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48090981133282185,
+    "fake": 0.47964355163276196,
+    "drop": 0.0012662597000598907,
+    "target_transcript": "No, I don't mind. My favorite artifact is Abraham Lincoln's hat because Pete put it on and had an irresistible urge to free Mrs. Frederick. So I thought that was pretty fun.",
+    "target_audio_rel": "voxceleb1/id10275/Mdk1SXywHck/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10289/8l5ZnDf-FUA/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4370124042034149,
+    "fake": 0.47979995980858803,
+    "drop": -0.04278755560517311,
+    "target_transcript": "uh... i love you i read it and i said and i remember when he said i'm not going to vote",
+    "target_audio_rel": "voxceleb1/id10279/f0I1IC6DJfo/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10302/dtYK1cUF7mo/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5208219178020954,
+    "fake": 0.47982977889478207,
+    "drop": 0.04099213890731335,
+    "target_transcript": "incredibly quiet. He maintains an incredibly quiet set. The focus on the work is really strong. He's very sweet and kind and warm, loving and supportive, but at the same time he is a director who will challenge you and will accept nothing less than the best and most authentic performance that you're capable of that day.",
+    "target_audio_rel": "voxceleb1/id10309/0b1inHMAr6o/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10307/wtqPC9vEZ0M/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46015169471502304,
+    "fake": 0.4804371390491724,
+    "drop": -0.02028544433414936,
+    "target_transcript": "Yeah, I mean, I think the whole team is very worried about it, as are Walter.",
+    "target_audio_rel": "voxceleb1/id10274/O9xLIdaUG-k/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10292/KgY2xhg4Tqk/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.44420094415545464,
+    "fake": 0.48078909143805504,
+    "drop": -0.0365881472826004,
+    "target_transcript": "all these heart and lungs and John does this great job whereby there's these perfect replicas of like an open heart surgery of like someone's spine and stuff and it's really cool. And you're seeing like all this kind of weird jam.",
+    "target_audio_rel": "voxceleb1/id10293/k1jiAINXHRI/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10307/f8Ms66atECE/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4853577548637986,
+    "fake": 0.48081022314727306,
+    "drop": 0.004547531716525555,
+    "target_transcript": "Yeah, and he has to retrace the steps and find out where this STD came from. So, yeah, no, I just, I read the script. I thought it was really funny. It's an original idea. I don't think I've ever heard of a film doing something like that. So, yeah, and I just, I really loved the part. And I like, I love the relationship with Lydia and Kyle. I think it's sweet. And it's actually quite sad watching the breakdown of their relationship because I think there was a lot there in the beginning. So, yeah.",
+    "target_audio_rel": "voxceleb1/id10291/iPZGPcrYIZs/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10278/shA_TsV-PFs/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46006210893392563,
+    "fake": 0.4808296374976635,
+    "drop": -0.02076752856373787,
+    "target_transcript": "the pixies and they're they're my aunts as well so and when you get to see them",
+    "target_audio_rel": "voxceleb1/id10286/9K2YB1d8BqY/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10275/vAr7raTthpw/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48145430348813534,
+    "fake": 0.4809442274272442,
+    "drop": 0.0005100760608911514,
+    "target_transcript": "the jemisin film festival i mean they're i met them at a year and a half ago the studs thing they're great because they're kind of really helpful to people who want to get involved in film so the competition and the idea is basically anybody",
+    "target_audio_rel": "voxceleb1/id10293/rZQMeH1FCvM/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10308/rgpPBT4yQcg/00015.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5162786729633808,
+    "fake": 0.48103827610611916,
+    "drop": 0.03524039685726166,
+    "target_transcript": "And they said, well, that's in its infancy still, because there's so many millions and millions of pieces that they still haven't quite got.",
+    "target_audio_rel": "voxceleb1/id10273/eLl_yTeuaKo/00020.wav",
+    "ref_audio_rel": "voxceleb1/id10278/Pp-rAswo4Xg/00030.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47858618572354317,
+    "fake": 0.48128124326467514,
+    "drop": -0.0026950575411319733,
+    "target_transcript": "that a ball player wants to go play basketball",
+    "target_audio_rel": "voxceleb1/id10272/olePnztkm6U/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10307/cR5FfR4TbEI/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5140440668910742,
+    "fake": 0.48132846876978874,
+    "drop": 0.03271559812128544,
+    "target_transcript": "And unfortunately, they don't have the infrastructure to rebuild the homes fast. And so we are trying to do a tent drive because rainy season is starting in about a week. And these people, if you haven't died yet in Haiti, you have a high chance.",
+    "target_audio_rel": "voxceleb1/id10307/cR5FfR4TbEI/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10273/hW0Q6eHqN-U/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47864975593984127,
+    "fake": 0.48140482790768147,
+    "drop": -0.0027550719678401947,
+    "target_transcript": "to deal with but I think the main thing is real life marriage and this other woman that just won't",
+    "target_audio_rel": "voxceleb1/id10282/hgB5ziAudzU/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10301/Eu8Bj1gx5_4/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4987368737347424,
+    "fake": 0.48171277716755867,
+    "drop": 0.017024096567183733,
+    "target_transcript": "on stage and stand with Billy Idol while he sang all those parts.",
+    "target_audio_rel": "voxceleb1/id10274/89UnsytX6Y8/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10302/K2_D_tFdAgY/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5121757732704282,
+    "fake": 0.4818990584462881,
+    "drop": 0.030276714824140072,
+    "target_transcript": "them ever again. And what's really nice is that Scott Pilgrim, like somewhere in the world, is playing like a",
+    "target_audio_rel": "voxceleb1/id10276/5YncBThNd5E/00022.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47500401735305786,
+    "fake": 0.4821668919175863,
+    "drop": -0.007162874564528465,
+    "target_transcript": "I'll just do surreal comedy.\" So audiences came to see what I was wearing, and then they're like, Oh, he doesn't change his clothes.",
+    "target_audio_rel": "voxceleb1/id10273/gHPh9j7lc58/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10286/isKyMAYUOgg/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.482209837064147,
+    "fake": 0.482290156185627,
+    "drop": -8.03191214799881e-05,
+    "target_transcript": "Scania was one of the restaurants in town at the time on Sunset Boulevard. And the Kona agency, the Paul Kona agency, is diagonally across. So they came to lunch there sometimes. So I got to talking to Walter Kona, who came with his car, and blah, blah, blah. He says, where are your friends in Germany?",
+    "target_audio_rel": "voxceleb1/id10294/L812MIi7ruk/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10277/8rby6ETXo8Q/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4889040542766452,
+    "fake": 0.4823175333440304,
+    "drop": 0.006586520932614803,
+    "target_transcript": "like I was doing the original American Pie, everything was the same, the wallpaper, the bedspread.",
+    "target_audio_rel": "voxceleb1/id10304/hDBMV_0Vz4E/00014.wav",
+    "ref_audio_rel": "voxceleb1/id10290/T1y64qFjv3M/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47184208407998085,
+    "fake": 0.48232787288725376,
+    "drop": -0.010485788807272911,
+    "target_transcript": "And the writers told me that they'd see her as a sociopath. So I was like, well, let's really.",
+    "target_audio_rel": "voxceleb1/id10289/3g9CjhcNEWk/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10275/Mdk1SXywHck/00011.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5304194167256355,
+    "fake": 0.4824148640036583,
+    "drop": 0.048004552721977234,
+    "target_transcript": "romantic track in a film that was not required of. Okay. And we realized after the release that we somewhere went wrong in taking that Sufi track just to put in that",
+    "target_audio_rel": "voxceleb1/id10292/0H91VC07Q3s/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10290/HYiqXC0B3iY/00025.wav",
+    "label": 0
+  },
+  {
+    "original": 0.507718781940639,
+    "fake": 0.48250499926507473,
+    "drop": 0.02521378267556429,
+    "target_transcript": "fall into his corporatist agenda. That's the other thing I wanted to point out.",
+    "target_audio_rel": "voxceleb1/id10278/Pp-rAswo4Xg/00024.wav",
+    "ref_audio_rel": "voxceleb1/id10271/1gtz-CUIygI/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4794216826558113,
+    "fake": 0.48252154886722565,
+    "drop": -0.003099866211414337,
+    "target_transcript": "58 or so. I know some people are saying, wait a minute about the age, but there's an answer for that.",
+    "target_audio_rel": "voxceleb1/id10302/dtYK1cUF7mo/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10290/BTnbKeUJ5r8/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49647202901542187,
+    "fake": 0.48266698233783245,
+    "drop": 0.013805046677589417,
+    "target_transcript": "of their world like and when they get to the palace it's going to be amazing",
+    "target_audio_rel": "voxceleb1/id10280/9AtE4C309P8/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10290/dDnqp9503Mg/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5231119319796562,
+    "fake": 0.4827987030148506,
+    "drop": 0.0403132289648056,
+    "target_transcript": "Well, apparently it does. Apparently this role does come naturally to me. I'm not complaining at all. They're my favourite kinds of roles. And yeah, apparently it's what I'm good at. So yeah, I love playing those kinds of roles.",
+    "target_audio_rel": "voxceleb1/id10291/TMCTm7GxiDE/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10285/thghCiJZYwI/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4899405539035797,
+    "fake": 0.4828508924692869,
+    "drop": 0.007089661434292793,
+    "target_transcript": "I think I'd like to make my films that way. I think it's important that you can make entertainment and then also try and have something through it, even if it's very subtle, that someone takes it from. But yeah, I think...",
+    "target_audio_rel": "voxceleb1/id10293/Mp1IXRquJ9s/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10308/MxBuaaxNnlE/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.45905688405036926,
+    "fake": 0.48292105831205845,
+    "drop": -0.023864174261689186,
+    "target_transcript": "He became aware of that trip in the newspaper of a motorcycle, he talked about this trip when he was 20 years old.",
+    "target_audio_rel": "voxceleb1/id10277/tbh20gz_KRA/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10308/rgpPBT4yQcg/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4990410122554749,
+    "fake": 0.48300210013985634,
+    "drop": 0.016038912115618587,
+    "target_transcript": "I will stand my ground. They say when you're riding a bicycle, claim the road and it's better for you to...",
+    "target_audio_rel": "voxceleb1/id10273/ZpPPaMazpf0/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10277/SeXsHJ3fW1c/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5239840243011713,
+    "fake": 0.48319324664771557,
+    "drop": 0.040790777653455734,
+    "target_transcript": "You know, I felt like I was in Edward Scissorhands. There was like a dinosaur, an elephant, and I was like, oh my God, this is...",
+    "target_audio_rel": "voxceleb1/id10306/SBO7kM1IPaY/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10305/19OCRADWjgA/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47298279218375683,
+    "fake": 0.48376516066491604,
+    "drop": -0.01078236848115921,
+    "target_transcript": "So it's, it's, it's, oh yeah, it was kind of a very exciting role and a challenge to play a woman who can transform into a bird as well.",
+    "target_audio_rel": "voxceleb1/id10306/SBO7kM1IPaY/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10283/vaK4t1-WD4M/00017.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4547758102416992,
+    "fake": 0.48400855250656605,
+    "drop": -0.02923274226486683,
+    "target_transcript": "my family.",
+    "target_audio_rel": "voxceleb1/id10297/p08spQszEYU/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10294/1l9B0dz7gjc/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49486171174794436,
+    "fake": 0.4842653274536133,
+    "drop": 0.010596384294331074,
+    "target_transcript": "come and actually be in the film itself because we need extras in certain scenes. I've got scenes of myself and Tom Hopper and if you guys want to come along that'd be great.",
+    "target_audio_rel": "voxceleb1/id10293/BbAymRBSpPM/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10289/8l5ZnDf-FUA/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5113753248006105,
+    "fake": 0.4843004420399666,
+    "drop": 0.02707488276064396,
+    "target_transcript": "You know, I'm one of the few that does this. When I'm walking down the street and I see a woman in a beautiful pair of shoes, I'll stop and I'll say, oh, those shoes are beautiful.",
+    "target_audio_rel": "voxceleb1/id10303/VCEs8oAQAiM/00019.wav",
+    "ref_audio_rel": "voxceleb1/id10277/tbh20gz_KRA/00022.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46133853495121,
+    "fake": 0.48430620320141315,
+    "drop": -0.022967668250203133,
+    "target_transcript": "The first one. I left town because I was so excited about it, I thought I really must calm down. So I made myself take a drive and not listen.",
+    "target_audio_rel": "voxceleb1/id10287/I99R40TUF1s/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10271/LjLjQkfhd2o/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5199834909290075,
+    "fake": 0.4844839861616492,
+    "drop": 0.0354995047673583,
+    "target_transcript": "Well, I don't know, but she's a woman that, boy, I tell you, she's all woman.",
+    "target_audio_rel": "voxceleb1/id10300/VHWZdctr_4s/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10280/MEa183Zyf5g/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4936057161539793,
+    "fake": 0.48466881923377514,
+    "drop": 0.008936896920204163,
+    "target_transcript": "It's the biggest horror franchise film of the year. I started it with Raaz Bhai.",
+    "target_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10304/GRv7pEnTwUc/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4776153154671192,
+    "fake": 0.48522440902888775,
+    "drop": -0.007609093561768532,
+    "target_transcript": "Scania was one of the restaurants in town at the time on Sunset Boulevard. And the Kona agency, the Paul Kona agency, is diagonally across. So they came to lunch there sometimes. So I got to talking to Walter Kona, who came with his car, and blah, blah, blah. He says, where are your friends in Germany?",
+    "target_audio_rel": "voxceleb1/id10294/L812MIi7ruk/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10272/olePnztkm6U/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46372896432876587,
+    "fake": 0.4853358156979084,
+    "drop": -0.021606851369142532,
+    "target_transcript": "that they have to pass in to get their tools to work with, you know? And he gave me his own ticket.",
+    "target_audio_rel": "voxceleb1/id10300/AytdA2W0Y_M/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10309/3qX7bbJ17lY/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4889871124178171,
+    "fake": 0.485448089428246,
+    "drop": 0.0035390229895710945,
+    "target_transcript": "that you can't keep both parties happy. So yes, there are times when that producer got a bit ticked off.",
+    "target_audio_rel": "voxceleb1/id10292/0zvzJa5HOUQ/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10304/GRv7pEnTwUc/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5369292721152306,
+    "fake": 0.48557096160948277,
+    "drop": 0.051358310505747795,
+    "target_transcript": "It's been an absolute roller coaster, it's been fantastic. I mean at first you're kind of a little bit in awe of everything. I mean I still am in awe of everything.",
+    "target_audio_rel": "voxceleb1/id10271/gO805KoL2RM/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10290/KacOkTDTi-g/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.45956071838736534,
+    "fake": 0.48615081887692213,
+    "drop": -0.02659010048955679,
+    "target_transcript": "And it was fantastic for me to discover this world created by Miller. I really liked Elektra the Saga. I really liked Elektra Assassin. And so I tried to really come.",
+    "target_audio_rel": "voxceleb1/id10289/3g9CjhcNEWk/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10288/R4S2c-NiPfA/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4956194427795708,
+    "fake": 0.48644912149757147,
+    "drop": 0.00917032128199935,
+    "target_transcript": "and that at first you think they are obstacles and you say, well, why me? Why did this have to happen to me?",
+    "target_audio_rel": "voxceleb1/id10305/3QrLepYlH6o/00015.wav",
+    "ref_audio_rel": "voxceleb1/id10285/m-uILToQ9ss/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5158425159752369,
+    "fake": 0.48658170364797115,
+    "drop": 0.02926081232726574,
+    "target_transcript": "Well, I'm actually working on a show called Eastbound on Down for HBO with Danny McBride and Steven Little and Will Ferrell. So, but I'm here actually to support the CineSoul Film Festival. I got one of the films called Pants on F***.",
+    "target_audio_rel": "voxceleb1/id10279/PQHz4fGHPK8/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10270/8jEAjG6SegY/00032.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4679076224565506,
+    "fake": 0.48695498891174793,
+    "drop": -0.019047366455197334,
+    "target_transcript": "because the man that she wanted to marry said, I don't want that yellow gal in my house.",
+    "target_audio_rel": "voxceleb1/id10270/5r0dWxy17C8/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10282/neQO6_CUY4w/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5115923592820764,
+    "fake": 0.48699970729649067,
+    "drop": 0.02459265198558569,
+    "target_transcript": "could and I know that's not the most appetizing sound bite here but um",
+    "target_audio_rel": "voxceleb1/id10281/NHARUN9OhSo/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10292/azw51ZGuz9k/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4807714931666851,
+    "fake": 0.4875354114919901,
+    "drop": -0.006763918325304985,
+    "target_transcript": "They represented Tony Curtis and Anthony Quinn and Jimmy Stewart and all those people who suddenly were doing television.",
+    "target_audio_rel": "voxceleb1/id10294/WJPpL58RruA/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10281/RDFdX3VxjUQ/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.499228703789413,
+    "fake": 0.48800946213304996,
+    "drop": 0.01121924165636301,
+    "target_transcript": "I heard you had a question about that. If you hear something for the NFL, you do have to paraphrase. Nick asked me.",
+    "target_audio_rel": "voxceleb1/id10299/uaPd2Ix-wSI/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10273/Ed918auNI0Y/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49970820266753435,
+    "fake": 0.4880205299705267,
+    "drop": 0.011687672697007656,
+    "target_transcript": "Someone could use that to do horrible things to children. So I think that's where clowns started to get a bad name as being creepy. And there hadn't really been a horror film in a while that explored that. And I think that what John came up with that was so clever is the idea that it's not the...",
+    "target_audio_rel": "voxceleb1/id10283/p5g1heXp34o/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10287/2iaCNe7ajII/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5042057707905769,
+    "fake": 0.4883192405104637,
+    "drop": 0.01588653028011322,
+    "target_transcript": "stick to, I will never get even close to the way you play.",
+    "target_audio_rel": "voxceleb1/id10292/3kzw8lTcUBU/00014.wav",
+    "ref_audio_rel": "voxceleb1/id10305/OepVWayQO3w/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.491941224783659,
+    "fake": 0.48868795577436686,
+    "drop": 0.0032532690092921257,
+    "target_transcript": "anyone like Joe Flynn who played Captain Binghamton.",
+    "target_audio_rel": "voxceleb1/id10300/8Sz2-IYJ2GA/00019.wav",
+    "ref_audio_rel": "voxceleb1/id10293/nAtqrkWKIhM/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4460321143269539,
+    "fake": 0.48894279077649117,
+    "drop": -0.04291067644953728,
+    "target_transcript": "Yeah, it'd be nice, but I said, no, no, no. I'm a motion picture actor now. I don't do television anymore.",
+    "target_audio_rel": "voxceleb1/id10300/2cAiIYHfon0/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10275/Mdk1SXywHck/00022.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47994672134518623,
+    "fake": 0.48916986491531134,
+    "drop": -0.009223143570125103,
+    "target_transcript": "The world is changing. Twitter's changing everything. So I want to see these guys go crazy.",
+    "target_audio_rel": "voxceleb1/id10274/s7vZT3_8Smo/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10300/8EDKH42GZ1o/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.514687966555357,
+    "fake": 0.4893100820481777,
+    "drop": 0.02537788450717926,
+    "target_transcript": "I don't know, like, or a nice holiday that I've been to. I went to Africa recently in Tanzania, and that was pure magic.",
+    "target_audio_rel": "voxceleb1/id10306/XcXDiYWIS6E/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10309/XMLMvfrgdzY/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5253336634486914,
+    "fake": 0.4895947352051735,
+    "drop": 0.035738928243517876,
+    "target_transcript": "He's gonna accept that more readily than the idea that he's getting older like this",
+    "target_audio_rel": "voxceleb1/id10276/FDhJhEu0JUM/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00030.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49439253099262714,
+    "fake": 0.48970828019082546,
+    "drop": 0.0046842508018016815,
+    "target_transcript": "I think it wasn't because it wasn't completely generic, like sometimes people just want like a...",
+    "target_audio_rel": "voxceleb1/id10276/5YncBThNd5E/00015.wav",
+    "ref_audio_rel": "voxceleb1/id10274/s7vZT3_8Smo/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48276890628039837,
+    "fake": 0.4897895362228155,
+    "drop": -0.007020629942417145,
+    "target_transcript": "cookie how do you say yeah and she's a bit mysterious and she's a good one",
+    "target_audio_rel": "voxceleb1/id10289/GIhCMsZrHF0/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10300/8EDKH42GZ1o/00031.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5012552151456475,
+    "fake": 0.4900774583220482,
+    "drop": 0.011177756823599339,
+    "target_transcript": "in Jamaica or somewhere like that, and they had invited a whole bunch of critics from all around the world.",
+    "target_audio_rel": "voxceleb1/id10300/BL7XmN8w_UY/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10309/e-IdJ8a4gy4/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5249659065157175,
+    "fake": 0.49011713452637196,
+    "drop": 0.03484877198934555,
+    "target_transcript": "has developed in ways I didn't necessarily see coming.",
+    "target_audio_rel": "voxceleb1/id10296/CdDxsQV7RJM/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10307/wtqPC9vEZ0M/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4868947798386216,
+    "fake": 0.49035574961453676,
+    "drop": -0.003460969775915146,
+    "target_transcript": "and then eventually you do that and you pan up to the clouds or you pan to a kind of",
+    "target_audio_rel": "voxceleb1/id10292/6tjKon0hiy4/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10307/yUv37vQWmzE/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4781674165278673,
+    "fake": 0.49068237096071243,
+    "drop": -0.012514954432845116,
+    "target_transcript": "her first time going through it, you know what I mean? So you're getting the purest, most uninhibited feelings ever being shown to you, and I think that's what makes her different.",
+    "target_audio_rel": "voxceleb1/id10288/owPgCDQ_URk/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10300/Fi8lnFPYgII/00014.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48835158720612526,
+    "fake": 0.491068041883409,
+    "drop": -0.002716454677283764,
+    "target_transcript": "had the newspaper in Greensburg, Pennsylvania, and he wrote the editorial. In any other country, Edward Hasner would be taken out and shot.",
+    "target_audio_rel": "voxceleb1/id10278/DSGE2F5sTcg/00016.wav",
+    "ref_audio_rel": "voxceleb1/id10309/vobW27_-JyQ/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5044487919658422,
+    "fake": 0.4912914913147688,
+    "drop": 0.013157300651073456,
+    "target_transcript": "badger him with a lot of questions about cricket and about his personal life.",
+    "target_audio_rel": "voxceleb1/id10292/3kzw8lTcUBU/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10272/dkN2DIBrXqQ/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4914488671347499,
+    "fake": 0.4919102117419243,
+    "drop": -0.0004613446071743965,
+    "target_transcript": "He turns him into a man. When I meet, when I'm little, I play with the bird. I do see the bird. I pet. I have a pretty bird is what I call him. And then when I get older, I get to see him in.",
+    "target_audio_rel": "voxceleb1/id10286/9K2YB1d8BqY/00016.wav",
+    "ref_audio_rel": "voxceleb1/id10294/KMM3INYWEeY/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4832128547132015,
+    "fake": 0.49224131274968386,
+    "drop": -0.009028458036482334,
+    "target_transcript": "You have to see the box trolls because it's extremely clever and it's unlike anything you've seen before.",
+    "target_audio_rel": "voxceleb1/id10286/7I1GtGzVfmw/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10304/CaR6c7RO7Dc/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48955698404461145,
+    "fake": 0.4927711123600602,
+    "drop": -0.003214128315448761,
+    "target_transcript": "We made it Latino because we wanted to add a little flavor. Flavor, a Latin, just a touch. See, never enough. More like set dressing. A little danger. Let's go to El Barrio.",
+    "target_audio_rel": "voxceleb1/id10302/KaZPZcTPQ-c/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10298/6qFnVechX9o/00021.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4823738355189562,
+    "fake": 0.49290940864011645,
+    "drop": -0.010535573121160269,
+    "target_transcript": "instinctively using that animal instincts that I had when I was a child in the South because being given away, you know, you have to rely on whatever is thrown at you.",
+    "target_audio_rel": "voxceleb1/id10270/8jEAjG6SegY/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10279/PQHz4fGHPK8/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5195845700800419,
+    "fake": 0.4930544882081449,
+    "drop": 0.026530081871896982,
+    "target_transcript": "ahead with blinkers and running the race and trying to run it as fast and as efficiently as possible.",
+    "target_audio_rel": "voxceleb1/id10292/57KbI2UvGss/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10306/ST2JZXcyYkE/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4893086478114128,
+    "fake": 0.49330566078424454,
+    "drop": -0.003997012972831726,
+    "target_transcript": "out of the opera i was beginning to have questions about my sexuality and was starting",
+    "target_audio_rel": "voxceleb1/id10309/_z_BR0ERa9g/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10289/3g9CjhcNEWk/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5279218964278698,
+    "fake": 0.4933647005818784,
+    "drop": 0.03455719584599137,
+    "target_transcript": "that I get your point with everything I think with time you evolve",
+    "target_audio_rel": "voxceleb1/id10292/v11Ek20Zaws/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10277/tbh20gz_KRA/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5117287477478385,
+    "fake": 0.49341683369129896,
+    "drop": 0.018311914056539536,
+    "target_transcript": "better mate for Mario. She's fantastic. Because you know, it takes a strong woman to date Mario Lopez.",
+    "target_audio_rel": "voxceleb1/id10307/cR5FfR4TbEI/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10290/zii-zlYDpGc/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.50134445913136,
+    "fake": 0.49363459553569555,
+    "drop": 0.007709863595664501,
+    "target_transcript": "And I was, like, in my pajamas, like, with coffee and, like, my cat, like, on the floor.",
+    "target_audio_rel": "voxceleb1/id10285/m-uILToQ9ss/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10277/cELY3LdIo-0/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5036607561632991,
+    "fake": 0.49378363601863384,
+    "drop": 0.009877120144665241,
+    "target_transcript": "And then he turns on. It's like the very first time that I ever saw him, and I didn't know that he was going to be on the show. Nobody said a word, you know.",
+    "target_audio_rel": "voxceleb1/id10300/85wn4sW4CgQ/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10296/tlP585mCdl0/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5069320225156844,
+    "fake": 0.49385668709874153,
+    "drop": 0.013075335416942835,
+    "target_transcript": "the producer, everyone dragged me out of the van, pulled me into that lift and made me do it. I felt used.",
+    "target_audio_rel": "voxceleb1/id10292/YvmWRnJnTz0/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10288/dRr05CxK0jQ/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4947021044790745,
+    "fake": 0.49404212459921837,
+    "drop": 0.0006599798798561096,
+    "target_transcript": "Absolutely. And you're right. What you talked about earlier is because I am so public and I am pretty open about about myself and and about my marriage. I was, you know.",
+    "target_audio_rel": "voxceleb1/id10307/BpIz2lAf22Y/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10290/FAOLWl96MY0/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49952936731278896,
+    "fake": 0.494076588191092,
+    "drop": 0.005452779121696949,
+    "target_transcript": "Mrs. Parker and being a wife. And so when that's taken away from you, you go, who am I?",
+    "target_audio_rel": "voxceleb1/id10307/IpBtAcwbQb0/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10290/cIi74VD0LF0/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.6167637854814529,
+    "fake": 0.49411888886243105,
+    "drop": 0.12264489661902189,
+    "target_transcript": "Marty Allen, the whole Bushy Ed comic, you know? Yes. And his white friend. She would have since passed away, God bless her.",
+    "target_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00021.wav",
+    "ref_audio_rel": "voxceleb1/id10284/RNYNkXzY5Hk/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4933459600433707,
+    "fake": 0.49450626969337463,
+    "drop": -0.00116030965000391,
+    "target_transcript": "And for me, what's great about the show is I have a couple of little...",
+    "target_audio_rel": "voxceleb1/id10275/LqcUAxrtYOk/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10294/WJPpL58RruA/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5154888713732362,
+    "fake": 0.4945543445646763,
+    "drop": 0.020934526808559895,
+    "target_transcript": "role so i went in and read for both and i read in an english accent as well which could have been a",
+    "target_audio_rel": "voxceleb1/id10271/gO805KoL2RM/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10270/8jEAjG6SegY/00029.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49066873639822006,
+    "fake": 0.49511954793706536,
+    "drop": -0.004450811538845301,
+    "target_transcript": "And I got to be a part of something that made people laugh and took their minds off whatever problems they were facing.",
+    "target_audio_rel": "voxceleb1/id10274/L9q6XabEpEI/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10282/ek_uqADnhPQ/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4775654785335064,
+    "fake": 0.4952304665930569,
+    "drop": -0.017664988059550524,
+    "target_transcript": "thank you very much put down the chocolate bars call the agent so that part",
+    "target_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00016.wav",
+    "ref_audio_rel": "voxceleb1/id10281/o-L8P0xj3qk/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.512164288200438,
+    "fake": 0.4958640206605196,
+    "drop": 0.016300267539918423,
+    "target_transcript": "Yeah, a little bit. I mean, I definitely was that kid at school. When I was at school, at Comprehensive, I was short-sighted. I didn't know I was short-sighted until I was 20. And as such, I would frequently look out of the window, like in classes, because I couldn't see the blackboard properly.",
+    "target_audio_rel": "voxceleb1/id10276/AeZoMAJ4Ejs/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10304/FJOvOooCIvs/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.500441184733063,
+    "fake": 0.4962414549663663,
+    "drop": 0.0041997297666966915,
+    "target_transcript": "all its forms. If I'm not doing a play or a picture, I'm photographing or I'm writing.",
+    "target_audio_rel": "voxceleb1/id10287/2iaCNe7ajII/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10275/LqcUAxrtYOk/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5190560296177864,
+    "fake": 0.4962782980874181,
+    "drop": 0.022777731530368328,
+    "target_transcript": "as a bad dude, you know? And from there, I went on to play the Latino.",
+    "target_audio_rel": "voxceleb1/id10298/DWT9P35cXT4/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10302/VRCidrXwd1s/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5047772796824574,
+    "fake": 0.4970000758767128,
+    "drop": 0.007777203805744648,
+    "target_transcript": "The world is changing. Twitter's changing everything. So I want to see these guys go crazy.",
+    "target_audio_rel": "voxceleb1/id10274/s7vZT3_8Smo/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10303/EGtVKPy9xqM/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5055295270867646,
+    "fake": 0.4971693651750684,
+    "drop": 0.008360161911696196,
+    "target_transcript": "There was a Spitfire there, you know, and Donald Pleas is saying, can you fly any of these? Yeah, I could fly the Spitfire. I could, I logically could, because I've learned on a Piper Alpha, which is...",
+    "target_audio_rel": "voxceleb1/id10273/SgBON1gLfbo/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10291/oa10caYOOzk/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5099478233605623,
+    "fake": 0.49728812649846077,
+    "drop": 0.012659696862101555,
+    "target_transcript": "different. It's not like any of the ones before because they're not at Hogwarts anymore. And the sense that it's the seventh book. So this was the big question when the book came out, would Harry live or die? And that's the thing in the film.",
+    "target_audio_rel": "voxceleb1/id10308/MxBuaaxNnlE/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10296/tlP585mCdl0/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4860929399728775,
+    "fake": 0.4975291769951582,
+    "drop": -0.011436237022280693,
+    "target_transcript": "fur and then a documentary that she has in the works and then I am on the board of several.",
+    "target_audio_rel": "voxceleb1/id10281/NHARUN9OhSo/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10270/x6uYqmx31kE/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.529045082628727,
+    "fake": 0.4976475853472948,
+    "drop": 0.03139749728143215,
+    "target_transcript": "Take your ass over there. Obama, you played ball. You did that when you first got in.",
+    "target_audio_rel": "voxceleb1/id10272/olePnztkm6U/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10300/VHWZdctr_4s/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5194831248372793,
+    "fake": 0.4979933756403625,
+    "drop": 0.02148974919691682,
+    "target_transcript": "I do the thing, yeah, and they kind of, of course, and at the end they kind of add some CGI magic.",
+    "target_audio_rel": "voxceleb1/id10306/43_6k_dVw0I/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10276/5YncBThNd5E/00028.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5206890869885683,
+    "fake": 0.498075345531106,
+    "drop": 0.02261374145746231,
+    "target_transcript": "at the last minute before they die, take over their body, like jumping into a car before it goes off a cliff, and then we live their lives. And it's a one-way ticket. We're not going back to the future.",
+    "target_audio_rel": "voxceleb1/id10296/0mOnLGSG2jM/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10290/HYiqXC0B3iY/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4997288561426103,
+    "fake": 0.4981054812669754,
+    "drop": 0.0016233748756349087,
+    "target_transcript": "focus, you know, it's a five-year parliament, it could well be, so all the focus keeps going towards the sitting government. So he doesn't get so much action in front of cameras. This is the...",
+    "target_audio_rel": "voxceleb1/id10273/9PmuAcGCSjY/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10270/GWXujl-xAVM/00031.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49606706900522113,
+    "fake": 0.49822343047708273,
+    "drop": -0.002156361471861601,
+    "target_transcript": "I just learned, what's our national park in the state right in the middle of our country? What's it called, that great big park where they have...",
+    "target_audio_rel": "voxceleb1/id10297/o1EKUvjvNHY/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10282/U3xR3MZjEVg/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5276940148323774,
+    "fake": 0.4982393302489072,
+    "drop": 0.029454684583470225,
+    "target_transcript": "The audience would like it for the same reason I liked it. I was, well personally I'm glad to have been involved. But the movie itself is exciting, it's funny, it's really funny. And the music is f***ing amazing.",
+    "target_audio_rel": "voxceleb1/id10298/hjvQiiG71rM/00033.wav",
+    "ref_audio_rel": "voxceleb1/id10270/OhfKF8FSq3Y/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4908430688083172,
+    "fake": 0.49825599137693644,
+    "drop": -0.007412922568619251,
+    "target_transcript": "cookie how do you say yeah and she's a bit mysterious and she's a good one",
+    "target_audio_rel": "voxceleb1/id10289/GIhCMsZrHF0/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10283/vaK4t1-WD4M/00030.wav",
+    "label": 0
+  },
+  {
+    "original": 0.528138879686594,
+    "fake": 0.4989561280235648,
+    "drop": 0.029182751663029194,
+    "target_transcript": "And so this is the first time I'm in a true half hour sitcom comedy.",
+    "target_audio_rel": "voxceleb1/id10307/120gjdqGWNQ/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10302/2Er-cV85fc4/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5018275761976838,
+    "fake": 0.4990517357364297,
+    "drop": 0.00277584046125412,
+    "target_transcript": "and 20 minutes later I had it obviously and they were ready it took 20 minutes for them to prepare",
+    "target_audio_rel": "voxceleb1/id10294/L812MIi7ruk/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10291/4aLg_keiGHw/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5207294709980488,
+    "fake": 0.4991102823987603,
+    "drop": 0.021619188599288464,
+    "target_transcript": "Yeah, my character's a bit of the bad boy. But, you know, I mean, there's a bunch of elements to it that kind of have made it attractive to us.",
+    "target_audio_rel": "voxceleb1/id10271/PfcJLmkhGbk/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10280/MEa183Zyf5g/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5078945867717266,
+    "fake": 0.4991142125800252,
+    "drop": 0.008780374191701412,
+    "target_transcript": "And my thought on this is that if they were fighting back in the 6th of June, if English speakers, Americans, Canadians, British people, French...",
+    "target_audio_rel": "voxceleb1/id10273/OYi3rZSdAOE/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10285/m-uILToQ9ss/00011.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48391262255609035,
+    "fake": 0.5000719432719052,
+    "drop": -0.01615932071581483,
+    "target_transcript": "it's it gets very dark and it gets really interesting in that way and because",
+    "target_audio_rel": "voxceleb1/id10280/9AtE4C309P8/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10307/Zftj0BQFRdY/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.46679194271564484,
+    "fake": 0.5003177411854267,
+    "drop": -0.033525798469781876,
+    "target_transcript": "Absolutely. So that's been great to work with. I often say that I work very closely with the costume and makeup people to create this realistic look that changes as we get older.",
+    "target_audio_rel": "voxceleb1/id10282/U3xR3MZjEVg/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10307/wDlr75yk6Iw/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5133603373542428,
+    "fake": 0.5009892079979181,
+    "drop": 0.012371129356324673,
+    "target_transcript": "There's a big difference to this one. The base of it is a complete love story.",
+    "target_audio_rel": "voxceleb1/id10280/9AtE4C309P8/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10278/x5dqrDlwxR4/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5381994284689426,
+    "fake": 0.5009925626218319,
+    "drop": 0.03720686584711075,
+    "target_transcript": "And I was always very cavalier about learning my dialogue because I learned very quickly.",
+    "target_audio_rel": "voxceleb1/id10294/dYC_mN16I_k/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10286/yAe_ZhyWdnI/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5121798887848854,
+    "fake": 0.5011271415278316,
+    "drop": 0.011052747257053852,
+    "target_transcript": "In Tim Burton movies you're always a bit, I think, scared that you would do too much or at the same time you go, okay, I have to be brave, I have to do something a bit edgy",
+    "target_audio_rel": "voxceleb1/id10306/SBO7kM1IPaY/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10285/m-uILToQ9ss/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.483941663056612,
+    "fake": 0.5016269683837891,
+    "drop": -0.017685305327177048,
+    "target_transcript": "enabled Jim and his dad to kind of, you know, have those.",
+    "target_audio_rel": "voxceleb1/id10304/hDBMV_0Vz4E/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10288/A3ZvNuG8_oM/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4816133491694927,
+    "fake": 0.5016460586339235,
+    "drop": -0.02003270946443081,
+    "target_transcript": "I'm a deputy sheriff in the state of Virginia, Belford County Sheriff's Department, and I'm a task force captain.",
+    "target_audio_rel": "voxceleb1/id10298/SCYPNx1H2pM/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10276/aaJo0S1lnhY/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.491254361346364,
+    "fake": 0.5016520381905138,
+    "drop": -0.010397676844149828,
+    "target_transcript": "immigrant family. I think it's beautiful that Britain can do that. You can go from them coming in from escaping from the Nazis to their sons both being politicians, one running for being prime minister.",
+    "target_audio_rel": "voxceleb1/id10273/9PmuAcGCSjY/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10301/AeRSD9jIdSg/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5131568806245923,
+    "fake": 0.5016945851966739,
+    "drop": 0.011462295427918434,
+    "target_transcript": "And we couldn't find the actor because he was going to be a boy at first. And after three months of looking for him, he didn't appear. So I opened the option for a girl, he didn't appear either. And on Twitter, already desperate, a week was missing to start filming.",
+    "target_audio_rel": "voxceleb1/id10305/t0EX2dOBQjw/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10306/uzt36PBzT2w/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5276804063469172,
+    "fake": 0.5019787438213825,
+    "drop": 0.02570166252553463,
+    "target_transcript": "And I play Ana Sofia, who is the star of this Spanish soap, who does not speak Spanish.",
+    "target_audio_rel": "voxceleb1/id10307/wtqPC9vEZ0M/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10275/Mdk1SXywHck/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5168323274701834,
+    "fake": 0.5020024916157126,
+    "drop": 0.01482983585447073,
+    "target_transcript": "that if you never insulted a child or ever hurt a child physically or ever ever humiliated a child",
+    "target_audio_rel": "voxceleb1/id10297/3vnz4Iy5fMg/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10270/8jEAjG6SegY/00019.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5044130105525255,
+    "fake": 0.5020831553265452,
+    "drop": 0.002329855225980282,
+    "target_transcript": "When we all came out here, this goes from Martin Show.",
+    "target_audio_rel": "voxceleb1/id10272/uuEXZLyyWN8/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10296/p1--IINtgGg/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.493005970492959,
+    "fake": 0.5021096896380186,
+    "drop": -0.009103719145059586,
+    "target_transcript": "me the gold watch because he thought I should wear it. So I had the gold watch.",
+    "target_audio_rel": "voxceleb1/id10290/dDnqp9503Mg/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10307/BpIz2lAf22Y/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4858431611210108,
+    "fake": 0.5021790026221424,
+    "drop": -0.016335841501131654,
+    "target_transcript": "I don't want to be around them. And I was just like, oh, God, Derek Hough is so great. Yeah, but he's with a pussycat doll. Then I came and I hosted the show. And the first season I hosted the show, it was with Amy Purdy, who had obviously lost a leg. And Derek was her partner.",
+    "target_audio_rel": "voxceleb1/id10299/x3QoGpHxThw/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10286/FP4TghS5_UQ/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5113686956465244,
+    "fake": 0.5021852543577552,
+    "drop": 0.009183441288769245,
+    "target_transcript": "She and her sense of humor. She was always smiling, always making jokes, and always in a good mood, even though she was...",
+    "target_audio_rel": "voxceleb1/id10305/19OCRADWjgA/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10270/5r0dWxy17C8/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4949922109954059,
+    "fake": 0.502324566245079,
+    "drop": -0.007332355249673128,
+    "target_transcript": "you can't do a scratch because it would complicate the production a lot and there everything is very measured but I have had the opportunity to drive the car and I have also had the opportunity to",
+    "target_audio_rel": "voxceleb1/id10277/znxUWA2QAGs/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10297/6-VE8e8RtZE/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5054878564551473,
+    "fake": 0.5024792077019811,
+    "drop": 0.0030086487531661987,
+    "target_transcript": "Hope you make some money. And for the brothers that went with you, have some fun. Play some",
+    "target_audio_rel": "voxceleb1/id10272/olePnztkm6U/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10292/2qlrpSAc9Xs/00015.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5379643365740776,
+    "fake": 0.5025967694818974,
+    "drop": 0.03536756709218025,
+    "target_transcript": "a hero or an anti-hero or a bad guy or a nice girl. I didn't want to do...",
+    "target_audio_rel": "voxceleb1/id10289/JurNpHi7Yqk/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10294/ba0ZhyVTodw/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5111652119085193,
+    "fake": 0.5031428337097168,
+    "drop": 0.008022378198802471,
+    "target_transcript": "and to listen and to pay attention to the other actors because there's a danger in thinking too much.",
+    "target_audio_rel": "voxceleb1/id10309/XMLMvfrgdzY/00014.wav",
+    "ref_audio_rel": "voxceleb1/id10288/A3ZvNuG8_oM/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5155768813565373,
+    "fake": 0.5032444684766233,
+    "drop": 0.012332412879914045,
+    "target_transcript": "I think the first episode is kind of business as usual, and then we slowly sort of regress and deal with...",
+    "target_audio_rel": "voxceleb1/id10295/S9FeIMntmUE/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10298/SCYPNx1H2pM/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4799567721784115,
+    "fake": 0.5032992605119944,
+    "drop": -0.023342488333582878,
+    "target_transcript": "And it falls within a spectrum that has commanded more and more attention as we see it.",
+    "target_audio_rel": "voxceleb1/id10278/Pp-rAswo4Xg/00037.wav",
+    "ref_audio_rel": "voxceleb1/id10289/zFii0ROZZjc/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5093566924333572,
+    "fake": 0.5033377315849066,
+    "drop": 0.006018960848450661,
+    "target_transcript": "And she asked me, I was a rather mysteriously wealthy character, but no one knew exactly what my background was.",
+    "target_audio_rel": "voxceleb1/id10294/49XYNpeN23I/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10281/qBTOwaSOS-M/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48362549021840096,
+    "fake": 0.5033875873778015,
+    "drop": -0.019762097159400582,
+    "target_transcript": "Unfortunately, there is no monotony, never, because you jump from the revolution.",
+    "target_audio_rel": "voxceleb1/id10277/tbh20gz_KRA/00027.wav",
+    "ref_audio_rel": "voxceleb1/id10298/hjvQiiG71rM/00018.wav",
+    "label": 0
+  },
+  {
+    "original": 0.490121778100729,
+    "fake": 0.5035814233124256,
+    "drop": -0.013459645211696625,
+    "target_transcript": "hormones and it's gone further down the line. And there should be gay, bisexual, and lesbian transvestites.",
+    "target_audio_rel": "voxceleb1/id10273/hW0Q6eHqN-U/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10285/FUqAFZmZJ80/00017.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5023486325517297,
+    "fake": 0.5038740606978536,
+    "drop": -0.001525428146123886,
+    "target_transcript": "I could tell you what it was. We had a pool. We had a lovely chap who was living in the guest house. I don't think you really care about that.",
+    "target_audio_rel": "voxceleb1/id10304/zV7LlMi0eHo/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10286/7I1GtGzVfmw/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5056324326433241,
+    "fake": 0.5039617493748665,
+    "drop": 0.0016706832684576511,
+    "target_transcript": "Hi, I'm Isai Morales, and you're watching Muse. Actually, you are a muse.",
+    "target_audio_rel": "voxceleb1/id10302/K2_D_tFdAgY/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10287/MHoaMi5hKkE/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5177688766270876,
+    "fake": 0.5041303476318717,
+    "drop": 0.013638528995215893,
+    "target_transcript": "in the urban. People go, I don't know what that is. I was in an underground too.",
+    "target_audio_rel": "voxceleb1/id10273/prqT1CcDqMc/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10295/K1gPy1UKmBE/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49655400961637497,
+    "fake": 0.5042438292875886,
+    "drop": -0.007689819671213627,
+    "target_transcript": "creators. What was really nice was we had the book. Last year we had...",
+    "target_audio_rel": "voxceleb1/id10283/vaK4t1-WD4M/00021.wav",
+    "ref_audio_rel": "voxceleb1/id10285/dG-z37iVdzA/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5344364121556282,
+    "fake": 0.5045770411379635,
+    "drop": 0.02985937101766467,
+    "target_transcript": "it's great for animals but it's also great for your health because we're really not built to consume as much meat as we do in modern days so if people knew what was happening to animals if they really knew and if they really absorbed it they would make i believe they would make different choices and a lot of it's just getting people",
+    "target_audio_rel": "voxceleb1/id10281/RDFdX3VxjUQ/00025.wav",
+    "ref_audio_rel": "voxceleb1/id10305/nJbBcMdxQU4/00018.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5600592344999313,
+    "fake": 0.5046464735642076,
+    "drop": 0.05541276093572378,
+    "target_transcript": "As a producer, this is my first stage.",
+    "target_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00033.wav",
+    "ref_audio_rel": "voxceleb1/id10291/d2Lasybvo7s/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5241711232811213,
+    "fake": 0.5047427704557776,
+    "drop": 0.01942835282534361,
+    "target_transcript": "think I don't actually know how I learn I don't I still don't know I think I",
+    "target_audio_rel": "voxceleb1/id10294/dYC_mN16I_k/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10286/lJQTN_wK9vA/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5069423038512468,
+    "fake": 0.5049164379015565,
+    "drop": 0.002025865949690342,
+    "target_transcript": "for the show? Oh, you know, I think whether it's Charlie or probably, you know, John and a few others and I on the show, we had to go through the whole thing. And we worked with an amazing stunt team, so I had the chance to be paired with an amazing stuntwoman, Lauren Kim, who, you know, did also lots of crazy stuff. But they trained me and, you know, I had to incorporate Muay Thai, some capoeira moves, I had to learn to manipulate the size. So, yeah.",
+    "target_audio_rel": "voxceleb1/id10289/sf4uMnkYFG8/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10295/WxDEVkQKPow/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.48585538007318974,
+    "fake": 0.5050225015729666,
+    "drop": -0.01916712149977684,
+    "target_transcript": "because there are other roles for them. So I don't think there's a lack of...",
+    "target_audio_rel": "voxceleb1/id10287/I99R40TUF1s/00016.wav",
+    "ref_audio_rel": "voxceleb1/id10296/tlP585mCdl0/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5164428874850273,
+    "fake": 0.505169253796339,
+    "drop": 0.011273633688688278,
+    "target_transcript": "and essays and poems by Ralph Waldo Emerson. So there was that kind of philosophical background. And The Call of the Wild by Jack London was really...",
+    "target_audio_rel": "voxceleb1/id10290/dDnqp9503Mg/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10287/I99R40TUF1s/00015.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47853620536625385,
+    "fake": 0.5052752448245883,
+    "drop": -0.026739039458334446,
+    "target_transcript": "And there comes a time when people can't stop talking to each other. And, you know, when they're first married and they're first, oh, yes, we've got to talk.",
+    "target_audio_rel": "voxceleb1/id10300/VHWZdctr_4s/00012.wav",
+    "ref_audio_rel": "voxceleb1/id10279/4Q1IvdayPR8/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5217580329626799,
+    "fake": 0.5054668132215738,
+    "drop": 0.016291219741106033,
+    "target_transcript": "And I play against all the beats that are obvious and support that, because I think there's more to it.",
+    "target_audio_rel": "voxceleb1/id10295/K1gPy1UKmBE/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10282/OjG2EYFgubs/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5213679559528828,
+    "fake": 0.5057074008509517,
+    "drop": 0.015660555101931095,
+    "target_transcript": "of him and his people to advise him to do that. Because I think it's about time also that two different...",
+    "target_audio_rel": "voxceleb1/id10270/GWXujl-xAVM/00054.wav",
+    "ref_audio_rel": "voxceleb1/id10277/UIbPolhxLDI/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5418767556548119,
+    "fake": 0.5060583343729377,
+    "drop": 0.03581842128187418,
+    "target_transcript": "you know, the world can be difficult, but I just had a very amazingly blessed life.",
+    "target_audio_rel": "voxceleb1/id10301/vhzF7dhGJzI/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10283/r9-0pljhZqs/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5254175085574389,
+    "fake": 0.5060882703401148,
+    "drop": 0.01932923821732402,
+    "target_transcript": "And you know, it's true, we've been working for years on the Chris Guest movies and even you know before that going back to the movie, I mean, I think it's a great movie.",
+    "target_audio_rel": "voxceleb1/id10304/o9bD_E99Jpg/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10286/7I1GtGzVfmw/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5076401163823903,
+    "fake": 0.5061090271919966,
+    "drop": 0.0015310891903936863,
+    "target_transcript": "a tour of Brexit Tiffany's. I was taking over Pixie Lott for a while and she's now doing the West End and yeah, I've just had the most incredible eight weeks doing it.",
+    "target_audio_rel": "voxceleb1/id10291/4aLg_keiGHw/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10283/gAKHqHbNt2g/00015.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5104966219514608,
+    "fake": 0.5061125257052481,
+    "drop": 0.004384096246212721,
+    "target_transcript": "Potter scale projects is that you have to be so much more responsible like aware of yourself you have to look at for yourselves because they don't have the luxury of time to spend",
+    "target_audio_rel": "voxceleb1/id10308/ygGJs_Rh7ds/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ENIHEvg_VLM/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5205283835530281,
+    "fake": 0.5062464457005262,
+    "drop": 0.01428193785250187,
+    "target_transcript": "I had a kid on the subway, this was a few months ago, he came up to me and he was all shy, he was probably like six or seven years old, and he went, you're the one who gets the bad guys.",
+    "target_audio_rel": "voxceleb1/id10274/7rkVfW2yw0c/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10286/4TtOX8dgtYI/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5290979743003845,
+    "fake": 0.5063264574855566,
+    "drop": 0.02277151681482792,
+    "target_transcript": "It's always much easier when you come back to the second season because you know everybody and so you can kind of mess around with people more and you understand their foibles. Everyone has a different way.",
+    "target_audio_rel": "voxceleb1/id10293/TnOGBL8p-RM/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10298/DWT9P35cXT4/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5406215786933899,
+    "fake": 0.5064308373257518,
+    "drop": 0.03419074136763811,
+    "target_transcript": "on the eating front that people, that somehow it taps into like this survival and this fear of survival. No, I have to eat meat to survive. And then it does become a habit. Like, no, I need this. And you actually really don't. You really, really don't. You just need protein. But that protein does not have to come from animal sources. So, yeah. And I had another thought, but it went with it.",
+    "target_audio_rel": "voxceleb1/id10281/RDFdX3VxjUQ/00026.wav",
+    "ref_audio_rel": "voxceleb1/id10270/5r0dWxy17C8/00020.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5106685133650899,
+    "fake": 0.5065985359251499,
+    "drop": 0.004069977439939976,
+    "target_transcript": "And then you give three years to the army after that. So I seriously consider that because I'm quite military in my head.",
+    "target_audio_rel": "voxceleb1/id10273/8cfyJEV7hP8/00020.wav",
+    "ref_audio_rel": "voxceleb1/id10275/Mdk1SXywHck/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5303988438099623,
+    "fake": 0.5067369593307376,
+    "drop": 0.023661884479224682,
+    "target_transcript": "I love everything about Ana Sofia. You know what I love is she's the exact opposite of Gabby. Gabby Solis from Housewives. Gabby was narcissistic and confident and...",
+    "target_audio_rel": "voxceleb1/id10307/120gjdqGWNQ/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10301/AeRSD9jIdSg/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5450787805020809,
+    "fake": 0.5069754403084517,
+    "drop": 0.038103340193629265,
+    "target_transcript": "I just think there is mainstream and alternative sense of humors in every country. So you might say Benny Hill's a mainstream British sense of humor. But he made all these references, you know, people slapping on heads, naked people running around. People could understand that in quite a lot of countries. So there you go. And then Python is the example of more alternative humor. So you just make your reference.",
+    "target_audio_rel": "voxceleb1/id10273/8fKRoUIpAJY/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10302/VRCidrXwd1s/00011.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5068825902417302,
+    "fake": 0.5070527610369027,
+    "drop": -0.00017017079517245293,
+    "target_transcript": "perfect kind of moment where this pilot came along and I was in New York at the time. I was cast out of New York and everybody was buzzing about this show, Mad Men, and then this other show.",
+    "target_audio_rel": "voxceleb1/id10285/uArtiTSTnSU/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10273/OYi3rZSdAOE/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5231635831296444,
+    "fake": 0.5071385111659765,
+    "drop": 0.01602507196366787,
+    "target_transcript": "I made one joke about being transvestite and then I thought I got to turn up in a dress and that was a few months later and I thought my career",
+    "target_audio_rel": "voxceleb1/id10273/eLl_yTeuaKo/00016.wav",
+    "ref_audio_rel": "voxceleb1/id10284/7yx9A0yzLYk/00034.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5359565205872059,
+    "fake": 0.507148583419621,
+    "drop": 0.028807937167584896,
+    "target_transcript": "And I think it's interesting whether medicine and looking after somebody does become an actual business and takes away from the emotive human aspect of it. And that's kind of what the two fight against because TC just wants to save people and doesn't really care about business and authority and all that kind of stuff. And Jordan does, and she needs to look after the actual paperwork and the business aspect of it because otherwise the hospital will not work. And then if it doesn't work, then...",
+    "target_audio_rel": "voxceleb1/id10293/mNM0rMPJE10/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10273/prqT1CcDqMc/00011.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5072990031912923,
+    "fake": 0.5071679945103824,
+    "drop": 0.00013100868090987206,
+    "target_transcript": "a pathetic sort of like attempt to recapture teenage",
+    "target_audio_rel": "voxceleb1/id10276/3vWez3baO60/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10290/HYiqXC0B3iY/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5355500094592571,
+    "fake": 0.5073011238127947,
+    "drop": 0.02824888564646244,
+    "target_transcript": "great stunt guy called Nathan Barris who's fantastic and did all like a lot of African shows such as Dominion and stuff so he was he was really on top of it and but they let me do",
+    "target_audio_rel": "voxceleb1/id10293/TwfthltapLg/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10278/DSGE2F5sTcg/00015.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5424757525324821,
+    "fake": 0.5075303413905203,
+    "drop": 0.03494541114196181,
+    "target_transcript": "that she investigated and told on 60 Minutes was true.",
+    "target_audio_rel": "voxceleb1/id10285/FUqAFZmZJ80/00016.wav",
+    "ref_audio_rel": "voxceleb1/id10273/8cfyJEV7hP8/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.597820982336998,
+    "fake": 0.5076758693903685,
+    "drop": 0.09014511294662952,
+    "target_transcript": "but I was 35 when I got Will & Grace so I mean it's",
+    "target_audio_rel": "voxceleb1/id10296/DKDZ6ENKX0o/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10273/eLl_yTeuaKo/00008.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5400246419012547,
+    "fake": 0.5077377911657095,
+    "drop": 0.03228685073554516,
+    "target_transcript": "Hearing something like that is actually I would understand it's more frightening than being",
+    "target_audio_rel": "voxceleb1/id10292/3kzw8lTcUBU/00026.wav",
+    "ref_audio_rel": "voxceleb1/id10304/dz2ohrKoOBA/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5061184503138065,
+    "fake": 0.5080131851136684,
+    "drop": -0.001894734799861908,
+    "target_transcript": "She hasn't learned to be scared of things that look odd or, you know, creatures that have horns. And it's nice for Aurora in this one. She has more depth, and obviously there are a lot of secrets that are kept from her. You know, she thinks both of her parents are dead, and she lives kind of very isolated in this cottage with her three fairy aunties. And so she doesn't really know much about, you know, outside of the forest.",
+    "target_audio_rel": "voxceleb1/id10286/mmFmN0OPhKs/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10304/0TJ9sdJiDvA/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4947506822645664,
+    "fake": 0.5081602344289422,
+    "drop": -0.013409552164375782,
+    "target_transcript": "and the secrets that they already know about each other.",
+    "target_audio_rel": "voxceleb1/id10285/thghCiJZYwI/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10283/vaK4t1-WD4M/00022.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5246549993753433,
+    "fake": 0.5081747127696872,
+    "drop": 0.016480286605656147,
+    "target_transcript": "I don't always understand. So, you know, just wanting the fans to know that if I'm not, it's not.",
+    "target_audio_rel": "voxceleb1/id10301/UkrkPwZd77Y/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10300/mYSVs_d1aMQ/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5048984177410603,
+    "fake": 0.5083333048969507,
+    "drop": -0.0034348871558904648,
+    "target_transcript": "This might work or might not you know it would let me play Jack Sparrow",
+    "target_audio_rel": "voxceleb1/id10279/4Q1IvdayPR8/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10273/8fKRoUIpAJY/00014.wav",
+    "label": 0
+  },
+  {
+    "original": 0.521471219137311,
+    "fake": 0.5083399657160044,
+    "drop": 0.01313125342130661,
+    "target_transcript": "make the plot and the characters work. So some of the kind of snowy stuff and some of the references like say the kind of you know the crab with the gold",
+    "target_audio_rel": "voxceleb1/id10276/cytGIvwJ3NA/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10307/f8Ms66atECE/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5227204542607069,
+    "fake": 0.5087199825793505,
+    "drop": 0.01400047168135643,
+    "target_transcript": "He should still have a kind of show like that. We should still have a kind of show like Jack Pa.",
+    "target_audio_rel": "voxceleb1/id10270/GWXujl-xAVM/00041.wav",
+    "ref_audio_rel": "voxceleb1/id10285/FUqAFZmZJ80/00019.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5285730808973312,
+    "fake": 0.5087576536461711,
+    "drop": 0.019815427251160145,
+    "target_transcript": "Yes, well that was 1981 during the kind of Gene Domanian.",
+    "target_audio_rel": "voxceleb1/id10304/zV7LlMi0eHo/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10306/tuOl16Buy1Y/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5567584708333015,
+    "fake": 0.5088876653462648,
+    "drop": 0.047870805487036705,
+    "target_transcript": "Yeah, it's so I love the the teenage like the girl in it Yeah, and I I did get to see when I went to the box trolls When I went to there I went up to Portland and saw the set there and I saw para Norman Like some of their dolls they have sitting out and the girl is just so funny She has her fingernails are painted pink and she has like a pink tracksuit. That's a tiny. I'm like and it's real Terry",
+    "target_audio_rel": "voxceleb1/id10286/L2jRsPDZGgw/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10283/p5g1heXp34o/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49192212522029877,
+    "fake": 0.5091038336977363,
+    "drop": -0.017181708477437496,
+    "target_transcript": "really cool and brave.",
+    "target_audio_rel": "voxceleb1/id10306/ehwAeTUqH0s/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10288/FIxC_PNJNkc/00006.wav",
+    "label": 0
+  },
+  {
+    "original": 0.514317212626338,
+    "fake": 0.5093899173662066,
+    "drop": 0.004927295260131359,
+    "target_transcript": "I was lucky enough to get to go around touring at these film festivals. And I started seeing movies that never come to America. And I was exposed to directors like Takashi Miike, who did Audition and Ichi the Killer, and films coming out of South Korea like Sympathy for Mr. Vengeance. And I just thought, oh my God, what the hell is going on in these Asian countries that they are making the movies this violent? And what I saw was that American movies try to play it safe, American horror movies. They don't want to offend people. And so the kind of directors like Miike understand that what makes a great horror movie is that it lives in that danger zone, that dangerous territory. And it harkens back to kind of Italian cinema in the 70s, films like Cannibal Holocaust or Pasolini's Salo, where they're making movies that are so violent, but they're not trying to please everybody. They're not for everybody. They're for a very specific audience. They're like, this is a sick movie. If you don't like it, stay the hell away from it. And I just felt like nobody was doing anything like that in America. So that's what I wanted to do. And I also like the fact that the Asian films aren't really pure. They're not really pure. They're not exactly pure horror movies. It's not like The Garage or The Ring. There's a wave of these ultra-violent films that are much more horrific than scary. It's about real people doing real things, and they're just horrifying and disturbing. And that's the type of horror that I like.",
+    "target_audio_rel": "voxceleb1/id10283/j5ArtKwbobY/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10299/752GDDvGPCA/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5086249299347401,
+    "fake": 0.5093922559171915,
+    "drop": -0.0007673259824514389,
+    "target_transcript": "fucking one. I said at the house, we need more police.",
+    "target_audio_rel": "voxceleb1/id10272/ho_r24dlPTQ/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10291/4aLg_keiGHw/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5705823823809624,
+    "fake": 0.5100690377876163,
+    "drop": 0.06051334459334612,
+    "target_transcript": "So, and you got people like John Fong, and he's worked in the ER for years. So you do learn about a lot of stuff they wouldn't know about otherwise, which is.",
+    "target_audio_rel": "voxceleb1/id10293/TnOGBL8p-RM/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10278/iEAqbqZ7dDg/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5155174462124705,
+    "fake": 0.5101048480719328,
+    "drop": 0.005412598140537739,
+    "target_transcript": "all over the place and he was going to shoot the",
+    "target_audio_rel": "voxceleb1/id10300/ize_eiCFEg0/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ENIHEvg_VLM/00017.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5147864520549774,
+    "fake": 0.5106635112315416,
+    "drop": 0.004122940823435783,
+    "target_transcript": "you're putting up someone's life on Selly Lloyd and I would really want to see",
+    "target_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00036.wav",
+    "ref_audio_rel": "voxceleb1/id10286/4TtOX8dgtYI/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.506253526546061,
+    "fake": 0.5107484795153141,
+    "drop": -0.004494952969253063,
+    "target_transcript": "using terrorism with religion would have less culture to grow.",
+    "target_audio_rel": "voxceleb1/id10273/8cfyJEV7hP8/00036.wav",
+    "ref_audio_rel": "voxceleb1/id10278/Pp-rAswo4Xg/00032.wav",
+    "label": 0
+  },
+  {
+    "original": 0.49837701208889484,
+    "fake": 0.5109552759677172,
+    "drop": -0.012578263878822327,
+    "target_transcript": "the stuff that they've shot with Bill Nye already and obviously his stuff was played back to us and all the motion capture stuff.",
+    "target_audio_rel": "voxceleb1/id10282/YmJBoCojXf4/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10295/3tvnlmkCiTw/00013.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5328693762421608,
+    "fake": 0.5109785068780184,
+    "drop": 0.021890869364142418,
+    "target_transcript": "And he said, you know, he said, you've done just about everything there is to do. What's left? I said, oh, lots of things. And he, you know, pinning me down, said, like what?",
+    "target_audio_rel": "voxceleb1/id10300/Xroutc-3_SU/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10279/f0I1IC6DJfo/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.533433523029089,
+    "fake": 0.5109799690544605,
+    "drop": 0.02245355397462845,
+    "target_transcript": "tracks, but then once we got going, the guys, John Corbett already knew how to play the guitar, John Ailes, who plays bass, he learned how to play the bass, and then Robert Kelly, who plays drums, he learned how to play the drums. So by the end of our 10 shows for this first season, everybody was playing.",
+    "target_audio_rel": "voxceleb1/id10281/RDFdX3VxjUQ/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10284/O_rxcwBWTz4/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4868855383247137,
+    "fake": 0.5110581507906318,
+    "drop": -0.024172612465918064,
+    "target_transcript": "bakeshop.com. P-I, not P-I-E, but P-I as in pie. And if you want the best pie on the",
+    "target_audio_rel": "voxceleb1/id10297/6pjKcuVoHLM/00013.wav",
+    "ref_audio_rel": "voxceleb1/id10282/qkZNuvX1UNo/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5199432447552681,
+    "fake": 0.5111293056979775,
+    "drop": 0.008813939057290554,
+    "target_transcript": "danced. I was very jealous of Derek and Nicole and I was kind of",
+    "target_audio_rel": "voxceleb1/id10299/x3QoGpHxThw/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10292/tsv5WA_ikH4/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47437755577266216,
+    "fake": 0.5111414976418018,
+    "drop": -0.03676394186913967,
+    "target_transcript": "I said, would it make sense to, since I'm Hispanic American, why don't we change the name to Pancho Relo and make him a Hispanic American?",
+    "target_audio_rel": "voxceleb1/id10298/6qFnVechX9o/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10275/LqcUAxrtYOk/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5383160561323166,
+    "fake": 0.5112225022166967,
+    "drop": 0.02709355391561985,
+    "target_transcript": "in their world, so I knew I was familiar with it. I think they kind of asked me to do this because they already knew.",
+    "target_audio_rel": "voxceleb1/id10286/L2jRsPDZGgw/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10296/DKDZ6ENKX0o/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5306290164589882,
+    "fake": 0.5113187097012997,
+    "drop": 0.019310306757688522,
+    "target_transcript": "girl from the south that everybody rejected and said she was a yellow gal and too ugly to be",
+    "target_audio_rel": "voxceleb1/id10270/OXdd7Gmluts/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10275/ICEJz3WX2n0/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.520164966583252,
+    "fake": 0.5113215772435069,
+    "drop": 0.008843389339745045,
+    "target_transcript": "But they swung with it, you know, they're cool with it.",
+    "target_audio_rel": "voxceleb1/id10273/hW0Q6eHqN-U/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10305/3QrLepYlH6o/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5525158494710922,
+    "fake": 0.5114863906055689,
+    "drop": 0.04102945886552334,
+    "target_transcript": "Yeah, it is what this movie is about. You know, it's like You know accept who you are. Yeah, you know be strange That's what makes you beautiful",
+    "target_audio_rel": "voxceleb1/id10306/SBO7kM1IPaY/00010.wav",
+    "ref_audio_rel": "voxceleb1/id10290/FAOLWl96MY0/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.516177598387003,
+    "fake": 0.5115806180983782,
+    "drop": 0.0045969802886247635,
+    "target_transcript": "It was just, it was funny, it was heartwarming. I thought the voice that Ellen brought to the character was quite amazing. And.",
+    "target_audio_rel": "voxceleb1/id10304/CN6JpPYbHCQ/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10302/ZAMRSlopMWA/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5273525174707174,
+    "fake": 0.5115833580493927,
+    "drop": 0.01576915942132473,
+    "target_transcript": "I was so worried at the beginning when they told me that. But then, you just have, if you have a real human being, a real actor in front of you,",
+    "target_audio_rel": "voxceleb1/id10306/tuOl16Buy1Y/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10285/9HcPA8lluoY/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.47298230789601803,
+    "fake": 0.5119562800973654,
+    "drop": -0.03897397220134735,
+    "target_transcript": "I don't know enormous amount, I do take in a lot of facts, but I tend to just throw out small facts that I've learned.",
+    "target_audio_rel": "voxceleb1/id10273/8cfyJEV7hP8/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10282/Zbz058o9j6s/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5103066973388195,
+    "fake": 0.5120263593271375,
+    "drop": -0.0017196619883179665,
+    "target_transcript": "I'm Estelle Harris and I'm proud to be a Braveheart Woman.",
+    "target_audio_rel": "voxceleb1/id10303/Zs8VK91yVMI/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10301/eVfmXU0RtRo/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5047473809681833,
+    "fake": 0.5121712759137154,
+    "drop": -0.0074238949455320835,
+    "target_transcript": "of different songs, but when I was a kid I would only let him sing one song, and it was a song I used to fall asleep to.",
+    "target_audio_rel": "voxceleb1/id10309/pwfqGqgezH4/00008.wav",
+    "ref_audio_rel": "voxceleb1/id10308/rgpPBT4yQcg/00013.wav",
+    "label": 0
+  },
+  {
+    "original": 0.52908044308424,
+    "fake": 0.5124293807893991,
+    "drop": 0.016651062294840813,
+    "target_transcript": "I'm an American citizen. I happen to love this country. And I know that we have our struggles.",
+    "target_audio_rel": "voxceleb1/id10270/zjwijMp0Qyw/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10309/qFrRfhWombs/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5334478728473186,
+    "fake": 0.5125005049631,
+    "drop": 0.020947367884218693,
+    "target_transcript": "Keanu lets the vampire in. In Fatal Attraction, Dan makes the mistake. I won't be ignored, Dan. It's Dan's fault, and that's what's scary. Whether it's hard candy or even Polanski's Death and the Maiden does a great job. That was a big influence.",
+    "target_audio_rel": "voxceleb1/id10283/u3s9xdUlmmk/00007.wav",
+    "ref_audio_rel": "voxceleb1/id10306/U4FY88wt4w8/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4745635874569416,
+    "fake": 0.5129432454705238,
+    "drop": -0.03837965801358223,
+    "target_transcript": "art and you step aside, step back and there you have it.",
+    "target_audio_rel": "voxceleb1/id10284/7yx9A0yzLYk/00039.wav",
+    "ref_audio_rel": "voxceleb1/id10307/c_aEjTGGhZ4/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.525548841804266,
+    "fake": 0.5129735106602311,
+    "drop": 0.012575331144034863,
+    "target_transcript": "Marty Allen, the whole Bushy Ed comic, you know? Yes. And his white friend. She would have since passed away, God bless her.",
+    "target_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00021.wav",
+    "ref_audio_rel": "voxceleb1/id10279/DTbpchx4xes/00012.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4942246275022626,
+    "fake": 0.5132933463901281,
+    "drop": -0.019068718887865543,
+    "target_transcript": "We badly need taxes. When you go to Amsterdam, for example, you go to where the stoners hang out in Amsterdam, you almost never see a fight break out. If you go to the bars in England or Scotland or Germany, fights break out all the time.",
+    "target_audio_rel": "voxceleb1/id10294/KMM3INYWEeY/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10302/KaZPZcTPQ-c/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5417389497160912,
+    "fake": 0.5134585443884134,
+    "drop": 0.028280405327677727,
+    "target_transcript": "how many people can say they've done that. So that was fantastic. And I was really pleased with the way they brought everything together. I think it was probably the best finale we've had of the three seasons. So yeah, I'm...",
+    "target_audio_rel": "voxceleb1/id10271/1gtz-CUIygI/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10285/FUqAFZmZJ80/00010.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5020494475029409,
+    "fake": 0.513595100492239,
+    "drop": -0.011545652989298105,
+    "target_transcript": "if you can't move your mouth? Yeah, I mean, why it was wrapped up, like from Christmas Story, Randy, where he's like...",
+    "target_audio_rel": "voxceleb1/id10299/uaPd2Ix-wSI/00003.wav",
+    "ref_audio_rel": "voxceleb1/id10292/ya6VNZp-pXw/00026.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5195415988564491,
+    "fake": 0.5137999430298805,
+    "drop": 0.0057416558265686035,
+    "target_transcript": "to coach and guide us. I was placed under orders by Alan and Jim. We're not going to be down on the set like we were with the three camera show. It's up to you to maintain the flame of Lou Grant.",
+    "target_audio_rel": "voxceleb1/id10278/rgcxEM5jOc4/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10276/5YncBThNd5E/00020.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5166111551225185,
+    "fake": 0.514313074760139,
+    "drop": 0.002298080362379551,
+    "target_transcript": "whether it's sexual equality, marriage equality, equal pay, reproduction rights. I mean, and I'm hoping that this younger generation, which tends to be largely...",
+    "target_audio_rel": "voxceleb1/id10307/0nH78dDh0N0/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10300/1ZyvrJaiLQk/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5614575333893299,
+    "fake": 0.5144479386508465,
+    "drop": 0.04700959473848343,
+    "target_transcript": "Have a team of your own. You don't have to do what your partner wants. Have a team of your own. I mean, that's what I used to do, sit down with my dad and learn about his team, but then I would start to like guys from other teams. And dad, I like him. Well, he doesn't play for our team. You know, cheer for somebody who you like on your own. You don't have to do what your partner says.",
+    "target_audio_rel": "voxceleb1/id10299/SX-117N_MoI/00005.wav",
+    "ref_audio_rel": "voxceleb1/id10278/DSGE2F5sTcg/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5127597535029054,
+    "fake": 0.5144640542566776,
+    "drop": -0.0017043007537722588,
+    "target_transcript": "There's an awful lot of times you see a breakdown of someone's human relationship and then something horrific happens and brings people together how they deal with a situation struggle and you can Drama doesn't really get that across all the time and the horror actually allows to see people in these extreme circumstances and sees What people react to what they'll do",
+    "target_audio_rel": "voxceleb1/id10293/Mp1IXRquJ9s/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10290/A3QwQ3D35rc/00007.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5295044369995594,
+    "fake": 0.5145784318447113,
+    "drop": 0.014926005154848099,
+    "target_transcript": "you know, made the scripts come first, nothing else. It is the story that comes first, and that's why we're still here, that's why people still.",
+    "target_audio_rel": "voxceleb1/id10285/uArtiTSTnSU/00017.wav",
+    "ref_audio_rel": "voxceleb1/id10290/HYiqXC0B3iY/00023.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5301551502197981,
+    "fake": 0.5147720500826836,
+    "drop": 0.015383100137114525,
+    "target_transcript": "I started talking about it, but not wearing any makeup or anything. And they said, well, he says he's a transvestite, but is this some...",
+    "target_audio_rel": "voxceleb1/id10273/hW0Q6eHqN-U/00009.wav",
+    "ref_audio_rel": "voxceleb1/id10291/7lrVxsJOOZ4/00002.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5282970033586025,
+    "fake": 0.5147774573415518,
+    "drop": 0.013519546017050743,
+    "target_transcript": "And he said, no, you've had it. You've been handling it for five minutes. I said, what? And I suddenly learned a great lesson.",
+    "target_audio_rel": "voxceleb1/id10300/xiFC4HwUcww/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10273/8fKRoUIpAJY/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4958242382854223,
+    "fake": 0.5147939827293158,
+    "drop": -0.018969744443893433,
+    "target_transcript": "Now we have two, the children are all out, our three children, and we have two pets, dogs, Maltese, Zsa Zsa, and a Pomeranian, oh God, Tino, but his real name is Val.",
+    "target_audio_rel": "voxceleb1/id10303/R5JGtwc4o1M/00002.wav",
+    "ref_audio_rel": "voxceleb1/id10288/A3ZvNuG8_oM/00009.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5218308866024017,
+    "fake": 0.5149242151528597,
+    "drop": 0.006906671449542046,
+    "target_transcript": "out of the opera i was beginning to have questions about my sexuality and was starting",
+    "target_audio_rel": "voxceleb1/id10309/_z_BR0ERa9g/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10278/fvX1Vtx3sNo/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5117308385670185,
+    "fake": 0.515131002292037,
+    "drop": -0.0034001637250185013,
+    "target_transcript": "I think I'd like to make my films that way. I think it's important that you can make entertainment and then also try and have something through it, even if it's very subtle, that someone takes it from. But yeah, I think...",
+    "target_audio_rel": "voxceleb1/id10293/Mp1IXRquJ9s/00011.wav",
+    "ref_audio_rel": "voxceleb1/id10306/mH6gd26SGcU/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5335376299917698,
+    "fake": 0.5151723753660917,
+    "drop": 0.018365254625678062,
+    "target_transcript": "I did a little bit, but I also, Sally grew up in that time, so from that I sort of picked her brain about what it was like and sort of growing up in the time of how it was so scary.",
+    "target_audio_rel": "voxceleb1/id10286/mYc2BIS0zWU/00004.wav",
+    "ref_audio_rel": "voxceleb1/id10300/2cAiIYHfon0/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5689356774091721,
+    "fake": 0.5152012575417757,
+    "drop": 0.053734419867396355,
+    "target_transcript": "And normally guys wear overalls apparently like the...",
+    "target_audio_rel": "voxceleb1/id10275/ICEJz3WX2n0/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10278/DSGE2F5sTcg/00005.wav",
+    "label": 0
+  },
+  {
+    "original": 0.4789772145450115,
+    "fake": 0.5152885690331459,
+    "drop": -0.036311354488134384,
+    "target_transcript": "on the eating front that people, that somehow it taps into like this survival and this fear of survival. No, I have to eat meat to survive. And then it does become a habit. Like, no, I need this. And you actually really don't. You really, really don't. You just need protein. But that protein does not have to come from animal sources. So, yeah. And I had another thought, but it went with it.",
+    "target_audio_rel": "voxceleb1/id10281/RDFdX3VxjUQ/00026.wav",
+    "ref_audio_rel": "voxceleb1/id10300/Fi8lnFPYgII/00013.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5033371234312654,
+    "fake": 0.5153412576764822,
+    "drop": -0.012004134245216846,
+    "target_transcript": "Justin Bieber, I didn't know the street cred was that high for Odell and Victor",
+    "target_audio_rel": "voxceleb1/id10299/uaPd2Ix-wSI/00006.wav",
+    "ref_audio_rel": "voxceleb1/id10273/xN2fSTQHHkw/00001.wav",
+    "label": 0
+  },
+  {
+    "original": 0.537334717810154,
+    "fake": 0.5154491048306227,
+    "drop": 0.021885612979531288,
+    "target_transcript": "I would lie on the bed. I was in the Foreign Legion, and I was getting shot.",
+    "target_audio_rel": "voxceleb1/id10284/7yx9A0yzLYk/00027.wav",
+    "ref_audio_rel": "voxceleb1/id10277/znxUWA2QAGs/00003.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5177062153816223,
+    "fake": 0.5155223645269871,
+    "drop": 0.0021838508546352386,
+    "target_transcript": "battle depression or anxiety do you know what to do start reaching out by visiting activeminds.org cb",
+    "target_audio_rel": "voxceleb1/id10274/YCIIiIR9B60/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10306/WOjNZFtRwDg/00004.wav",
+    "label": 0
+  },
+  {
+    "original": 0.5185485295951366,
+    "fake": 0.5158324856311083,
+    "drop": 0.0027160439640283585,
+    "target_transcript": "I remember Johnny Depp having to talk about how he takes risks and chances in having to create a character.",
+    "target_audio_rel": "voxceleb1/id10279/4Q1IvdayPR8/00001.wav",
+    "ref_audio_rel": "voxceleb1/id10286/cJ40ZqTY3dQ/00003.wav",
+    "label": 0
+  }
+]

@@ -1,0 +1,51 @@
+
+SCORE DIFFERENCE ANALYSIS
+==================================================
+
+Label 0:
+------------------------------
+Total samples: 18809
+Original scores - Mean: 0.528, Std: 0.053
+Fake scores - Mean: 0.521, Std: 0.052
+
+INCREASES:
+Number of increases: 7098 (37.7%)
+Average increase: 0.016
+Max increase: 0.112
+Min increase: 0.000
+Median increase: 0.012
+Std of increases: 0.013
+
+DROPS:
+Number of drops: 11711 (62.3%)
+Average drop: 0.021
+Max drop: 0.185
+Min drop: 0.000
+Median drop: 0.017
+Std of drops: 0.016
+
+------------------------------
+
+Label 1:
+------------------------------
+Total samples: 18802
+Original scores - Mean: 0.779, Std: 0.067
+Fake scores - Mean: 0.748, Std: 0.066
+
+INCREASES:
+Number of increases: 2178 (11.6%)
+Average increase: 0.014
+Max increase: 0.112
+Min increase: 0.000
+Median increase: 0.009
+Std of increases: 0.013
+
+DROPS:
+Number of drops: 16624 (88.4%)
+Average drop: 0.036
+Max drop: 0.460
+Min drop: 0.000
+Median drop: 0.031
+Std of drops: 0.027
+
+------------------------------

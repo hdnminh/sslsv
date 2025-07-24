@@ -1,0 +1,131 @@
+
+THRESHOLD ANALYSIS
+==================================================
+
+Label 0:
+------------------------------
+Total samples: 18809
+Original scores - Mean: 0.528, Std: 0.053
+Fake scores - Mean: 0.521, Std: 0.052
+
+Below Threshold Analysis:
+
+Threshold 0.67:
+Number of cases: 18670 (99.3%)
+Original scores - Mean: 0.526, Std: 0.051
+Fake scores - Mean: 0.519, Std: 0.050
+Average drop: 0.007
+Max drop: 0.185
+Min drop: -0.108
+
+Fake Score Distribution:
+Sample size for percentiles: 18670
+
+Percentile Range Analysis:
+------------------------------
+Below 5th percentile (0.444): 934 samples
+5th-25th percentile (0.444-0.485): 3734 samples
+25th-50th percentile (0.485-0.515): 4667 samples
+50th-75th percentile (0.515-0.550): 4667 samples
+75th-95th percentile (0.550-0.609): 3734 samples
+Above 95th percentile (0.609): 934 samples
+
+Percentile Values:
+5th percentile: 0.444
+25th percentile: 0.485
+50th percentile: 0.515
+75th percentile: 0.550
+95th percentile: 0.609
+
+Outlier Analysis:
+--------------------
+IQR: 0.066
+Lower bound (Q1 - 1.5*IQR): 0.386
+Upper bound (Q3 + 1.5*IQR): 0.649
+Number of outliers: 198 (1.1%)
+Low outliers: 11 cases
+Sample low outliers (first 3):
+  Case 1: Speaker=voxceleb1, Video=id10283, File=vaK4t1-WD4M
+    Original=0.476, Fake=0.379, Drop=0.097
+    Text: we're going to go. And then we brought in Chick, who's like completely fresh set of eyes, who just w...
+  Case 2: Speaker=voxceleb1, Video=id10294, File=WJPpL58RruA
+    Original=0.426, Fake=0.378, Drop=0.048
+    Text: He didn't know. He just saw the film. He said, oh, that might be an interesting new......
+  Case 3: Speaker=voxceleb1, Video=id10287, File=4SgMBa9MUvc
+    Original=0.406, Fake=0.384, Drop=0.022
+    Text: I have old friends that I rely on that are part of my life and have been for...
+High outliers: 187 cases
+Sample high outliers (first 3):
+  Case 1: Speaker=voxceleb1, Video=id10303, File=LKDWhdJQFco
+    Original=0.714, Fake=0.661, Drop=0.053
+    Text: I got the sides and I read and I said to my son, what was she so embarrassed about? So my son looked...
+  Case 2: Speaker=voxceleb1, Video=id10307, File=120gjdqGWNQ
+    Original=0.675, Fake=0.658, Drop=0.017
+    Text: where it was behind the scenes of a soap opera but instead of a normal soap opera, what if it was a ...
+  Case 3: Speaker=voxceleb1, Video=id10303, File=Tgph483ZOQ8
+    Original=0.702, Fake=0.659, Drop=0.043
+    Text: liked it just as much without the 3D. But if they want the 3D, fine. They want...
+
+Label 1:
+------------------------------
+Total samples: 18802
+Original scores - Mean: 0.779, Std: 0.067
+Fake scores - Mean: 0.748, Std: 0.066
+
+Below Threshold Analysis:
+
+Threshold 0.67:
+Number of cases: 2333 (12.4%)
+Original scores - Mean: 0.683, Std: 0.047
+Fake scores - Mean: 0.635, Std: 0.029
+Average drop: 0.048
+Max drop: 0.460
+Min drop: -0.076
+
+Fake Score Distribution:
+Sample size for percentiles: 2333
+
+Percentile Range Analysis:
+------------------------------
+Below 5th percentile (0.578): 117 samples
+5th-25th percentile (0.578-0.620): 466 samples
+25th-50th percentile (0.620-0.643): 583 samples
+50th-75th percentile (0.643-0.658): 583 samples
+75th-95th percentile (0.658-0.668): 467 samples
+Above 95th percentile (0.668): 117 samples
+
+Percentile Values:
+5th percentile: 0.578
+25th percentile: 0.620
+50th percentile: 0.643
+75th percentile: 0.658
+95th percentile: 0.668
+
+Outlier Analysis:
+--------------------
+IQR: 0.038
+Lower bound (Q1 - 1.5*IQR): 0.563
+Upper bound (Q3 + 1.5*IQR): 0.715
+Number of outliers: 58 (2.5%)
+Low outliers: 58 cases
+Sample low outliers (first 3):
+  Case 1: Speaker=voxceleb1, Video=id10270, File=OhfKF8FSq3Y
+    Original=0.591, Fake=0.532, Drop=0.059
+    Text: getting to a point in their lives where they are just about able to start paying back their parents ...
+  Case 2: Speaker=voxceleb1, Video=id10270, File=5r0dWxy17C8
+    Original=0.634, Fake=0.554, Drop=0.080
+    Text: because I was trying to get away from her, but where do you go? What do you do?...
+  Case 3: Speaker=voxceleb1, Video=id10273, File=prqT1CcDqMc
+    Original=0.626, Fake=0.552, Drop=0.075
+    Text: I was born in Yemen. So it's my duty......
+
+Extreme values (beyond 3*IQR): 4 cases
+Extreme lower bound: 0.506
+Extreme upper bound: 0.772
+Extreme cases (first 2):
+  Case 1: Speaker=voxceleb1, Video=id10307, File=0nH78dDh0N0
+    Original=0.882, Fake=0.471, Drop=0.411
+    Text: It really disenfranchises many, many groups. There's many people who will have to drive 300 miles to...
+  Case 2: Speaker=voxceleb1, Video=id10307, File=0nH78dDh0N0
+    Original=0.853, Fake=0.473, Drop=0.380
+    Text: It really disenfranchises many, many groups. There's many people who will have to drive 300 miles to...

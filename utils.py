@@ -23,7 +23,7 @@ def hash_to_int32(text):
     
     return str(int32_value)
 
-def load_dataset(path = 'data/voicewukong_metadata.json'):
+def load_dataset(path):
     with open(path, 'r') as f:
         data = json.load(f)
     return data

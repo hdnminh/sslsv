@@ -1,0 +1,81 @@
+THRESHOLD ANALYSIS RESULTS
+==================================================
+
+Label 0:
+------------------------------
+Total samples: 18809
+Original scores - Mean: 0.527549, Std: 0.052594
+Fake scores - Mean: 0.520597, Std: 0.051561
+
+Below Threshold Analysis:
+
+Threshold 0.516:
+Number of cases: 9467 (50.3%)
+Original scores - Mean: 0.491258, Std: 0.030460
+Fake scores - Mean: 0.480530, Std: 0.025509
+Average drop: 0.010727
+Max drop: 0.176270
+Min drop: -0.071418
+
+Fake Score Distribution:
+5th percentile: 0.432305
+25th percentile: 0.464757
+50th percentile: 0.485244
+75th percentile: 0.501235
+95th percentile: 0.513003
+
+Sample cases (first 5):
+Original: 0.484583, Fake: 0.510948, Drop: -0.026365
+Text: And then the painting was kind of awkward and kind of large. And they wanted me to hold it so that you could see it in certain shots. And then the cigarette is actually really heavy.
+Original: 0.528107, Fake: 0.506081, Drop: 0.022026
+Text: Thank you for giving me a career. Thank you for allowing me to have indoor plumbing at my house.
+Original: 0.486199, Fake: 0.460714, Drop: 0.025485
+Text: and stuff and yeah he was a older most of unless it came like very very very fine detail stuff they let me do a lot of it but Nathan was great because he oversaw it
+Original: 0.499568, Fake: 0.505609, Drop: -0.006041
+Text: Well, we came back in the port. They started to take off the rest of the debt charges. And I said, wait a minute, you've got Fulminator mercury in there and everything else. Oh, don't worry. I said, you've got a chippin' hat.
+Original: 0.457099, Fake: 0.472148, Drop: -0.015049
+Text: If you liked Instruction Not Included, this one has a lot of elements like that movie.
+
+------------------------------
+
+==================================================
+
+Label 1:
+------------------------------
+Total samples: 18802
+Original scores - Mean: 0.778677, Std: 0.066925
+Fake scores - Mean: 0.748470, Std: 0.066482
+
+Below Threshold Analysis:
+
+Threshold 0.516:
+Number of cases: 6 (0.0%)
+Original scores - Mean: 0.824592, Std: 0.142537
+Fake scores - Mean: 0.487438, Std: 0.016203
+Average drop: 0.337154
+Max drop: 0.460366
+Min drop: 0.030822
+
+Fake Score Distribution:
+5th percentile: 0.471253
+25th percentile: 0.473642
+50th percentile: 0.481521
+75th percentile: 0.502135
+95th percentile: 0.509925
+
+Sample cases (first 5):
+Original: 0.541816, Fake: 0.510994, Drop: 0.030822
+Text: because there are other roles for them. So I don't think there's a lack of...
+Original: 0.881738, Fake: 0.470570, Drop: 0.411169
+Text: It really disenfranchises many, many groups. There's many people who will have to drive 300 miles to the place to get the proper identification and then drive back. And that's an undue burden. When you have an undue burden, it is not reasonable to put that restraint. And the interesting thing is, you know, I don't know why the United States makes it harder for people to vote. Many other countries vote on a Saturday. They vote on weekends. They have extended early voting. Some countries it's against the law if you don't vote. I mean, we'll never go to that extreme. But it's interesting how hard we fought to really make the vote open to everybody, but yet we kind of limit it to only a Tuesday and early voting is shorter.
+Original: 0.852995, Fake: 0.473301, Drop: 0.379694
+Text: It really disenfranchises many, many groups. There's many people who will have to drive 300 miles to the place to get the proper identification and then drive back. And that's an undue burden. When you have an undue burden, it is not reasonable to put that restraint. And the interesting thing is, you know, I don't know why the United States makes it harder for people to vote. Many other countries vote on a Saturday. They vote on weekends. They have extended early voting. Some countries it's against the law if you don't vote. I mean, we'll never go to that extreme. But it's interesting how hard we fought to really make the vote open to everybody, but yet we kind of limit it to only a Tuesday and early voting is shorter.
+Original: 0.761672, Fake: 0.474663, Drop: 0.287008
+Text: It really disenfranchises many, many groups. There's many people who will have to drive 300 miles to the place to get the proper identification and then drive back. And that's an undue burden. When you have an undue burden, it is not reasonable to put that restraint. And the interesting thing is, you know, I don't know why the United States makes it harder for people to vote. Many other countries vote on a Saturday. They vote on weekends. They have extended early voting. Some countries it's against the law if you don't vote. I mean, we'll never go to that extreme. But it's interesting how hard we fought to really make the vote open to everybody, but yet we kind of limit it to only a Tuesday and early voting is shorter.
+Original: 0.960585, Fake: 0.506720, Drop: 0.453864
+Text: It really disenfranchises many, many groups. There's many people who will have to drive 300 miles to the place to get the proper identification and then drive back. And that's an undue burden. When you have an undue burden, it is not reasonable to put that restraint. And the interesting thing is, you know, I don't know why the United States makes it harder for people to vote. Many other countries vote on a Saturday. They vote on weekends. They have extended early voting. Some countries it's against the law if you don't vote. I mean, we'll never go to that extreme. But it's interesting how hard we fought to really make the vote open to everybody, but yet we kind of limit it to only a Tuesday and early voting is shorter.
+
+------------------------------
+
+==================================================
+

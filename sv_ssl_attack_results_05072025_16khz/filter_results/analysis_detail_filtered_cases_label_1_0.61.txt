@@ -1,0 +1,81 @@
+THRESHOLD ANALYSIS RESULTS
+==================================================
+
+Label 0:
+------------------------------
+Total samples: 18809
+Original scores - Mean: 0.527549, Std: 0.052594
+Fake scores - Mean: 0.520597, Std: 0.051561
+
+Below Threshold Analysis:
+
+Threshold 0.61:
+Number of cases: 17754 (94.4%)
+Original scores - Mean: 0.520719, Std: 0.045037
+Fake scores - Mean: 0.513485, Std: 0.043309
+Average drop: 0.007234
+Max drop: 0.184752
+Min drop: -0.107506
+
+Fake Score Distribution:
+5th percentile: 0.442976
+25th percentile: 0.482925
+50th percentile: 0.512203
+75th percentile: 0.544077
+95th percentile: 0.588089
+
+Sample cases (first 5):
+Original: 0.540490, Fake: 0.530639, Drop: 0.009850
+Text: all over the place and he was going to shoot the
+Original: 0.548154, Fake: 0.538040, Drop: 0.010114
+Text: I announced five years ago that I'd run in May 2020. So that's kind of weird because you normally...
+Original: 0.596214, Fake: 0.591620, Drop: 0.004594
+Text: the next performance I didn't get the laugh, which taught me a valuable lesson that you don't do it yourself.
+Original: 0.602113, Fake: 0.574631, Drop: 0.027482
+Text: spent two years with Henry Fonda, Peter O'Toole, Al Pacino,
+Original: 0.484583, Fake: 0.510948, Drop: -0.026365
+Text: And then the painting was kind of awkward and kind of large. And they wanted me to hold it so that you could see it in certain shots. And then the cigarette is actually really heavy.
+
+------------------------------
+
+==================================================
+
+Label 1:
+------------------------------
+Total samples: 18802
+Original scores - Mean: 0.778677, Std: 0.066925
+Fake scores - Mean: 0.748470, Std: 0.066482
+
+Below Threshold Analysis:
+
+Threshold 0.61:
+Number of cases: 410 (2.2%)
+Original scores - Mean: 0.655124, Std: 0.060834
+Fake scores - Mean: 0.584979, Std: 0.022270
+Average drop: 0.070145
+Max drop: 0.460366
+Min drop: -0.046717
+
+Fake Score Distribution:
+5th percentile: 0.546143
+25th percentile: 0.574228
+50th percentile: 0.589629
+75th percentile: 0.601037
+95th percentile: 0.608546
+
+Sample cases (first 5):
+Original: 0.646860, Fake: 0.609425, Drop: 0.037435
+Text: to be in that position. They have to know about how to take care of business. They have to know how to
+Original: 0.591041, Fake: 0.531564, Drop: 0.059477
+Text: getting to a point in their lives where they are just about able to start paying back their parents for whatever that
+Original: 0.643158, Fake: 0.603667, Drop: 0.039491
+Text: getting to a point in their lives where they are just about able to start paying back their parents for whatever that
+Original: 0.684177, Fake: 0.597081, Drop: 0.087097
+Text: do the other hoping that the conductor wouldn't see me because they used to have conduct
+Original: 0.633772, Fake: 0.553946, Drop: 0.079825
+Text: because I was trying to get away from her, but where do you go? What do you do?
+
+------------------------------
+
+==================================================
+
