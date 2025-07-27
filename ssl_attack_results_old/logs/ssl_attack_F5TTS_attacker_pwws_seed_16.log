@@ -1,0 +1,619 @@
+2025-07-24 14:26:58 - INFO - === SSL Speech Verification Attack Experiment Started ===
+2025-07-24 14:26:58 - INFO - Start time: 2025-07-24 14:26:58
+2025-07-24 14:26:58 - INFO - Output directory: ssl_attack_results
+2025-07-24 14:26:58 - INFO - Cache directory: ./cache/fake_generated_audios_ssl/pwws_seed_16
+2025-07-24 14:26:58 - INFO - Loading SSL model from config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 14:26:58 - INFO - Using checkpoint: model_avg.pt
+2025-07-24 14:26:59 - INFO - SSL model loaded successfully
+2025-07-24 14:27:04 - INFO - TTS cache directory set to: ./cache/fake_generated_audios_ssl/pwws_seed_16
+2025-07-24 14:27:04 - INFO - Results output directory: ssl_attack_results
+2025-07-24 14:27:04 - INFO - Starting SSL speech verification attacks (per transcript/ref_audio pair)...
+2025-07-24 14:27:04 - INFO - SSL Model Config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-07-24 14:27:04 - INFO - SSL Model Checkpoint: model_avg.pt
+2025-07-24 14:27:04 - INFO - EER Method: discrete
+2025-07-24 14:27:04 - INFO - TTS Model: F5TTS
+2025-07-24 14:27:04 - INFO - Cache Dir: ./cache/fake_generated_audios_ssl/pwws_seed_16
+2025-07-24 14:27:04 - INFO - Output Dir: ssl_attack_results
+2025-07-24 14:27:04 - INFO - VoxCeleb Root: /media/volume/AudioUnlearnData1/sslsv/data/
+2025-07-24 14:27:04 - INFO - Total pairs: 292
+2025-07-24 14:27:04 - INFO - Valid pairs: 292
+2025-07-24 14:27:04 - INFO - Running pwws SSL attack on all pairs with batch size 50
+2025-07-24 14:27:04 - INFO - Attacker start time: 2025-07-24 14:27:04
+2025-07-24 14:27:04 - INFO - Speaker distribution: {'voxceleb1': 292}
+2025-07-24 14:27:04 - INFO - Processing in 6 batches of 50 samples each
+2025-07-24 14:27:04 - INFO - Processing batch 1/6 (samples 50)
+2025-07-24 14:27:04 - INFO - Batch start time: 2025-07-24 14:27:04
+2025-07-24 14:27:04 - INFO - Batch 1 contains speakers: ['voxceleb1']
+2025-07-24 14:27:04 - INFO - Processing entry 1: voxceleb1/id10270/OhfKF8FSq3Y/00001.wav
+2025-07-24 14:27:06 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/5r0dWxy17C8/00020.wav
+2025-07-24 14:27:19 - INFO - Processing entry 2: voxceleb1/id10270/5r0dWxy17C8/00017.wav
+2025-07-24 14:27:19 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/GWXujl-xAVM/00019.wav
+2025-07-24 14:31:42 - INFO - Processing entry 3: voxceleb1/id10270/5r0dWxy17C8/00015.wav
+2025-07-24 14:31:42 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10270/GWXujl-xAVM/00028.wav
+2025-07-24 14:32:01 - INFO - Processing entry 4: voxceleb1/id10271/zWyD72sHVwA/00005.wav
+2025-07-24 14:32:02 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/1gtz-CUIygI/00016.wav
+2025-07-24 14:36:16 - INFO - Processing entry 5: voxceleb1/id10271/djK87iSSKQo/00001.wav
+2025-07-24 14:36:16 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/PMWQqW_ia58/00001.wav
+2025-07-24 14:38:09 - INFO - Processing entry 6: voxceleb1/id10271/zWyD72sHVwA/00008.wav
+2025-07-24 14:38:10 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/_pOfzIZVLFQ/00001.wav
+2025-07-24 14:38:43 - INFO - Processing entry 7: voxceleb1/id10271/PiXU2UZAh-0/00001.wav
+2025-07-24 14:38:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/zWyD72sHVwA/00002.wav
+2025-07-24 14:40:22 - INFO - Processing entry 8: voxceleb1/id10271/PiXU2UZAh-0/00001.wav
+2025-07-24 14:40:22 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10271/zWyD72sHVwA/00008.wav
+2025-07-24 14:40:25 - INFO - Processing entry 9: voxceleb1/id10272/wb6ligRbbZ4/00009.wav
+2025-07-24 14:40:25 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10272/0qqQJVFKpbA/00005.wav
+2025-07-24 14:45:25 - INFO - Processing entry 10: voxceleb1/id10272/olePnztkm6U/00013.wav
+2025-07-24 14:45:25 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10272/dkN2DIBrXqQ/00004.wav
+2025-07-24 15:01:06 - INFO - Processing entry 11: voxceleb1/id10272/uuEXZLyyWN8/00001.wav
+2025-07-24 15:01:07 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10272/wb6ligRbbZ4/00003.wav
+2025-07-24 15:01:36 - INFO - Processing entry 12: voxceleb1/id10272/V10d_shmAaY/00001.wav
+2025-07-24 15:01:36 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10272/wb6ligRbbZ4/00010.wav
+2025-07-24 15:03:02 - INFO - Processing entry 13: voxceleb1/id10272/olePnztkm6U/00003.wav
+2025-07-24 15:03:02 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10272/ho_r24dlPTQ/00005.wav
+2025-07-24 15:03:22 - INFO - Processing entry 14: voxceleb1/id10273/8cfyJEV7hP8/00031.wav
+2025-07-24 15:03:23 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/MqKFZOAwUsg/00005.wav
+2025-07-24 18:21:36 - INFO - Processing entry 15: voxceleb1/id10273/ZpPPaMazpf0/00017.wav
+2025-07-24 18:21:36 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/3i_6peYQarY/00001.wav
+2025-07-24 18:24:31 - INFO - Processing entry 16: voxceleb1/id10273/prqT1CcDqMc/00023.wav
+2025-07-24 18:24:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/8cfyJEV7hP8/00006.wav
+2025-07-24 18:25:26 - INFO - Processing entry 17: voxceleb1/id10273/58VB-LYIoRM/00004.wav
+2025-07-24 18:25:27 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/8cfyJEV7hP8/00015.wav
+2025-07-24 18:29:04 - INFO - Processing entry 18: voxceleb1/id10273/prqT1CcDqMc/00023.wav
+2025-07-24 18:29:04 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/OYi3rZSdAOE/00002.wav
+2025-07-24 18:29:07 - INFO - Processing entry 19: voxceleb1/id10273/8cfyJEV7hP8/00015.wav
+2025-07-24 18:29:07 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/OYi3rZSdAOE/00006.wav
+2025-07-24 18:30:27 - INFO - Processing entry 20: voxceleb1/id10273/oBaIbyCrTVw/00005.wav
+2025-07-24 18:30:27 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/SgBON1gLfbo/00004.wav
+2025-07-24 18:30:40 - INFO - Processing entry 21: voxceleb1/id10273/prqT1CcDqMc/00023.wav
+2025-07-24 18:30:40 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/ZpPPaMazpf0/00010.wav
+2025-07-24 18:31:24 - INFO - Processing entry 22: voxceleb1/id10273/prqT1CcDqMc/00017.wav
+2025-07-24 18:31:24 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/ZpPPaMazpf0/00018.wav
+2025-07-24 18:33:34 - INFO - Processing entry 23: voxceleb1/id10273/hW0Q6eHqN-U/00012.wav
+2025-07-24 18:33:35 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/prqT1CcDqMc/00023.wav
+2025-07-24 18:38:11 - INFO - Processing entry 24: voxceleb1/id10273/oBaIbyCrTVw/00005.wav
+2025-07-24 18:38:11 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10273/xadnDft3rpU/00001.wav
+2025-07-24 18:38:13 - INFO - Processing entry 25: voxceleb1/id10274/O9xLIdaUG-k/00002.wav
+2025-07-24 18:38:14 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10274/wH6ebv-K8AA/00001.wav
+2025-07-24 18:38:20 - INFO - Processing entry 26: voxceleb1/id10274/xbGp2KSUr0E/00004.wav
+2025-07-24 18:38:20 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10274/O9xLIdaUG-k/00005.wav
+2025-07-24 18:43:58 - INFO - Processing entry 27: voxceleb1/id10274/s7vZT3_8Smo/00005.wav
+2025-07-24 18:43:58 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10274/O9xLIdaUG-k/00005.wav
+2025-07-24 18:50:06 - INFO - Processing entry 28: voxceleb1/id10275/mWZ3l5OoyVI/00002.wav
+2025-07-24 18:50:06 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10275/pV6cJibX6Ik/00001.wav
+2025-07-24 18:50:43 - INFO - Processing entry 29: voxceleb1/id10276/P91fRfZ0PEE/00001.wav
+2025-07-24 18:50:44 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10276/CooJzMgoxzw/00003.wav
+2025-07-24 19:23:56 - INFO - Processing entry 30: voxceleb1/id10276/CAhGBfTmCHw/00004.wav
+2025-07-24 19:23:56 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10276/cytGIvwJ3NA/00001.wav
+2025-07-24 20:49:42 - INFO - Processing entry 31: voxceleb1/id10277/tbh20gz_KRA/00002.wav
+2025-07-24 20:49:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/SeXsHJ3fW1c/00001.wav
+2025-07-24 20:59:13 - INFO - Processing entry 32: voxceleb1/id10277/tbh20gz_KRA/00006.wav
+2025-07-24 20:59:13 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/SeXsHJ3fW1c/00002.wav
+2025-07-24 21:00:30 - INFO - Processing entry 33: voxceleb1/id10277/tbh20gz_KRA/00026.wav
+2025-07-24 21:00:30 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/SeXsHJ3fW1c/00002.wav
+2025-07-24 21:00:51 - INFO - Processing entry 34: voxceleb1/id10277/tbh20gz_KRA/00026.wav
+2025-07-24 21:00:51 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/SeXsHJ3fW1c/00003.wav
+2025-07-24 21:00:57 - INFO - Processing entry 35: voxceleb1/id10277/znxUWA2QAGs/00014.wav
+2025-07-24 21:00:57 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/SeXsHJ3fW1c/00003.wav
+2025-07-24 21:01:32 - INFO - Processing entry 36: voxceleb1/id10277/tbh20gz_KRA/00002.wav
+2025-07-24 21:01:32 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/SeXsHJ3fW1c/00003.wav
+2025-07-24 21:04:08 - INFO - Processing entry 37: voxceleb1/id10277/tbh20gz_KRA/00014.wav
+2025-07-24 21:04:09 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/SeXsHJ3fW1c/00004.wav
+2025-07-24 21:06:07 - INFO - Processing entry 38: voxceleb1/id10277/znxUWA2QAGs/00001.wav
+2025-07-24 21:06:07 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/SeXsHJ3fW1c/00005.wav
+2025-07-24 21:08:50 - INFO - Processing entry 39: voxceleb1/id10277/znxUWA2QAGs/00003.wav
+2025-07-24 21:08:50 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/8rby6ETXo8Q/00002.wav
+2025-07-24 21:11:35 - INFO - Processing entry 40: voxceleb1/id10277/znxUWA2QAGs/00009.wav
+2025-07-24 21:11:35 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/UIbPolhxLDI/00003.wav
+2025-07-24 21:32:33 - INFO - Processing entry 41: voxceleb1/id10277/tbh20gz_KRA/00008.wav
+2025-07-24 21:32:33 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/UIbPolhxLDI/00004.wav
+2025-07-24 21:33:23 - INFO - Processing entry 42: voxceleb1/id10277/0rpfN7wThsg/00003.wav
+2025-07-24 21:33:24 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/UIbPolhxLDI/00004.wav
+2025-07-24 21:34:39 - INFO - Processing entry 43: voxceleb1/id10277/znxUWA2QAGs/00001.wav
+2025-07-24 21:34:39 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/cELY3LdIo-0/00002.wav
+2025-07-24 21:36:15 - INFO - Processing entry 44: voxceleb1/id10277/0rpfN7wThsg/00002.wav
+2025-07-24 21:36:15 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/cELY3LdIo-0/00002.wav
+2025-07-24 21:39:11 - INFO - Processing entry 45: voxceleb1/id10277/znxUWA2QAGs/00008.wav
+2025-07-24 21:39:11 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/cELY3LdIo-0/00002.wav
+2025-07-24 21:57:54 - INFO - Processing entry 46: voxceleb1/id10277/znxUWA2QAGs/00011.wav
+2025-07-24 21:57:54 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/cELY3LdIo-0/00003.wav
+2025-07-24 21:58:01 - INFO - Processing entry 47: voxceleb1/id10277/SeXsHJ3fW1c/00005.wav
+2025-07-24 21:58:01 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00001.wav
+2025-07-24 21:58:07 - INFO - Processing entry 48: voxceleb1/id10277/SeXsHJ3fW1c/00002.wav
+2025-07-24 21:58:07 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00002.wav
+2025-07-24 21:58:32 - INFO - Processing entry 49: voxceleb1/id10277/SeXsHJ3fW1c/00002.wav
+2025-07-24 21:58:32 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00003.wav
+2025-07-24 21:58:57 - INFO - Processing entry 50: voxceleb1/id10277/SeXsHJ3fW1c/00004.wav
+2025-07-24 21:58:57 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00005.wav
+2025-07-24 22:01:29 - INFO - Batch 1/6 completed. Runtime: 7h:34m:25.49s. Processed 50 samples.
+2025-07-24 22:01:29 - INFO - Saving partial results for pwws - batch 1/6
+2025-07-24 22:01:29 - INFO - Partial results saved to ssl_attack_results/pwws_ssl_vox1-O_ssl__model_avg_16_partial_batch_1.json
+2025-07-24 22:01:29 - INFO - Total results so far: 50
+2025-07-24 22:01:29 - INFO - Processing batch 2/6 (samples 50)
+2025-07-24 22:01:29 - INFO - Batch start time: 2025-07-24 22:01:29
+2025-07-24 22:01:29 - INFO - Batch 2 contains speakers: ['voxceleb1']
+2025-07-24 22:01:29 - INFO - Processing entry 1: voxceleb1/id10277/8rby6ETXo8Q/00002.wav
+2025-07-24 22:01:29 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00005.wav
+2025-07-24 22:02:13 - INFO - Processing entry 2: voxceleb1/id10277/znxUWA2QAGs/00004.wav
+2025-07-24 22:02:13 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00006.wav
+2025-07-24 22:03:00 - INFO - Processing entry 3: voxceleb1/id10277/znxUWA2QAGs/00014.wav
+2025-07-24 22:03:00 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00009.wav
+2025-07-24 22:03:07 - INFO - Processing entry 4: voxceleb1/id10277/znxUWA2QAGs/00003.wav
+2025-07-24 22:03:08 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00010.wav
+2025-07-24 22:04:31 - INFO - Processing entry 5: voxceleb1/id10277/znxUWA2QAGs/00011.wav
+2025-07-24 22:04:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00010.wav
+2025-07-24 22:05:28 - INFO - Processing entry 6: voxceleb1/id10277/znxUWA2QAGs/00002.wav
+2025-07-24 22:05:29 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00011.wav
+2025-07-24 22:06:27 - INFO - Processing entry 7: voxceleb1/id10277/znxUWA2QAGs/00014.wav
+2025-07-24 22:06:27 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00012.wav
+2025-07-24 22:07:15 - INFO - Processing entry 8: voxceleb1/id10277/0rpfN7wThsg/00002.wav
+2025-07-24 22:07:15 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00014.wav
+2025-07-24 22:10:31 - INFO - Processing entry 9: voxceleb1/id10277/znxUWA2QAGs/00002.wav
+2025-07-24 22:10:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00015.wav
+2025-07-24 22:10:34 - INFO - Processing entry 10: voxceleb1/id10277/0rpfN7wThsg/00005.wav
+2025-07-24 22:10:34 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00016.wav
+2025-07-24 22:17:26 - INFO - Processing entry 11: voxceleb1/id10277/znxUWA2QAGs/00014.wav
+2025-07-24 22:17:26 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00016.wav
+2025-07-24 22:17:29 - INFO - Processing entry 12: voxceleb1/id10277/UIbPolhxLDI/00004.wav
+2025-07-24 22:17:29 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00016.wav
+2025-07-24 22:23:54 - INFO - Processing entry 13: voxceleb1/id10277/znxUWA2QAGs/00002.wav
+2025-07-24 22:23:54 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00016.wav
+2025-07-24 22:24:09 - INFO - Processing entry 14: voxceleb1/id10277/znxUWA2QAGs/00003.wav
+2025-07-24 22:24:09 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00019.wav
+2025-07-24 22:25:55 - INFO - Processing entry 15: voxceleb1/id10277/znxUWA2QAGs/00002.wav
+2025-07-24 22:25:55 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00019.wav
+2025-07-24 22:26:46 - INFO - Processing entry 16: voxceleb1/id10277/znxUWA2QAGs/00003.wav
+2025-07-24 22:26:46 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00020.wav
+2025-07-24 22:29:08 - INFO - Processing entry 17: voxceleb1/id10277/znxUWA2QAGs/00014.wav
+2025-07-24 22:29:08 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00021.wav
+2025-07-24 22:29:34 - INFO - Processing entry 18: voxceleb1/id10277/0rpfN7wThsg/00003.wav
+2025-07-24 22:29:34 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00023.wav
+2025-07-24 22:30:20 - INFO - Processing entry 19: voxceleb1/id10277/znxUWA2QAGs/00015.wav
+2025-07-24 22:30:20 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00026.wav
+2025-07-24 22:30:24 - INFO - Processing entry 20: voxceleb1/id10277/SeXsHJ3fW1c/00003.wav
+2025-07-24 22:30:24 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/tbh20gz_KRA/00027.wav
+2025-07-24 22:31:27 - INFO - Processing entry 21: voxceleb1/id10277/SeXsHJ3fW1c/00004.wav
+2025-07-24 22:31:27 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00003.wav
+2025-07-24 22:31:32 - INFO - Processing entry 22: voxceleb1/id10277/SeXsHJ3fW1c/00002.wav
+2025-07-24 22:31:32 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00003.wav
+2025-07-24 22:31:35 - INFO - Processing entry 23: voxceleb1/id10277/SeXsHJ3fW1c/00004.wav
+2025-07-24 22:31:35 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00005.wav
+2025-07-24 22:31:40 - INFO - Processing entry 24: voxceleb1/id10277/SeXsHJ3fW1c/00004.wav
+2025-07-24 22:31:40 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00006.wav
+2025-07-24 22:31:44 - INFO - Processing entry 25: voxceleb1/id10277/0rpfN7wThsg/00003.wav
+2025-07-24 22:31:45 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00007.wav
+2025-07-24 22:32:56 - INFO - Processing entry 26: voxceleb1/id10277/SeXsHJ3fW1c/00003.wav
+2025-07-24 22:32:56 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00010.wav
+2025-07-24 22:33:47 - INFO - Processing entry 27: voxceleb1/id10277/SeXsHJ3fW1c/00003.wav
+2025-07-24 22:33:47 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00011.wav
+2025-07-24 22:34:32 - INFO - Processing entry 28: voxceleb1/id10277/tbh20gz_KRA/00006.wav
+2025-07-24 22:34:32 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00011.wav
+2025-07-24 22:34:37 - INFO - Processing entry 29: voxceleb1/id10277/8rby6ETXo8Q/00001.wav
+2025-07-24 22:34:37 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00012.wav
+2025-07-24 22:35:45 - INFO - Processing entry 30: voxceleb1/id10277/0rpfN7wThsg/00002.wav
+2025-07-24 22:35:45 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00013.wav
+2025-07-24 22:39:29 - INFO - Processing entry 31: voxceleb1/id10277/znxUWA2QAGs/00003.wav
+2025-07-24 22:39:29 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00014.wav
+2025-07-24 22:41:31 - INFO - Processing entry 32: voxceleb1/id10277/cELY3LdIo-0/00001.wav
+2025-07-24 22:41:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00014.wav
+2025-07-24 22:41:43 - INFO - Processing entry 33: voxceleb1/id10277/tbh20gz_KRA/00008.wav
+2025-07-24 22:41:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/znxUWA2QAGs/00016.wav
+2025-07-24 22:42:48 - INFO - Processing entry 34: voxceleb1/id10277/tbh20gz_KRA/00022.wav
+2025-07-24 22:42:48 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/0rpfN7wThsg/00002.wav
+2025-07-24 22:43:25 - INFO - Processing entry 35: voxceleb1/id10277/znxUWA2QAGs/00001.wav
+2025-07-24 22:43:25 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/0rpfN7wThsg/00003.wav
+2025-07-24 22:45:35 - INFO - Processing entry 36: voxceleb1/id10277/tbh20gz_KRA/00019.wav
+2025-07-24 22:45:36 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10277/0rpfN7wThsg/00005.wav
+2025-07-24 22:52:21 - INFO - Processing entry 37: voxceleb1/id10278/R_h7875g_PI/00012.wav
+2025-07-24 22:52:21 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/fvX1Vtx3sNo/00004.wav
+2025-07-24 22:52:25 - INFO - Processing entry 38: voxceleb1/id10278/QOq66XogW3Q/00003.wav
+2025-07-24 22:52:25 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/LVXvQzNatXI/00002.wav
+2025-07-24 22:53:45 - INFO - Processing entry 39: voxceleb1/id10278/d6WJf6TOoIQ/00003.wav
+2025-07-24 22:53:45 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/Pp-rAswo4Xg/00001.wav
+2025-07-24 22:55:59 - INFO - Processing entry 40: voxceleb1/id10278/R_h7875g_PI/00008.wav
+2025-07-24 22:55:59 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/Pp-rAswo4Xg/00001.wav
+2025-07-24 22:58:41 - INFO - Processing entry 41: voxceleb1/id10278/rgcxEM5jOc4/00009.wav
+2025-07-24 22:58:41 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/Pp-rAswo4Xg/00016.wav
+2025-07-24 23:02:04 - INFO - Processing entry 42: voxceleb1/id10278/iEAqbqZ7dDg/00007.wav
+2025-07-24 23:02:04 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/Pp-rAswo4Xg/00021.wav
+2025-07-24 23:05:38 - INFO - Processing entry 43: voxceleb1/id10278/DSGE2F5sTcg/00024.wav
+2025-07-24 23:05:39 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/Pp-rAswo4Xg/00023.wav
+2025-07-24 23:09:05 - INFO - Processing entry 44: voxceleb1/id10278/rgcxEM5jOc4/00009.wav
+2025-07-24 23:09:05 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/Pp-rAswo4Xg/00030.wav
+2025-07-24 23:10:28 - INFO - Processing entry 45: voxceleb1/id10278/Pp-rAswo4Xg/00020.wav
+2025-07-24 23:10:28 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10278/rgcxEM5jOc4/00009.wav
+2025-07-24 23:37:37 - INFO - Processing entry 46: voxceleb1/id10279/4Q1IvdayPR8/00006.wav
+2025-07-24 23:37:37 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/IvOQNamNtF4/00002.wav
+2025-07-24 23:41:00 - INFO - Processing entry 47: voxceleb1/id10279/nTPJ6asPSV0/00001.wav
+2025-07-24 23:41:00 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/IvOQNamNtF4/00003.wav
+2025-07-24 23:41:36 - INFO - Processing entry 48: voxceleb1/id10279/nTPJ6asPSV0/00002.wav
+2025-07-24 23:41:36 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/IvOQNamNtF4/00003.wav
+2025-07-24 23:46:04 - INFO - Processing entry 49: voxceleb1/id10279/nTPJ6asPSV0/00004.wav
+2025-07-24 23:46:04 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/3qAxPgeIvCQ/00001.wav
+2025-07-24 23:46:08 - INFO - Processing entry 50: voxceleb1/id10279/nTPJ6asPSV0/00001.wav
+2025-07-24 23:46:08 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/4Q1IvdayPR8/00003.wav
+2025-07-24 23:47:05 - INFO - Batch 2/6 completed. Runtime: 1h:45m:35.37s. Processed 50 samples.
+2025-07-24 23:47:05 - INFO - Saving partial results for pwws - batch 2/6
+2025-07-24 23:47:05 - INFO - Partial results saved to ssl_attack_results/pwws_ssl_vox1-O_ssl__model_avg_16_partial_batch_2.json
+2025-07-24 23:47:05 - INFO - Total results so far: 100
+2025-07-24 23:47:05 - INFO - Processing batch 3/6 (samples 50)
+2025-07-24 23:47:05 - INFO - Batch start time: 2025-07-24 23:47:05
+2025-07-24 23:47:05 - INFO - Batch 3 contains speakers: ['voxceleb1']
+2025-07-24 23:47:05 - INFO - Processing entry 1: voxceleb1/id10279/nTPJ6asPSV0/00001.wav
+2025-07-24 23:47:05 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/4Q1IvdayPR8/00008.wav
+2025-07-24 23:47:53 - INFO - Processing entry 2: voxceleb1/id10279/nTPJ6asPSV0/00003.wav
+2025-07-24 23:47:53 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/4Q1IvdayPR8/00016.wav
+2025-07-24 23:48:22 - INFO - Processing entry 3: voxceleb1/id10279/nTPJ6asPSV0/00005.wav
+2025-07-24 23:48:23 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/4Q1IvdayPR8/00017.wav
+2025-07-25 00:08:24 - INFO - Processing entry 4: voxceleb1/id10279/nTPJ6asPSV0/00004.wav
+2025-07-25 00:08:24 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/DTbpchx4xes/00001.wav
+2025-07-25 00:08:56 - INFO - Processing entry 5: voxceleb1/id10279/nTPJ6asPSV0/00001.wav
+2025-07-25 00:08:57 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/DTbpchx4xes/00002.wav
+2025-07-25 00:09:54 - INFO - Processing entry 6: voxceleb1/id10279/nTPJ6asPSV0/00004.wav
+2025-07-25 00:09:54 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/DTbpchx4xes/00009.wav
+2025-07-25 00:11:17 - INFO - Processing entry 7: voxceleb1/id10279/nTPJ6asPSV0/00004.wav
+2025-07-25 00:11:17 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/DTbpchx4xes/00012.wav
+2025-07-25 00:12:19 - INFO - Processing entry 8: voxceleb1/id10279/nTPJ6asPSV0/00003.wav
+2025-07-25 00:12:19 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/bmoAV7tZziI/00001.wav
+2025-07-25 00:12:44 - INFO - Processing entry 9: voxceleb1/id10279/4Q1IvdayPR8/00006.wav
+2025-07-25 00:12:44 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10279/nTPJ6asPSV0/00004.wav
+2025-07-25 00:12:51 - INFO - Processing entry 10: voxceleb1/id10280/NXjT3732Ekg/00002.wav
+2025-07-25 00:12:51 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10280/9AtE4C309P8/00015.wav
+2025-07-25 00:13:03 - INFO - Processing entry 11: voxceleb1/id10281/FL2UicCNcwI/00003.wav
+2025-07-25 00:13:03 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/NHARUN9OhSo/00002.wav
+2025-07-25 00:13:54 - INFO - Processing entry 12: voxceleb1/id10281/FL2UicCNcwI/00003.wav
+2025-07-25 00:13:54 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/NHARUN9OhSo/00003.wav
+2025-07-25 00:16:16 - INFO - Processing entry 13: voxceleb1/id10281/qBTOwaSOS-M/00003.wav
+2025-07-25 00:16:16 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/FL2UicCNcwI/00003.wav
+2025-07-25 00:16:49 - INFO - Processing entry 14: voxceleb1/id10281/ni6gO5jDLJE/00007.wav
+2025-07-25 00:16:49 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/R1RQnIQGy10/00001.wav
+2025-07-25 00:20:26 - INFO - Processing entry 15: voxceleb1/id10281/qBTOwaSOS-M/00002.wav
+2025-07-25 00:20:26 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/ni6gO5jDLJE/00004.wav
+2025-07-25 00:21:57 - INFO - Processing entry 16: voxceleb1/id10281/o-L8P0xj3qk/00001.wav
+2025-07-25 00:21:57 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/ni6gO5jDLJE/00008.wav
+2025-07-25 00:24:12 - INFO - Processing entry 17: voxceleb1/id10281/1CiBWgsHT4E/00006.wav
+2025-07-25 00:24:12 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/ni6gO5jDLJE/00008.wav
+2025-07-25 00:29:44 - INFO - Processing entry 18: voxceleb1/id10281/qBTOwaSOS-M/00001.wav
+2025-07-25 00:29:44 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/ni6gO5jDLJE/00009.wav
+2025-07-25 01:09:21 - INFO - Processing entry 19: voxceleb1/id10281/UkIpd_3qMak/00001.wav
+2025-07-25 01:09:21 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/o-L8P0xj3qk/00001.wav
+2025-07-25 01:13:31 - INFO - Processing entry 20: voxceleb1/id10281/UkIpd_3qMak/00003.wav
+2025-07-25 01:13:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/o-L8P0xj3qk/00001.wav
+2025-07-25 01:20:46 - INFO - Processing entry 21: voxceleb1/id10281/ni6gO5jDLJE/00003.wav
+2025-07-25 01:20:46 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/o-L8P0xj3qk/00001.wav
+2025-07-25 01:21:50 - INFO - Processing entry 22: voxceleb1/id10281/ni6gO5jDLJE/00004.wav
+2025-07-25 01:21:50 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/qBTOwaSOS-M/00001.wav
+2025-07-25 01:29:33 - INFO - Processing entry 23: voxceleb1/id10281/eso-dEmfC_c/00001.wav
+2025-07-25 01:29:33 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/qBTOwaSOS-M/00001.wav
+2025-07-25 01:33:04 - INFO - Processing entry 24: voxceleb1/id10281/dX8RBKI2FKc/00002.wav
+2025-07-25 01:33:04 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/qBTOwaSOS-M/00001.wav
+2025-07-25 01:43:50 - INFO - Processing entry 25: voxceleb1/id10281/FL2UicCNcwI/00003.wav
+2025-07-25 01:43:50 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/qBTOwaSOS-M/00002.wav
+2025-07-25 01:45:51 - INFO - Processing entry 26: voxceleb1/id10281/RDFdX3VxjUQ/00019.wav
+2025-07-25 01:45:51 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/qBTOwaSOS-M/00002.wav
+2025-07-25 01:47:19 - INFO - Processing entry 27: voxceleb1/id10281/dX8RBKI2FKc/00003.wav
+2025-07-25 01:47:19 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/qBTOwaSOS-M/00003.wav
+2025-07-25 01:59:00 - INFO - Processing entry 28: voxceleb1/id10281/RDFdX3VxjUQ/00026.wav
+2025-07-25 01:59:00 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/qBTOwaSOS-M/00003.wav
+2025-07-25 03:16:06 - INFO - Processing entry 29: voxceleb1/id10281/RDFdX3VxjUQ/00016.wav
+2025-07-25 03:16:06 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10281/qBTOwaSOS-M/00003.wav
+2025-07-25 03:28:14 - INFO - Processing entry 30: voxceleb1/id10283/vaK4t1-WD4M/00021.wav
+2025-07-25 03:28:14 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10283/52SYuI0cCbQ/00004.wav
+2025-07-25 03:30:18 - INFO - Processing entry 31: voxceleb1/id10283/vaK4t1-WD4M/00003.wav
+2025-07-25 03:30:18 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10283/gAKHqHbNt2g/00014.wav
+2025-07-25 03:37:02 - INFO - Processing entry 32: voxceleb1/id10283/u3s9xdUlmmk/00005.wav
+2025-07-25 03:37:02 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10283/gAKHqHbNt2g/00016.wav
+2025-07-25 03:59:12 - INFO - Processing entry 33: voxceleb1/id10283/vaK4t1-WD4M/00048.wav
+2025-07-25 03:59:12 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10283/gAKHqHbNt2g/00016.wav
+2025-07-25 03:59:51 - INFO - Processing entry 34: voxceleb1/id10283/vaK4t1-WD4M/00006.wav
+2025-07-25 03:59:52 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10283/gAKHqHbNt2g/00019.wav
+2025-07-25 04:41:39 - INFO - Processing entry 35: voxceleb1/id10284/RNYNkXzY5Hk/00017.wav
+2025-07-25 04:41:39 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10284/7yx9A0yzLYk/00027.wav
+2025-07-25 04:42:51 - INFO - Processing entry 36: voxceleb1/id10284/RNYNkXzY5Hk/00008.wav
+2025-07-25 04:42:51 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10284/7yx9A0yzLYk/00034.wav
+2025-07-25 04:44:04 - INFO - Processing entry 37: voxceleb1/id10284/RNYNkXzY5Hk/00010.wav
+2025-07-25 04:44:04 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10284/7yx9A0yzLYk/00039.wav
+2025-07-25 04:54:38 - INFO - Processing entry 38: voxceleb1/id10284/7yx9A0yzLYk/00011.wav
+2025-07-25 04:54:38 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10284/EoCPhxtWUOc/00001.wav
+2025-07-25 04:55:03 - INFO - Processing entry 39: voxceleb1/id10284/EoCPhxtWUOc/00001.wav
+2025-07-25 04:55:03 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10284/O_rxcwBWTz4/00001.wav
+2025-07-25 04:59:39 - INFO - Processing entry 40: voxceleb1/id10284/RNYNkXzY5Hk/00008.wav
+2025-07-25 04:59:39 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10284/O_rxcwBWTz4/00002.wav
+2025-07-25 05:00:17 - INFO - Processing entry 41: voxceleb1/id10284/7yx9A0yzLYk/00038.wav
+2025-07-25 05:00:17 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10284/RNYNkXzY5Hk/00001.wav
+2025-07-25 05:00:19 - INFO - Processing entry 42: voxceleb1/id10285/m-uILToQ9ss/00008.wav
+2025-07-25 05:00:19 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10285/d-ZEojJk-rs/00003.wav
+2025-07-25 05:02:02 - INFO - Processing entry 43: voxceleb1/id10285/9HcPA8lluoY/00004.wav
+2025-07-25 05:02:02 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10285/Zdmm9Mrr8Ts/00002.wav
+2025-07-25 05:02:24 - INFO - Processing entry 44: voxceleb1/id10285/LbFFEF1pHO0/00004.wav
+2025-07-25 05:02:24 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10285/m-uILToQ9ss/00008.wav
+2025-07-25 05:16:37 - INFO - Processing entry 45: voxceleb1/id10285/d-ZEojJk-rs/00001.wav
+2025-07-25 05:16:37 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10285/m-uILToQ9ss/00010.wav
+2025-07-25 05:17:22 - INFO - Processing entry 46: voxceleb1/id10285/Zdmm9Mrr8Ts/00003.wav
+2025-07-25 05:17:22 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10285/9HcPA8lluoY/00005.wav
+2025-07-25 05:20:17 - INFO - Processing entry 47: voxceleb1/id10287/I99R40TUF1s/00013.wav
+2025-07-25 05:20:17 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/bP0bKbQQlzc/00001.wav
+2025-07-25 05:41:28 - INFO - Processing entry 48: voxceleb1/id10287/I99R40TUF1s/00016.wav
+2025-07-25 05:41:28 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/bP0bKbQQlzc/00001.wav
+2025-07-25 05:41:59 - INFO - Processing entry 49: voxceleb1/id10287/I99R40TUF1s/00015.wav
+2025-07-25 05:41:59 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/bP0bKbQQlzc/00002.wav
+2025-07-25 05:45:28 - INFO - Processing entry 50: voxceleb1/id10287/I99R40TUF1s/00005.wav
+2025-07-25 05:45:28 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/bP0bKbQQlzc/00002.wav
+2025-07-25 05:46:58 - INFO - Batch 3/6 completed. Runtime: 5h:59m:53.57s. Processed 50 samples.
+2025-07-25 05:46:58 - INFO - Saving partial results for pwws - batch 3/6
+2025-07-25 05:46:58 - INFO - Partial results saved to ssl_attack_results/pwws_ssl_vox1-O_ssl__model_avg_16_partial_batch_3.json
+2025-07-25 05:46:58 - INFO - Total results so far: 150
+2025-07-25 05:46:58 - INFO - Processing batch 4/6 (samples 50)
+2025-07-25 05:46:58 - INFO - Batch start time: 2025-07-25 05:46:58
+2025-07-25 05:46:58 - INFO - Batch 4 contains speakers: ['voxceleb1']
+2025-07-25 05:46:58 - INFO - Processing entry 1: voxceleb1/id10287/I99R40TUF1s/00002.wav
+2025-07-25 05:46:58 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/bP0bKbQQlzc/00003.wav
+2025-07-25 06:01:38 - INFO - Processing entry 2: voxceleb1/id10287/I99R40TUF1s/00010.wav
+2025-07-25 06:01:39 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/bP0bKbQQlzc/00004.wav
+2025-07-25 06:02:23 - INFO - Processing entry 3: voxceleb1/id10287/I99R40TUF1s/00016.wav
+2025-07-25 06:02:23 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/bP0bKbQQlzc/00004.wav
+2025-07-25 06:03:10 - INFO - Processing entry 4: voxceleb1/id10287/I99R40TUF1s/00009.wav
+2025-07-25 06:03:10 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/4oOmqI1myzY/00001.wav
+2025-07-25 06:12:53 - INFO - Processing entry 5: voxceleb1/id10287/I99R40TUF1s/00016.wav
+2025-07-25 06:12:53 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/8vC0LQMqy8Y/00002.wav
+2025-07-25 06:13:39 - INFO - Processing entry 6: voxceleb1/id10287/bP0bKbQQlzc/00005.wav
+2025-07-25 06:13:39 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00001.wav
+2025-07-25 06:21:02 - INFO - Processing entry 7: voxceleb1/id10287/bP0bKbQQlzc/00004.wav
+2025-07-25 06:21:02 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00004.wav
+2025-07-25 06:27:44 - INFO - Processing entry 8: voxceleb1/id10287/bP0bKbQQlzc/00002.wav
+2025-07-25 06:27:44 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00006.wav
+2025-07-25 06:27:46 - INFO - Processing entry 9: voxceleb1/id10287/RfDogGJ-UnM/00001.wav
+2025-07-25 06:27:46 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00006.wav
+2025-07-25 06:33:44 - INFO - Processing entry 10: voxceleb1/id10287/8vC0LQMqy8Y/00002.wav
+2025-07-25 06:33:44 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00008.wav
+2025-07-25 06:45:41 - INFO - Processing entry 11: voxceleb1/id10287/2iaCNe7ajII/00005.wav
+2025-07-25 06:45:41 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00008.wav
+2025-07-25 06:45:58 - INFO - Processing entry 12: voxceleb1/id10287/bP0bKbQQlzc/00001.wav
+2025-07-25 06:45:58 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00009.wav
+2025-07-25 07:31:47 - INFO - Processing entry 13: voxceleb1/id10287/bP0bKbQQlzc/00005.wav
+2025-07-25 07:31:47 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00009.wav
+2025-07-25 07:39:47 - INFO - Processing entry 14: voxceleb1/id10287/bP0bKbQQlzc/00002.wav
+2025-07-25 07:39:47 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00009.wav
+2025-07-25 07:39:54 - INFO - Processing entry 15: voxceleb1/id10287/bP0bKbQQlzc/00002.wav
+2025-07-25 07:39:54 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00012.wav
+2025-07-25 07:39:56 - INFO - Processing entry 16: voxceleb1/id10287/bP0bKbQQlzc/00003.wav
+2025-07-25 07:39:57 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00013.wav
+2025-07-25 07:40:13 - INFO - Processing entry 17: voxceleb1/id10287/bP0bKbQQlzc/00002.wav
+2025-07-25 07:40:13 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00014.wav
+2025-07-25 07:40:15 - INFO - Processing entry 18: voxceleb1/id10287/2iaCNe7ajII/00002.wav
+2025-07-25 07:40:15 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00015.wav
+2025-07-25 07:43:17 - INFO - Processing entry 19: voxceleb1/id10287/2iaCNe7ajII/00005.wav
+2025-07-25 07:43:17 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00016.wav
+2025-07-25 07:43:22 - INFO - Processing entry 20: voxceleb1/id10287/bP0bKbQQlzc/00003.wav
+2025-07-25 07:43:22 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00017.wav
+2025-07-25 07:43:25 - INFO - Processing entry 21: voxceleb1/id10287/RfDogGJ-UnM/00002.wav
+2025-07-25 07:43:25 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/I99R40TUF1s/00018.wav
+2025-07-25 07:45:47 - INFO - Processing entry 22: voxceleb1/id10287/I99R40TUF1s/00010.wav
+2025-07-25 07:45:47 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/MHoaMi5hKkE/00001.wav
+2025-07-25 07:46:15 - INFO - Processing entry 23: voxceleb1/id10287/I99R40TUF1s/00020.wav
+2025-07-25 07:46:15 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/RfDogGJ-UnM/00002.wav
+2025-07-25 08:08:36 - INFO - Processing entry 24: voxceleb1/id10287/I99R40TUF1s/00011.wav
+2025-07-25 08:08:36 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/RfDogGJ-UnM/00002.wav
+2025-07-25 08:08:56 - INFO - Processing entry 25: voxceleb1/id10287/I99R40TUF1s/00016.wav
+2025-07-25 08:08:56 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/V0ubcXO71Sg/00002.wav
+2025-07-25 08:09:09 - INFO - Processing entry 26: voxceleb1/id10287/I99R40TUF1s/00008.wav
+2025-07-25 08:09:09 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/ryVdclLx7Yo/00002.wav
+2025-07-25 08:12:30 - INFO - Processing entry 27: voxceleb1/id10287/I99R40TUF1s/00001.wav
+2025-07-25 08:12:30 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/2iaCNe7ajII/00002.wav
+2025-07-25 08:12:51 - INFO - Processing entry 28: voxceleb1/id10287/I99R40TUF1s/00008.wav
+2025-07-25 08:12:51 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10287/2iaCNe7ajII/00005.wav
+2025-07-25 08:13:06 - INFO - Processing entry 29: voxceleb1/id10288/A3ZvNuG8_oM/00008.wav
+2025-07-25 08:13:06 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10288/CGFR9WP0Rno/00001.wav
+2025-07-25 08:16:43 - INFO - Processing entry 30: voxceleb1/id10288/R4S2c-NiPfA/00004.wav
+2025-07-25 08:16:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10288/CGFR9WP0Rno/00001.wav
+2025-07-25 08:21:58 - INFO - Processing entry 31: voxceleb1/id10288/FIxC_PNJNkc/00001.wav
+2025-07-25 08:21:58 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10288/R4S2c-NiPfA/00004.wav
+2025-07-25 08:23:03 - INFO - Processing entry 32: voxceleb1/id10292/ya6VNZp-pXw/00002.wav
+2025-07-25 08:23:03 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/0H91VC07Q3s/00003.wav
+2025-07-25 08:23:05 - INFO - Processing entry 33: voxceleb1/id10292/ya6VNZp-pXw/00024.wav
+2025-07-25 08:23:05 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/2oMmz2DTAp4/00002.wav
+2025-07-25 08:25:43 - INFO - Processing entry 34: voxceleb1/id10292/ya6VNZp-pXw/00002.wav
+2025-07-25 08:25:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/2qlrpSAc9Xs/00008.wav
+2025-07-25 08:25:52 - INFO - Processing entry 35: voxceleb1/id10292/L2zjJyZd6-g/00001.wav
+2025-07-25 08:25:52 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/2qlrpSAc9Xs/00011.wav
+2025-07-25 08:29:45 - INFO - Processing entry 36: voxceleb1/id10292/ya6VNZp-pXw/00022.wav
+2025-07-25 08:29:45 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/2qlrpSAc9Xs/00016.wav
+2025-07-25 08:32:33 - INFO - Processing entry 37: voxceleb1/id10292/6Bh6P9nGsM4/00002.wav
+2025-07-25 08:32:34 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/ETJd_jPboYc/00002.wav
+2025-07-25 08:33:43 - INFO - Processing entry 38: voxceleb1/id10292/6Bh6P9nGsM4/00002.wav
+2025-07-25 08:33:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/gm6PJowclv0/00016.wav
+2025-07-25 08:33:59 - INFO - Processing entry 39: voxceleb1/id10292/6Bh6P9nGsM4/00002.wav
+2025-07-25 08:33:59 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/ya6VNZp-pXw/00026.wav
+2025-07-25 08:34:15 - INFO - Processing entry 40: voxceleb1/id10292/ya6VNZp-pXw/00003.wav
+2025-07-25 08:34:15 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10292/6Bh6P9nGsM4/00002.wav
+2025-07-25 08:36:50 - INFO - Processing entry 41: voxceleb1/id10293/TnOGBL8p-RM/00004.wav
+2025-07-25 08:36:51 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/X7uOKQUYTCM/00001.wav
+2025-07-25 08:40:56 - INFO - Processing entry 42: voxceleb1/id10293/mNM0rMPJE10/00001.wav
+2025-07-25 08:40:56 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/X7uOKQUYTCM/00001.wav
+2025-07-25 09:53:30 - INFO - Processing entry 43: voxceleb1/id10293/X7uOKQUYTCM/00004.wav
+2025-07-25 09:53:30 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/CvoEw4AJj6c/00002.wav
+2025-07-25 09:59:40 - INFO - Processing entry 44: voxceleb1/id10293/nAtqrkWKIhM/00010.wav
+2025-07-25 09:59:40 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/MHOCv7pOmG4/00016.wav
+2025-07-25 10:00:11 - INFO - Processing entry 45: voxceleb1/id10293/SJxWXqMu2ds/00005.wav
+2025-07-25 10:00:11 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/Mp1IXRquJ9s/00006.wav
+2025-07-25 10:08:23 - INFO - Processing entry 46: voxceleb1/id10293/vD3qGRbmXws/00002.wav
+2025-07-25 10:08:24 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/Mp1IXRquJ9s/00011.wav
+2025-07-25 10:12:17 - INFO - Processing entry 47: voxceleb1/id10293/Mp1IXRquJ9s/00008.wav
+2025-07-25 10:12:17 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/OMOpC0gi-gQ/00004.wav
+2025-07-25 10:18:05 - INFO - Processing entry 48: voxceleb1/id10293/X7uOKQUYTCM/00005.wav
+2025-07-25 10:18:05 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/SJxWXqMu2ds/00008.wav
+2025-07-25 10:19:28 - INFO - Processing entry 49: voxceleb1/id10293/X7uOKQUYTCM/00005.wav
+2025-07-25 10:19:29 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/TnOGBL8p-RM/00011.wav
+2025-07-25 10:19:31 - INFO - Processing entry 50: voxceleb1/id10293/rZQMeH1FCvM/00010.wav
+2025-07-25 10:19:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/k1jiAINXHRI/00014.wav
+2025-07-25 10:21:50 - INFO - Batch 4/6 completed. Runtime: 4h:34m:51.66s. Processed 50 samples.
+2025-07-25 10:21:50 - INFO - Saving partial results for pwws - batch 4/6
+2025-07-25 10:21:50 - INFO - Partial results saved to ssl_attack_results/pwws_ssl_vox1-O_ssl__model_avg_16_partial_batch_4.json
+2025-07-25 10:21:50 - INFO - Total results so far: 200
+2025-07-25 10:21:50 - INFO - Processing batch 5/6 (samples 50)
+2025-07-25 10:21:50 - INFO - Batch start time: 2025-07-25 10:21:50
+2025-07-25 10:21:50 - INFO - Batch 5 contains speakers: ['voxceleb1']
+2025-07-25 10:21:50 - INFO - Processing entry 1: voxceleb1/id10293/TwfthltapLg/00008.wav
+2025-07-25 10:21:50 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/k1jiAINXHRI/00026.wav
+2025-07-25 10:22:00 - INFO - Processing entry 2: voxceleb1/id10293/nAtqrkWKIhM/00010.wav
+2025-07-25 10:22:00 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/rZQMeH1FCvM/00007.wav
+2025-07-25 10:22:07 - INFO - Processing entry 3: voxceleb1/id10293/TwfthltapLg/00011.wav
+2025-07-25 10:22:07 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/rZQMeH1FCvM/00008.wav
+2025-07-25 10:23:01 - INFO - Processing entry 4: voxceleb1/id10293/TnOGBL8p-RM/00002.wav
+2025-07-25 10:23:01 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/rZQMeH1FCvM/00008.wav
+2025-07-25 10:47:18 - INFO - Processing entry 5: voxceleb1/id10293/X7uOKQUYTCM/00005.wav
+2025-07-25 10:47:18 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10293/vD3qGRbmXws/00010.wav
+2025-07-25 10:47:21 - INFO - Processing entry 6: voxceleb1/id10294/L812MIi7ruk/00001.wav
+2025-07-25 10:47:21 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10294/KMM3INYWEeY/00002.wav
+2025-07-25 10:49:49 - INFO - Processing entry 7: voxceleb1/id10295/3tvnlmkCiTw/00012.wav
+2025-07-25 10:49:49 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10295/NLyQte6Mhj0/00001.wav
+2025-07-25 10:57:20 - INFO - Processing entry 8: voxceleb1/id10295/3tvnlmkCiTw/00007.wav
+2025-07-25 10:57:20 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10295/NLyQte6Mhj0/00001.wav
+2025-07-25 11:08:50 - INFO - Processing entry 9: voxceleb1/id10295/kTLpYHUNf5A/00002.wav
+2025-07-25 11:08:50 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10295/NkqrS8yJOL0/00003.wav
+2025-07-25 11:09:10 - INFO - Processing entry 10: voxceleb1/id10296/mQ5JkSVET7c/00005.wav
+2025-07-25 11:09:10 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10296/f_k09R8r_cA/00001.wav
+2025-07-25 11:14:44 - INFO - Processing entry 11: voxceleb1/id10296/DKDZ6ENKX0o/00002.wav
+2025-07-25 11:14:44 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10296/_BVSKK5mGnY/00001.wav
+2025-07-25 11:18:06 - INFO - Processing entry 12: voxceleb1/id10296/mQ5JkSVET7c/00003.wav
+2025-07-25 11:18:06 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10296/_BVSKK5mGnY/00001.wav
+2025-07-25 11:21:09 - INFO - Processing entry 13: voxceleb1/id10298/H5X-KaeTzEM/00001.wav
+2025-07-25 11:21:09 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10298/hjvQiiG71rM/00032.wav
+2025-07-25 11:21:44 - INFO - Processing entry 14: voxceleb1/id10300/Fi8lnFPYgII/00004.wav
+2025-07-25 11:21:44 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/8EDKH42GZ1o/00008.wav
+2025-07-25 11:22:18 - INFO - Processing entry 15: voxceleb1/id10300/Fi8lnFPYgII/00006.wav
+2025-07-25 11:22:18 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/8EDKH42GZ1o/00010.wav
+2025-07-25 11:26:01 - INFO - Processing entry 16: voxceleb1/id10300/Fi8lnFPYgII/00018.wav
+2025-07-25 11:26:01 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/8EDKH42GZ1o/00022.wav
+2025-07-25 11:36:37 - INFO - Processing entry 17: voxceleb1/id10300/Fi8lnFPYgII/00010.wav
+2025-07-25 11:36:37 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/8EDKH42GZ1o/00024.wav
+2025-07-25 11:40:38 - INFO - Processing entry 18: voxceleb1/id10300/Fi8lnFPYgII/00008.wav
+2025-07-25 11:40:38 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/BL7XmN8w_UY/00008.wav
+2025-07-25 11:45:28 - INFO - Processing entry 19: voxceleb1/id10300/fAe7DXqrZls/00021.wav
+2025-07-25 11:45:28 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/Fi8lnFPYgII/00001.wav
+2025-07-25 11:47:24 - INFO - Processing entry 20: voxceleb1/id10300/TMBdUkVfwOg/00008.wav
+2025-07-25 11:47:24 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/Fi8lnFPYgII/00004.wav
+2025-07-25 11:47:54 - INFO - Processing entry 21: voxceleb1/id10300/mYSVs_d1aMQ/00002.wav
+2025-07-25 11:47:54 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/Fi8lnFPYgII/00007.wav
+2025-07-25 11:48:28 - INFO - Processing entry 22: voxceleb1/id10300/85wn4sW4CgQ/00002.wav
+2025-07-25 11:48:28 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/Fi8lnFPYgII/00009.wav
+2025-07-25 11:49:23 - INFO - Processing entry 23: voxceleb1/id10300/BL7XmN8w_UY/00007.wav
+2025-07-25 11:49:23 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/Fi8lnFPYgII/00010.wav
+2025-07-25 11:53:36 - INFO - Processing entry 24: voxceleb1/id10300/1ZyvrJaiLQk/00026.wav
+2025-07-25 11:53:36 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/Fi8lnFPYgII/00011.wav
+2025-07-25 11:54:47 - INFO - Processing entry 25: voxceleb1/id10300/fAe7DXqrZls/00007.wav
+2025-07-25 11:54:47 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/Fi8lnFPYgII/00014.wav
+2025-07-25 12:01:50 - INFO - Processing entry 26: voxceleb1/id10300/TMBdUkVfwOg/00007.wav
+2025-07-25 12:01:50 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/Fi8lnFPYgII/00014.wav
+2025-07-25 12:14:31 - INFO - Processing entry 27: voxceleb1/id10300/Fi8lnFPYgII/00019.wav
+2025-07-25 12:14:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/TMBdUkVfwOg/00008.wav
+2025-07-25 12:14:57 - INFO - Processing entry 28: voxceleb1/id10300/8EDKH42GZ1o/00006.wav
+2025-07-25 12:14:57 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/TMBdUkVfwOg/00008.wav
+2025-07-25 12:15:05 - INFO - Processing entry 29: voxceleb1/id10300/Fi8lnFPYgII/00010.wav
+2025-07-25 12:15:05 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/fAe7DXqrZls/00018.wav
+2025-07-25 12:17:11 - INFO - Processing entry 30: voxceleb1/id10300/Fi8lnFPYgII/00004.wav
+2025-07-25 12:17:11 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10300/fAe7DXqrZls/00018.wav
+2025-07-25 12:18:49 - INFO - Processing entry 31: voxceleb1/id10302/K2_D_tFdAgY/00001.wav
+2025-07-25 12:18:49 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/33L7c-DPCJQ/00002.wav
+2025-07-25 12:21:39 - INFO - Processing entry 32: voxceleb1/id10302/_zm31vf2P7U/00003.wav
+2025-07-25 12:21:39 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/33L7c-DPCJQ/00002.wav
+2025-07-25 12:24:47 - INFO - Processing entry 33: voxceleb1/id10302/VRCidrXwd1s/00025.wav
+2025-07-25 12:24:47 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/CNPsGRmW7rY/00002.wav
+2025-07-25 12:25:18 - INFO - Processing entry 34: voxceleb1/id10302/WAbHmvQ9zME/00006.wav
+2025-07-25 12:25:18 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/CNPsGRmW7rY/00003.wav
+2025-07-25 12:26:07 - INFO - Processing entry 35: voxceleb1/id10302/WAbHmvQ9zME/00002.wav
+2025-07-25 12:26:07 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/K2_D_tFdAgY/00023.wav
+2025-07-25 12:32:01 - INFO - Processing entry 36: voxceleb1/id10302/33L7c-DPCJQ/00002.wav
+2025-07-25 12:32:01 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/K2_D_tFdAgY/00028.wav
+2025-07-25 12:32:28 - INFO - Processing entry 37: voxceleb1/id10302/VRCidrXwd1s/00002.wav
+2025-07-25 12:32:28 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/OMw6_X2IDvE/00001.wav
+2025-07-25 12:47:40 - INFO - Processing entry 38: voxceleb1/id10302/2Er-cV85fc4/00004.wav
+2025-07-25 12:47:40 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/OMw6_X2IDvE/00001.wav
+2025-07-25 12:51:31 - INFO - Processing entry 39: voxceleb1/id10302/WAbHmvQ9zME/00002.wav
+2025-07-25 12:51:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/OMw6_X2IDvE/00002.wav
+2025-07-25 12:53:14 - INFO - Processing entry 40: voxceleb1/id10302/CNPsGRmW7rY/00002.wav
+2025-07-25 12:53:14 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/VRCidrXwd1s/00014.wav
+2025-07-25 12:57:31 - INFO - Processing entry 41: voxceleb1/id10302/OMw6_X2IDvE/00001.wav
+2025-07-25 12:57:31 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/VRCidrXwd1s/00022.wav
+2025-07-25 13:01:01 - INFO - Processing entry 42: voxceleb1/id10302/33L7c-DPCJQ/00002.wav
+2025-07-25 13:01:01 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/VRCidrXwd1s/00035.wav
+2025-07-25 13:01:18 - INFO - Processing entry 43: voxceleb1/id10302/dtYK1cUF7mo/00005.wav
+2025-07-25 13:01:18 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/WAbHmvQ9zME/00002.wav
+2025-07-25 13:06:05 - INFO - Processing entry 44: voxceleb1/id10302/ZAMRSlopMWA/00004.wav
+2025-07-25 13:06:05 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/WAbHmvQ9zME/00006.wav
+2025-07-25 13:07:30 - INFO - Processing entry 45: voxceleb1/id10302/2Er-cV85fc4/00022.wav
+2025-07-25 13:07:30 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/YQCymlcowOg/00001.wav
+2025-07-25 13:08:15 - INFO - Processing entry 46: voxceleb1/id10302/ZAMRSlopMWA/00002.wav
+2025-07-25 13:08:15 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/_wzYMUt91gc/00001.wav
+2025-07-25 13:18:05 - INFO - Processing entry 47: voxceleb1/id10302/VRCidrXwd1s/00041.wav
+2025-07-25 13:18:05 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/_zm31vf2P7U/00002.wav
+2025-07-25 13:21:49 - INFO - Processing entry 48: voxceleb1/id10302/VRCidrXwd1s/00008.wav
+2025-07-25 13:21:49 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/dtYK1cUF7mo/00001.wav
+2025-07-25 13:24:43 - INFO - Processing entry 49: voxceleb1/id10302/33L7c-DPCJQ/00002.wav
+2025-07-25 13:24:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/dtYK1cUF7mo/00004.wav
+2025-07-25 13:24:51 - INFO - Processing entry 50: voxceleb1/id10302/33L7c-DPCJQ/00002.wav
+2025-07-25 13:24:51 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/ekqJava7sdE/00001.wav
+2025-07-25 13:24:53 - INFO - Batch 5/6 completed. Runtime: 3h:3m:3.34s. Processed 50 samples.
+2025-07-25 13:24:53 - INFO - Saving partial results for pwws - batch 5/6
+2025-07-25 13:24:53 - INFO - Partial results saved to ssl_attack_results/pwws_ssl_vox1-O_ssl__model_avg_16_partial_batch_5.json
+2025-07-25 13:24:53 - INFO - Total results so far: 250
+2025-07-25 13:24:53 - INFO - Processing batch 6/6 (samples 42)
+2025-07-25 13:24:53 - INFO - Batch start time: 2025-07-25 13:24:53
+2025-07-25 13:24:53 - INFO - Batch 6 contains speakers: ['voxceleb1']
+2025-07-25 13:24:53 - INFO - Processing entry 1: voxceleb1/id10302/VRCidrXwd1s/00034.wav
+2025-07-25 13:24:53 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/ekqJava7sdE/00004.wav
+2025-07-25 13:28:56 - INFO - Processing entry 2: voxceleb1/id10302/dtYK1cUF7mo/00002.wav
+2025-07-25 13:28:56 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/n5Ffz_qwr58/00001.wav
+2025-07-25 13:31:52 - INFO - Processing entry 3: voxceleb1/id10302/VRCidrXwd1s/00014.wav
+2025-07-25 13:31:52 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10302/y5j-ZhbwDwE/00001.wav
+2025-07-25 13:33:34 - INFO - Processing entry 4: voxceleb1/id10304/o9bD_E99Jpg/00002.wav
+2025-07-25 13:33:34 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10304/Zjzoo3L9Oto/00002.wav
+2025-07-25 14:07:29 - INFO - Processing entry 5: voxceleb1/id10305/19OCRADWjgA/00012.wav
+2025-07-25 14:07:29 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/t0EX2dOBQjw/00003.wav
+2025-07-25 14:08:49 - INFO - Processing entry 6: voxceleb1/id10305/3QrLepYlH6o/00006.wav
+2025-07-25 14:08:49 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/t0EX2dOBQjw/00003.wav
+2025-07-25 14:12:26 - INFO - Processing entry 7: voxceleb1/id10305/3QrLepYlH6o/00012.wav
+2025-07-25 14:12:26 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/6iCNE2j3XIk/00002.wav
+2025-07-25 14:17:33 - INFO - Processing entry 8: voxceleb1/id10305/3QrLepYlH6o/00015.wav
+2025-07-25 14:17:33 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/6iCNE2j3XIk/00002.wav
+2025-07-25 14:23:25 - INFO - Processing entry 9: voxceleb1/id10305/Piw0wvQbpnQ/00018.wav
+2025-07-25 14:23:25 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/OepVWayQO3w/00001.wav
+2025-07-25 14:26:06 - INFO - Processing entry 10: voxceleb1/id10305/3QrLepYlH6o/00008.wav
+2025-07-25 14:26:06 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/Piw0wvQbpnQ/00001.wav
+2025-07-25 14:26:15 - INFO - Processing entry 11: voxceleb1/id10305/6iCNE2j3XIk/00002.wav
+2025-07-25 14:26:15 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/Piw0wvQbpnQ/00001.wav
+2025-07-25 14:30:13 - INFO - Processing entry 12: voxceleb1/id10305/OepVWayQO3w/00001.wav
+2025-07-25 14:30:13 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/Piw0wvQbpnQ/00002.wav
+2025-07-25 14:32:38 - INFO - Processing entry 13: voxceleb1/id10305/3QrLepYlH6o/00005.wav
+2025-07-25 14:32:38 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/Piw0wvQbpnQ/00003.wav
+2025-07-25 14:33:43 - INFO - Processing entry 14: voxceleb1/id10305/3QrLepYlH6o/00005.wav
+2025-07-25 14:33:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/Piw0wvQbpnQ/00011.wav
+2025-07-25 14:34:08 - INFO - Processing entry 15: voxceleb1/id10305/gbTZ7k9e_Z0/00002.wav
+2025-07-25 14:34:08 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/Piw0wvQbpnQ/00013.wav
+2025-07-25 14:36:09 - INFO - Processing entry 16: voxceleb1/id10305/7IIlj0cmQOI/00001.wav
+2025-07-25 14:36:10 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/Piw0wvQbpnQ/00017.wav
+2025-07-25 14:39:20 - INFO - Processing entry 17: voxceleb1/id10305/3QrLepYlH6o/00003.wav
+2025-07-25 14:39:20 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/Piw0wvQbpnQ/00018.wav
+2025-07-25 14:39:27 - INFO - Processing entry 18: voxceleb1/id10305/cYYuaKq_54I/00001.wav
+2025-07-25 14:39:28 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/ZLzkvnq0JxI/00004.wav
+2025-07-25 14:39:50 - INFO - Processing entry 19: voxceleb1/id10305/cYYuaKq_54I/00001.wav
+2025-07-25 14:39:50 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/ZLzkvnq0JxI/00006.wav
+2025-07-25 14:40:11 - INFO - Processing entry 20: voxceleb1/id10305/3QrLepYlH6o/00015.wav
+2025-07-25 14:40:11 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/cpXXdMJuCdw/00005.wav
+2025-07-25 14:42:00 - INFO - Processing entry 21: voxceleb1/id10305/Piw0wvQbpnQ/00014.wav
+2025-07-25 14:42:00 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/cpXXdMJuCdw/00007.wav
+2025-07-25 14:44:43 - INFO - Processing entry 22: voxceleb1/id10305/3QrLepYlH6o/00003.wav
+2025-07-25 14:44:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/nJbBcMdxQU4/00003.wav
+2025-07-25 14:44:49 - INFO - Processing entry 23: voxceleb1/id10305/19OCRADWjgA/00006.wav
+2025-07-25 14:44:49 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/rldAakTgeLM/00001.wav
+2025-07-25 14:56:34 - INFO - Processing entry 24: voxceleb1/id10305/3QrLepYlH6o/00005.wav
+2025-07-25 14:56:34 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/rldAakTgeLM/00001.wav
+2025-07-25 14:57:35 - INFO - Processing entry 25: voxceleb1/id10305/ZLzkvnq0JxI/00001.wav
+2025-07-25 14:57:35 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/vCgqnwCfkvw/00001.wav
+2025-07-25 15:05:40 - INFO - Processing entry 26: voxceleb1/id10305/cYYuaKq_54I/00001.wav
+2025-07-25 15:05:40 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/vbDKF8bZJQA/00002.wav
+2025-07-25 15:06:13 - INFO - Processing entry 27: voxceleb1/id10305/cYYuaKq_54I/00001.wav
+2025-07-25 15:06:13 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10305/vbDKF8bZJQA/00013.wav
+2025-07-25 15:06:58 - INFO - Processing entry 28: voxceleb1/id10306/kp2PpLNNfQ0/00001.wav
+2025-07-25 15:06:59 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10306/mH6gd26SGcU/00001.wav
+2025-07-25 15:14:43 - INFO - Processing entry 29: voxceleb1/id10307/f8Ms66atECE/00007.wav
+2025-07-25 15:14:43 - INFO - Reference embedding loaded from /media/volume/AudioUnlearnData1/sslsv/data/voxceleb1/id10307/kp_GCjLq4qA/00001.wav

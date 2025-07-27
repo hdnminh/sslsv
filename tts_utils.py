@@ -114,6 +114,7 @@ class TTSGenerator:
                     target_transcript, target_audio_rel_path, original_fake_audios_path
                 )
                 if cached_file is None:  # Skip this sample (original fake audio not found)
+                    print(f"Original fake audio not found: {original_fake_audios_path}")
                     audio_files.append(None)
                     continue
             else:  # simple mode (backward compatibility)
@@ -133,6 +134,7 @@ class TTSGenerator:
                 pending_files.append((idx, cached_file, text))
 
         if len(pending_files) == 0:
+            print(f"No pending files found, using cached files: {cached_files}")
             audio_files = [d[1] if d is not None else None for d in cached_files]
         else:
             gen_files = self.generate_audio(texts = [d[2] for d in pending_files], 
@@ -177,7 +179,7 @@ class TTSGenerator:
         Returns None if this is an original transcript but original fake audio not found
         """
         hash_value = hash_to_int32(text)
-        
+
         # Check if the target_transcript is the same as the original text and try to reuse existing fake audio
         if (target_transcript and text == target_transcript and 
             target_audio_rel_path and target_audio_rel_path != ''):
@@ -205,7 +207,7 @@ class TTSGenerator:
                 else:
                     print(f"Original fake audio before real attacknot found: {original_fake_audio_path}")
                     return None
-        
+
         # Use speaker-based caching for perturbed transcripts or when original not available during real attack
         if target_audio_rel_path:
             rel_path = target_audio_rel_path
@@ -228,7 +230,7 @@ class TTSGenerator:
                     variant_filename = f"{hash_value}_{name}{ext}"
                     
                 return os.path.join(audio_subdir, variant_filename)
-        
+
         # Fallback to hash-based naming
         seeding_mode = "seeded" if use_seeding else "unseeded"
         tts_method = self.__class__.__name__
@@ -472,6 +474,7 @@ class F5TTSGenerator(TTSGenerator):
             
         # Save audio file correctly using soundfile
         sf.write(wave_path, audio_wave, self.sampling_rate)
+        print(f"Generated audio saved to: {wave_path}")
 
         return
 

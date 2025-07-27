@@ -640,7 +640,7 @@ def setup_attack_for_entry(entry, ssl_sv_model, tts, AttackerMethod, args):
         search_method=search_method,
     )
     
-    # Create single-sample dataset
+    # Create single-sample `dataset
     sample_dataset = Dataset(dataset=[(entry['target_transcript'], 0)])
     attacker = Attacker(attack, sample_dataset)
     attacker.attack_args.num_examples = 1  # Attack this single example
@@ -905,7 +905,7 @@ def parse_arguments():
                        help='Maximum number of examples to attack')
     parser.add_argument('--voxceleb_root', type=str, default='/media/volume/AudioUnlearnData1/sslsv/data/',
                        help='Root directory for VoxCeleb audio files (SSL framework compatible)')
-    parser.add_argument('--cache_dir', type=str, default='./cache/ssl_fake_generated_audios',
+    parser.add_argument('--cache_dir', type=str, default='./cache/fake_generated_audios_ssl',
                        help='Directory to save generated fake audio during attack')
     parser.add_argument('--original_fake_audios_path', type=str, default='./cache/original-fake-audios-05072025_16khz',
                        help='Path to original fake audio files generated before')
