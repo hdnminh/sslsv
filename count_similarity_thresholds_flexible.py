@@ -340,7 +340,7 @@ def main():
     parser.add_argument('files', nargs='*', 
                        help='JSON file paths (supports wildcards). If not provided, uses default file.')
     parser.add_argument('--thresholds', '-t', type=float, nargs='+', 
-                       default=[0.675, 0.68, 0.7],
+                       default=[0.647, 0.68, 0.7],
                        help='Similarity thresholds (default: 0.675 0.68 0.7)')
     parser.add_argument('--detailed', '-d', action='store_true',
                        help='Generate detailed comprehensive report (default: simple report)')

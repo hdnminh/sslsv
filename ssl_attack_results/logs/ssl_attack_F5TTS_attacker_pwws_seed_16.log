@@ -655,3 +655,10 @@
 2025-07-26 09:03:29 - INFO - Experiment end time: 2025-07-26 09:03:29
 2025-07-26 09:03:29 - INFO - Total experiment runtime: 0h:45m:15.01s
 2025-07-26 09:03:29 - INFO - Total experiment runtime: 2715.01 seconds
+2025-08-04 13:16:38 - INFO - === SSL Speech Verification Attack Experiment Started ===
+2025-08-04 13:16:38 - INFO - Start time: 2025-08-04 13:16:38
+2025-08-04 13:16:38 - INFO - Output directory: ssl_attack_results
+2025-08-04 13:16:38 - INFO - Cache directory: ./cache/fake_generated_audios_ssl/pwws_seed_16
+2025-08-04 13:16:38 - INFO - Loading SSL model from config: models/tests/simclr/simclr_e-ecapa/ssps_kmeans_25k_uni-1/config.yml
+2025-08-04 13:16:38 - INFO - Using checkpoint: model_avg.pt
+2025-08-04 13:16:39 - INFO - SSL model loaded successfully
